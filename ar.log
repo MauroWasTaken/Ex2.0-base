@@ -1,0 +1,1151 @@
+# Logfile created on 2022-02-16 14:11:20 +0100 by logger.rb/v1.4.3
+D, [2022-02-16T14:14:45.398033 #251] DEBUG -- :   [1m[35m (0.4ms)[0m  [1m[34mSELECT 1[0m
+D, [2022-02-16T14:16:47.519255 #282] DEBUG -- :   [1m[35m (0.4ms)[0m  [1m[34mSELECT 1[0m
+D, [2022-02-16T14:27:13.646525 #770] DEBUG -- :   [1m[35m (0.3ms)[0m  [1m[34mSELECT 1[0m
+D, [2022-02-16T14:27:21.432661 #801] DEBUG -- :   [1m[35m (0.7ms)[0m  [1m[34mSELECT 1[0m
+D, [2022-02-16T14:27:25.877478 #833] DEBUG -- :   [1m[35m (0.4ms)[0m  [1m[34mSELECT 1[0m
+D, [2022-02-16T15:02:17.490892 #1147] DEBUG -- :   [1m[35m (0.5ms)[0m  [1m[34mSELECT 1[0m
+D, [2022-03-03T08:12:28.159065 #350] DEBUG -- :   [1m[35m (0.7ms)[0m  [1m[34mSELECT 1[0m
+D, [2022-03-03T09:12:31.899238 #944] DEBUG -- :   [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-03T09:12:31.900912 #944] DEBUG -- :   [1m[36mCategory Create (0.6ms)[0m  [1m[32mINSERT INTO `categories` (`name`) VALUES ('PCR')[0m
+D, [2022-03-03T09:12:31.905353 #944] DEBUG -- :   [1m[36mTRANSACTION (2.1ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-03T09:12:31.906772 #944] DEBUG -- :   [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-03T09:12:31.907945 #944] DEBUG -- :   [1m[36mCategory Create (0.6ms)[0m  [1m[32mINSERT INTO `categories` (`name`) VALUES ('SUP')[0m
+D, [2022-03-03T09:12:31.910458 #944] DEBUG -- :   [1m[36mTRANSACTION (1.8ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-03T09:14:54.183095 #1037] DEBUG -- :   [1m[36mTRANSACTION (0.9ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-03T09:14:54.184426 #1037] DEBUG -- :   [1m[36mCategory Create (0.7ms)[0m  [1m[32mINSERT INTO `categories` (`name`) VALUES ('PCR')[0m
+D, [2022-03-03T09:14:54.188120 #1037] DEBUG -- :   [1m[36mTRANSACTION (2.0ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-03T09:14:54.189722 #1037] DEBUG -- :   [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-03T09:14:54.190687 #1037] DEBUG -- :   [1m[36mCategory Create (0.5ms)[0m  [1m[32mINSERT INTO `categories` (`name`) VALUES ('SUP')[0m
+D, [2022-03-03T09:14:54.193176 #1037] DEBUG -- :   [1m[36mTRANSACTION (1.8ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-03T09:14:54.206128 #1037] DEBUG -- :   [1m[36mTRANSACTION (0.6ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-03T09:14:54.207296 #1037] DEBUG -- :   [1m[36mProduct Create (0.7ms)[0m  [1m[32mINSERT INTO `products` (`name`, `price`, `description`, `category_id`) VALUES ('apple', 2, 'Little apple', 1)[0m
+D, [2022-03-03T09:14:54.210117 #1037] DEBUG -- :   [1m[36mTRANSACTION (2.1ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-03T09:14:54.211622 #1037] DEBUG -- :   [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-03T09:14:54.212645 #1037] DEBUG -- :   [1m[36mProduct Create (0.5ms)[0m  [1m[32mINSERT INTO `products` (`name`, `price`, `description`, `category_id`) VALUES ('lemon', 6, 'Big lemon', 1)[0m
+D, [2022-03-03T09:14:54.215184 #1037] DEBUG -- :   [1m[36mTRANSACTION (1.9ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-03T09:14:54.216913 #1037] DEBUG -- :   [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-03T09:14:54.218115 #1037] DEBUG -- :   [1m[36mProduct Create (0.5ms)[0m  [1m[32mINSERT INTO `products` (`name`, `price`, `description`, `category_id`) VALUES ('limousine', 25, 'A limousine', 2)[0m
+D, [2022-03-03T09:14:54.220709 #1037] DEBUG -- :   [1m[36mTRANSACTION (2.0ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-03T09:14:54.225934 #1037] DEBUG -- :   [1m[36mTRANSACTION (0.6ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-03T09:14:54.227270 #1037] DEBUG -- :   [1m[36mProduct Create (0.6ms)[0m  [1m[32mINSERT INTO `products` (`name`, `price`, `description`, `category_id`) VALUES ('truck', 200, 'A truck', 2)[0m
+D, [2022-03-03T09:14:54.230142 #1037] DEBUG -- :   [1m[36mTRANSACTION (2.0ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-03T09:16:36.315809 #1068] DEBUG -- :   [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-03T09:16:36.316897 #1068] DEBUG -- :   [1m[36mCategory Create (0.5ms)[0m  [1m[32mINSERT INTO `categories` (`name`) VALUES ('PCR')[0m
+D, [2022-03-03T09:16:36.320381 #1068] DEBUG -- :   [1m[36mTRANSACTION (2.2ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-03T09:16:36.321934 #1068] DEBUG -- :   [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-03T09:16:36.322843 #1068] DEBUG -- :   [1m[36mCategory Create (0.4ms)[0m  [1m[32mINSERT INTO `categories` (`name`) VALUES ('SUP')[0m
+D, [2022-03-03T09:16:36.324868 #1068] DEBUG -- :   [1m[36mTRANSACTION (1.6ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-03T09:16:36.335794 #1068] DEBUG -- :   [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-03T09:16:36.337091 #1068] DEBUG -- :   [1m[36mProduct Create (0.7ms)[0m  [1m[32mINSERT INTO `products` (`name`, `price`, `description`, `category_id`) VALUES ('apple', 2, 'Little apple', 3)[0m
+D, [2022-03-03T09:16:36.340037 #1068] DEBUG -- :   [1m[36mTRANSACTION (2.1ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-03T09:16:36.341820 #1068] DEBUG -- :   [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-03T09:16:36.342767 #1068] DEBUG -- :   [1m[36mProduct Create (0.5ms)[0m  [1m[32mINSERT INTO `products` (`name`, `price`, `description`, `category_id`) VALUES ('lemon', 6, 'Big lemon', 3)[0m
+D, [2022-03-03T09:16:36.345032 #1068] DEBUG -- :   [1m[36mTRANSACTION (1.8ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-03T09:16:36.346628 #1068] DEBUG -- :   [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-03T09:16:36.348075 #1068] DEBUG -- :   [1m[36mProduct Create (1.1ms)[0m  [1m[32mINSERT INTO `products` (`name`, `price`, `description`, `category_id`) VALUES ('limousine', 25, 'A limousine', 4)[0m
+D, [2022-03-03T09:16:36.350455 #1068] DEBUG -- :   [1m[36mTRANSACTION (1.8ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-03T09:16:36.352176 #1068] DEBUG -- :   [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-03T09:16:36.357695 #1068] DEBUG -- :   [1m[36mProduct Create (5.0ms)[0m  [1m[32mINSERT INTO `products` (`name`, `price`, `description`, `category_id`) VALUES ('truck', 200, 'A truck', 4)[0m
+D, [2022-03-03T09:16:36.360355 #1068] DEBUG -- :   [1m[36mTRANSACTION (2.0ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-03T09:16:46.432243 #1099] DEBUG -- :   [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-03T09:16:46.433489 #1099] DEBUG -- :   [1m[36mCategory Create (0.6ms)[0m  [1m[32mINSERT INTO `categories` (`name`) VALUES ('PCR')[0m
+D, [2022-03-03T09:16:46.436987 #1099] DEBUG -- :   [1m[36mTRANSACTION (1.9ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-03T09:16:46.438459 #1099] DEBUG -- :   [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-03T09:16:46.439237 #1099] DEBUG -- :   [1m[36mCategory Create (0.3ms)[0m  [1m[32mINSERT INTO `categories` (`name`) VALUES ('SUP')[0m
+D, [2022-03-03T09:16:46.441566 #1099] DEBUG -- :   [1m[36mTRANSACTION (1.7ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-03T09:16:46.454680 #1099] DEBUG -- :   [1m[36mTRANSACTION (0.6ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-03T09:16:46.455657 #1099] DEBUG -- :   [1m[36mProduct Create (0.5ms)[0m  [1m[32mINSERT INTO `products` (`name`, `price`, `description`, `category_id`) VALUES ('apple', 2, 'Little apple', 5)[0m
+D, [2022-03-03T09:16:46.458209 #1099] DEBUG -- :   [1m[36mTRANSACTION (1.9ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-03T09:16:46.459661 #1099] DEBUG -- :   [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-03T09:16:46.460958 #1099] DEBUG -- :   [1m[36mProduct Create (0.7ms)[0m  [1m[32mINSERT INTO `products` (`name`, `price`, `description`, `category_id`) VALUES ('lemon', 6, 'Big lemon', 5)[0m
+D, [2022-03-03T09:16:46.463406 #1099] DEBUG -- :   [1m[36mTRANSACTION (1.8ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-03T09:16:46.465154 #1099] DEBUG -- :   [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-03T09:16:46.466369 #1099] DEBUG -- :   [1m[36mProduct Create (0.6ms)[0m  [1m[32mINSERT INTO `products` (`name`, `price`, `description`, `category_id`) VALUES ('limousine', 25, 'A limousine', 6)[0m
+D, [2022-03-03T09:16:46.468883 #1099] DEBUG -- :   [1m[36mTRANSACTION (1.9ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-03T09:16:46.474137 #1099] DEBUG -- :   [1m[36mTRANSACTION (0.6ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-03T09:16:46.475287 #1099] DEBUG -- :   [1m[36mProduct Create (0.6ms)[0m  [1m[32mINSERT INTO `products` (`name`, `price`, `description`, `category_id`) VALUES ('truck', 200, 'A truck', 6)[0m
+D, [2022-03-03T09:16:46.478351 #1099] DEBUG -- :   [1m[36mTRANSACTION (2.2ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-03T09:18:06.206230 #1130] DEBUG -- :   [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-03T09:18:06.207304 #1130] DEBUG -- :   [1m[36mCategory Create (0.5ms)[0m  [1m[32mINSERT INTO `categories` (`name`) VALUES ('PCR')[0m
+D, [2022-03-03T09:18:06.210869 #1130] DEBUG -- :   [1m[36mTRANSACTION (2.1ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-03T09:18:06.212227 #1130] DEBUG -- :   [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-03T09:18:06.213216 #1130] DEBUG -- :   [1m[36mCategory Create (0.6ms)[0m  [1m[32mINSERT INTO `categories` (`name`) VALUES ('SUP')[0m
+D, [2022-03-03T09:18:06.215976 #1130] DEBUG -- :   [1m[36mTRANSACTION (2.1ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-03T09:18:06.228792 #1130] DEBUG -- :   [1m[36mTRANSACTION (0.7ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-03T09:18:06.229921 #1130] DEBUG -- :   [1m[36mProduct Create (0.6ms)[0m  [1m[32mINSERT INTO `products` (`name`, `price`, `description`, `category_id`) VALUES ('apple', 2, 'Little apple', 7)[0m
+D, [2022-03-03T09:18:06.232981 #1130] DEBUG -- :   [1m[36mTRANSACTION (2.3ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-03T09:18:06.234586 #1130] DEBUG -- :   [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-03T09:18:06.235520 #1130] DEBUG -- :   [1m[36mProduct Create (0.5ms)[0m  [1m[32mINSERT INTO `products` (`name`, `price`, `description`, `category_id`) VALUES ('lemon', 6, 'Big lemon', 7)[0m
+D, [2022-03-03T09:18:06.237940 #1130] DEBUG -- :   [1m[36mTRANSACTION (1.9ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-03T09:18:06.239448 #1130] DEBUG -- :   [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-03T09:18:06.240478 #1130] DEBUG -- :   [1m[36mProduct Create (0.5ms)[0m  [1m[32mINSERT INTO `products` (`name`, `price`, `description`, `category_id`) VALUES ('limousine', 25, 'A limousine', 8)[0m
+D, [2022-03-03T09:18:06.243049 #1130] DEBUG -- :   [1m[36mTRANSACTION (2.0ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-03T09:18:06.248549 #1130] DEBUG -- :   [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-03T09:18:06.249805 #1130] DEBUG -- :   [1m[36mProduct Create (0.6ms)[0m  [1m[32mINSERT INTO `products` (`name`, `price`, `description`, `category_id`) VALUES ('truck', 200, 'A truck', 8)[0m
+D, [2022-03-03T09:18:06.252362 #1130] DEBUG -- :   [1m[36mTRANSACTION (1.7ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-03T09:18:59.761974 #1161] DEBUG -- :   [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-03T09:18:59.763182 #1161] DEBUG -- :   [1m[36mCategory Create (0.6ms)[0m  [1m[32mINSERT INTO `categories` (`name`) VALUES ('PCR')[0m
+D, [2022-03-03T09:18:59.766588 #1161] DEBUG -- :   [1m[36mTRANSACTION (2.1ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-03T09:18:59.768022 #1161] DEBUG -- :   [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-03T09:18:59.769494 #1161] DEBUG -- :   [1m[36mCategory Create (0.9ms)[0m  [1m[32mINSERT INTO `categories` (`name`) VALUES ('SUP')[0m
+D, [2022-03-03T09:18:59.772420 #1161] DEBUG -- :   [1m[36mTRANSACTION (2.0ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-03T09:18:59.785362 #1161] DEBUG -- :   [1m[36mTRANSACTION (0.6ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-03T09:18:59.787697 #1161] DEBUG -- :   [1m[36mProduct Create (1.5ms)[0m  [1m[32mINSERT INTO `products` (`name`, `price`, `description`, `category_id`) VALUES ('apple', 2, 'Little apple', 9)[0m
+D, [2022-03-03T09:18:59.790406 #1161] DEBUG -- :   [1m[36mTRANSACTION (2.0ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-03T09:18:59.792110 #1161] DEBUG -- :   [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-03T09:18:59.794110 #1161] DEBUG -- :   [1m[36mProduct Create (0.9ms)[0m  [1m[32mINSERT INTO `products` (`name`, `price`, `description`, `category_id`) VALUES ('lemon', 6, 'Big lemon', 9)[0m
+D, [2022-03-03T09:18:59.796997 #1161] DEBUG -- :   [1m[36mTRANSACTION (2.0ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-03T09:18:59.798835 #1161] DEBUG -- :   [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-03T09:18:59.799963 #1161] DEBUG -- :   [1m[36mProduct Create (0.6ms)[0m  [1m[32mINSERT INTO `products` (`name`, `price`, `description`, `category_id`) VALUES ('limousine', 25, 'A limousine', 10)[0m
+D, [2022-03-03T09:18:59.803631 #1161] DEBUG -- :   [1m[36mTRANSACTION (3.0ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-03T09:18:59.805327 #1161] DEBUG -- :   [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-03T09:18:59.806288 #1161] DEBUG -- :   [1m[36mProduct Create (0.5ms)[0m  [1m[32mINSERT INTO `products` (`name`, `price`, `description`, `category_id`) VALUES ('truck', 200, 'A truck', 10)[0m
+D, [2022-03-03T09:18:59.812538 #1161] DEBUG -- :   [1m[36mTRANSACTION (2.0ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-03T09:20:53.006913 #1223] DEBUG -- :   [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-03T09:20:53.008460 #1223] DEBUG -- :   [1m[36mCategory Create (0.8ms)[0m  [1m[32mINSERT INTO `categories` (`name`) VALUES ('PCR')[0m
+D, [2022-03-03T09:20:53.013108 #1223] DEBUG -- :   [1m[36mTRANSACTION (2.6ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-03T09:20:53.015177 #1223] DEBUG -- :   [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-03T09:20:53.016178 #1223] DEBUG -- :   [1m[36mCategory Create (0.5ms)[0m  [1m[32mINSERT INTO `categories` (`name`) VALUES ('SUP')[0m
+D, [2022-03-03T09:20:53.018932 #1223] DEBUG -- :   [1m[36mTRANSACTION (1.9ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-03T09:20:53.039171 #1223] DEBUG -- :   [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-03T09:20:53.040290 #1223] DEBUG -- :   [1m[36mProduct Create (0.5ms)[0m  [1m[32mINSERT INTO `products` (`name`, `price`, `description`, `category_id`) VALUES ('apple', 2, 'Little apple', 1)[0m
+D, [2022-03-03T09:20:53.042916 #1223] DEBUG -- :   [1m[36mTRANSACTION (2.0ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-03T09:20:53.044399 #1223] DEBUG -- :   [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-03T09:20:53.045403 #1223] DEBUG -- :   [1m[36mProduct Create (0.5ms)[0m  [1m[32mINSERT INTO `products` (`name`, `price`, `description`, `category_id`) VALUES ('lemon', 6, 'Big lemon', 1)[0m
+D, [2022-03-03T09:20:53.047903 #1223] DEBUG -- :   [1m[36mTRANSACTION (1.9ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-03T09:20:53.049843 #1223] DEBUG -- :   [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-03T09:20:53.051084 #1223] DEBUG -- :   [1m[36mProduct Create (0.7ms)[0m  [1m[32mINSERT INTO `products` (`name`, `price`, `description`, `category_id`) VALUES ('limousine', 25, 'A limousine', 2)[0m
+D, [2022-03-03T09:20:53.053788 #1223] DEBUG -- :   [1m[36mTRANSACTION (1.8ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-03T09:20:53.059762 #1223] DEBUG -- :   [1m[36mTRANSACTION (0.6ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-03T09:20:53.060855 #1223] DEBUG -- :   [1m[36mProduct Create (0.5ms)[0m  [1m[32mINSERT INTO `products` (`name`, `price`, `description`, `category_id`) VALUES ('truck', 200, 'A truck', 2)[0m
+D, [2022-03-03T09:20:53.063507 #1223] DEBUG -- :   [1m[36mTRANSACTION (1.7ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-03T09:21:35.965578 #1254] DEBUG -- :   [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-03T09:21:35.966708 #1254] DEBUG -- :   [1m[36mCategory Create (0.5ms)[0m  [1m[32mINSERT INTO `categories` (`name`) VALUES ('PCR')[0m
+D, [2022-03-03T09:21:35.970136 #1254] DEBUG -- :   [1m[36mTRANSACTION (2.0ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-03T09:21:35.971592 #1254] DEBUG -- :   [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-03T09:21:35.972486 #1254] DEBUG -- :   [1m[36mCategory Create (0.5ms)[0m  [1m[32mINSERT INTO `categories` (`name`) VALUES ('SUP')[0m
+D, [2022-03-03T09:21:35.975067 #1254] DEBUG -- :   [1m[36mTRANSACTION (1.9ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-03T09:21:35.987021 #1254] DEBUG -- :   [1m[36mTRANSACTION (0.6ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-03T09:21:35.989558 #1254] DEBUG -- :   [1m[36mProduct Create (1.9ms)[0m  [1m[32mINSERT INTO `products` (`name`, `price`, `description`, `category_id`) VALUES ('apple', 2, 'Little apple', 3)[0m
+D, [2022-03-03T09:21:35.992383 #1254] DEBUG -- :   [1m[36mTRANSACTION (2.1ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-03T09:21:35.994291 #1254] DEBUG -- :   [1m[36mTRANSACTION (0.6ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-03T09:21:35.995275 #1254] DEBUG -- :   [1m[36mProduct Create (0.5ms)[0m  [1m[32mINSERT INTO `products` (`name`, `price`, `description`, `category_id`) VALUES ('lemon', 6, 'Big lemon', 3)[0m
+D, [2022-03-03T09:21:35.997617 #1254] DEBUG -- :   [1m[36mTRANSACTION (1.8ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-03T09:21:35.999079 #1254] DEBUG -- :   [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-03T09:21:36.000061 #1254] DEBUG -- :   [1m[36mProduct Create (0.5ms)[0m  [1m[32mINSERT INTO `products` (`name`, `price`, `description`, `category_id`) VALUES ('limousine', 25, 'A limousine', 4)[0m
+D, [2022-03-03T09:21:36.002704 #1254] DEBUG -- :   [1m[36mTRANSACTION (2.0ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-03T09:21:36.008412 #1254] DEBUG -- :   [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-03T09:21:36.009256 #1254] DEBUG -- :   [1m[36mProduct Create (0.4ms)[0m  [1m[32mINSERT INTO `products` (`name`, `price`, `description`, `category_id`) VALUES ('truck', 200, 'A truck', 4)[0m
+D, [2022-03-03T09:21:36.011739 #1254] DEBUG -- :   [1m[36mTRANSACTION (1.8ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-03T09:23:57.063540 #1285] DEBUG -- :   [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-03T09:23:57.064897 #1285] DEBUG -- :   [1m[36mCategory Create (0.7ms)[0m  [1m[32mINSERT INTO `categories` (`name`) VALUES ('PCR')[0m
+D, [2022-03-03T09:23:57.069069 #1285] DEBUG -- :   [1m[36mTRANSACTION (2.4ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-03T09:23:57.070833 #1285] DEBUG -- :   [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-03T09:23:57.072024 #1285] DEBUG -- :   [1m[36mCategory Create (0.7ms)[0m  [1m[32mINSERT INTO `categories` (`name`) VALUES ('SUP')[0m
+D, [2022-03-03T09:23:57.074864 #1285] DEBUG -- :   [1m[36mTRANSACTION (2.1ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-03T09:23:57.088741 #1285] DEBUG -- :   [1m[36mTRANSACTION (0.6ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-03T09:23:57.090057 #1285] DEBUG -- :   [1m[36mProduct Create (0.7ms)[0m  [1m[32mINSERT INTO `products` (`name`, `price`, `description`, `category_id`) VALUES ('apple', 2, 'Little apple', 5)[0m
+D, [2022-03-03T09:23:57.097127 #1285] DEBUG -- :   [1m[36mTRANSACTION (6.1ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-03T09:23:57.100291 #1285] DEBUG -- :   [1m[36mTRANSACTION (0.6ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-03T09:23:57.101765 #1285] DEBUG -- :   [1m[36mProduct Create (0.8ms)[0m  [1m[32mINSERT INTO `products` (`name`, `price`, `description`, `category_id`) VALUES ('lemon', 6, 'Big lemon', 5)[0m
+D, [2022-03-03T09:23:57.105466 #1285] DEBUG -- :   [1m[36mTRANSACTION (2.0ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-03T09:23:57.107306 #1285] DEBUG -- :   [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-03T09:23:57.108371 #1285] DEBUG -- :   [1m[36mProduct Create (0.5ms)[0m  [1m[32mINSERT INTO `products` (`name`, `price`, `description`, `category_id`) VALUES ('limousine', 25, 'A limousine', 6)[0m
+D, [2022-03-03T09:23:57.115893 #1285] DEBUG -- :   [1m[36mTRANSACTION (2.2ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-03T09:23:57.117748 #1285] DEBUG -- :   [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-03T09:23:57.118940 #1285] DEBUG -- :   [1m[36mProduct Create (0.5ms)[0m  [1m[32mINSERT INTO `products` (`name`, `price`, `description`, `category_id`) VALUES ('truck', 200, 'A truck', 6)[0m
+D, [2022-03-03T09:23:57.121463 #1285] DEBUG -- :   [1m[36mTRANSACTION (1.8ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-03T09:23:57.132800 #1285] DEBUG -- :   [1m[36mTRANSACTION (0.7ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-03T09:23:57.134273 #1285] DEBUG -- :   [1m[36mClient Create (0.8ms)[0m  [1m[32mINSERT INTO `clients` (`firstname`, `lastname`) VALUES ('yannick', 'baudraz')[0m
+D, [2022-03-03T09:23:57.137574 #1285] DEBUG -- :   [1m[36mTRANSACTION (2.6ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-03T09:23:57.139721 #1285] DEBUG -- :   [1m[36mTRANSACTION (0.7ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-03T09:23:57.140857 #1285] DEBUG -- :   [1m[36mClient Create (0.7ms)[0m  [1m[32mINSERT INTO `clients` (`firstname`, `lastname`) VALUES ('john', 'doedoe')[0m
+D, [2022-03-03T09:23:57.143793 #1285] DEBUG -- :   [1m[36mTRANSACTION (2.2ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-03T09:24:04.710988 #1347] DEBUG -- :   [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-03T09:24:04.712365 #1347] DEBUG -- :   [1m[36mCategory Create (0.7ms)[0m  [1m[32mINSERT INTO `categories` (`name`) VALUES ('PCR')[0m
+D, [2022-03-03T09:24:04.716040 #1347] DEBUG -- :   [1m[36mTRANSACTION (2.2ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-03T09:24:04.717803 #1347] DEBUG -- :   [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-03T09:24:04.718801 #1347] DEBUG -- :   [1m[36mCategory Create (0.5ms)[0m  [1m[32mINSERT INTO `categories` (`name`) VALUES ('SUP')[0m
+D, [2022-03-03T09:24:04.720888 #1347] DEBUG -- :   [1m[36mTRANSACTION (1.6ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-03T09:24:04.733993 #1347] DEBUG -- :   [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-03T09:24:04.735467 #1347] DEBUG -- :   [1m[36mProduct Create (1.0ms)[0m  [1m[32mINSERT INTO `products` (`name`, `price`, `description`, `category_id`) VALUES ('apple', 2.35, 'Little apple', 1)[0m
+D, [2022-03-03T09:24:04.738013 #1347] DEBUG -- :   [1m[36mTRANSACTION (2.0ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-03T09:24:04.739474 #1347] DEBUG -- :   [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-03T09:24:04.740725 #1347] DEBUG -- :   [1m[36mProduct Create (0.6ms)[0m  [1m[32mINSERT INTO `products` (`name`, `price`, `description`, `category_id`) VALUES ('lemon', 6.15, 'Big lemon', 1)[0m
+D, [2022-03-03T09:24:04.742923 #1347] DEBUG -- :   [1m[36mTRANSACTION (1.6ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-03T09:24:04.748738 #1347] DEBUG -- :   [1m[36mTRANSACTION (0.6ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-03T09:24:04.749744 #1347] DEBUG -- :   [1m[36mProduct Create (0.5ms)[0m  [1m[32mINSERT INTO `products` (`name`, `price`, `description`, `category_id`) VALUES ('limousine', 25.95, 'A limousine', 2)[0m
+D, [2022-03-03T09:24:04.752303 #1347] DEBUG -- :   [1m[36mTRANSACTION (1.8ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-03T09:24:04.753611 #1347] DEBUG -- :   [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-03T09:24:04.754667 #1347] DEBUG -- :   [1m[36mProduct Create (0.6ms)[0m  [1m[32mINSERT INTO `products` (`name`, `price`, `description`, `category_id`) VALUES ('truck', 200.0, 'A truck', 2)[0m
+D, [2022-03-03T09:24:04.757034 #1347] DEBUG -- :   [1m[36mTRANSACTION (1.9ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-03T09:24:04.767020 #1347] DEBUG -- :   [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-03T09:24:04.768305 #1347] DEBUG -- :   [1m[36mClient Create (0.7ms)[0m  [1m[32mINSERT INTO `clients` (`firstname`, `lastname`) VALUES ('yannick', 'baudraz')[0m
+D, [2022-03-03T09:24:04.770833 #1347] DEBUG -- :   [1m[36mTRANSACTION (1.9ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-03T09:24:04.772848 #1347] DEBUG -- :   [1m[36mTRANSACTION (0.6ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-03T09:24:04.773952 #1347] DEBUG -- :   [1m[36mClient Create (0.7ms)[0m  [1m[32mINSERT INTO `clients` (`firstname`, `lastname`) VALUES ('john', 'doedoe')[0m
+D, [2022-03-03T09:24:04.776287 #1347] DEBUG -- :   [1m[36mTRANSACTION (1.8ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-03T09:25:09.480750 #1409] DEBUG -- :   [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-03T09:25:09.482071 #1409] DEBUG -- :   [1m[36mCategory Create (0.7ms)[0m  [1m[32mINSERT INTO `categories` (`name`) VALUES ('PCR')[0m
+D, [2022-03-03T09:25:09.485431 #1409] DEBUG -- :   [1m[36mTRANSACTION (2.1ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-03T09:25:09.487323 #1409] DEBUG -- :   [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-03T09:25:09.488214 #1409] DEBUG -- :   [1m[36mCategory Create (0.5ms)[0m  [1m[32mINSERT INTO `categories` (`name`) VALUES ('SUP')[0m
+D, [2022-03-03T09:25:09.490739 #1409] DEBUG -- :   [1m[36mTRANSACTION (1.8ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-03T09:25:09.503012 #1409] DEBUG -- :   [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-03T09:25:09.504753 #1409] DEBUG -- :   [1m[36mProduct Create (1.3ms)[0m  [1m[32mINSERT INTO `products` (`name`, `price`, `description`, `category_id`) VALUES ('apple', 2.35, 'Little apple', 1)[0m
+D, [2022-03-03T09:25:09.507231 #1409] DEBUG -- :   [1m[36mTRANSACTION (1.7ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-03T09:25:09.508867 #1409] DEBUG -- :   [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-03T09:25:09.510042 #1409] DEBUG -- :   [1m[36mProduct Create (0.7ms)[0m  [1m[32mINSERT INTO `products` (`name`, `price`, `description`, `category_id`) VALUES ('lemon', 6.15, 'Big lemon', 1)[0m
+D, [2022-03-03T09:25:09.512971 #1409] DEBUG -- :   [1m[36mTRANSACTION (2.1ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-03T09:25:09.519863 #1409] DEBUG -- :   [1m[36mTRANSACTION (0.6ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-03T09:25:09.521187 #1409] DEBUG -- :   [1m[36mProduct Create (0.8ms)[0m  [1m[32mINSERT INTO `products` (`name`, `price`, `description`, `category_id`) VALUES ('limousine', 25.95, 'A limousine', 2)[0m
+D, [2022-03-03T09:25:09.523618 #1409] DEBUG -- :   [1m[36mTRANSACTION (1.7ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-03T09:25:09.525435 #1409] DEBUG -- :   [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-03T09:25:09.526649 #1409] DEBUG -- :   [1m[36mProduct Create (0.7ms)[0m  [1m[32mINSERT INTO `products` (`name`, `price`, `description`, `category_id`) VALUES ('truck', 200.0, 'A truck', 2)[0m
+D, [2022-03-03T09:25:09.529056 #1409] DEBUG -- :   [1m[36mTRANSACTION (1.7ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-03T09:25:09.539035 #1409] DEBUG -- :   [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-03T09:25:09.540156 #1409] DEBUG -- :   [1m[36mClient Create (0.6ms)[0m  [1m[32mINSERT INTO `clients` (`firstname`, `lastname`) VALUES ('yannick', 'baudraz')[0m
+D, [2022-03-03T09:25:09.542606 #1409] DEBUG -- :   [1m[36mTRANSACTION (1.8ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-03T09:25:09.544240 #1409] DEBUG -- :   [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-03T09:25:09.545130 #1409] DEBUG -- :   [1m[36mClient Create (0.5ms)[0m  [1m[32mINSERT INTO `clients` (`firstname`, `lastname`) VALUES ('john', 'doedoe')[0m
+D, [2022-03-03T09:25:09.547865 #1409] DEBUG -- :   [1m[36mTRANSACTION (1.8ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-03T09:25:28.634433 #1440] DEBUG -- :   [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-03T09:25:28.635884 #1440] DEBUG -- :   [1m[36mCategory Create (0.8ms)[0m  [1m[32mINSERT INTO `categories` (`name`) VALUES ('PCR')[0m
+D, [2022-03-03T09:25:28.640104 #1440] DEBUG -- :   [1m[36mTRANSACTION (2.4ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-03T09:25:28.641914 #1440] DEBUG -- :   [1m[36mTRANSACTION (0.6ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-03T09:25:28.642775 #1440] DEBUG -- :   [1m[36mCategory Create (0.4ms)[0m  [1m[32mINSERT INTO `categories` (`name`) VALUES ('SUP')[0m
+D, [2022-03-03T09:25:28.645121 #1440] DEBUG -- :   [1m[36mTRANSACTION (1.8ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-03T09:25:28.658834 #1440] DEBUG -- :   [1m[36mTRANSACTION (0.6ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-03T09:25:28.660101 #1440] DEBUG -- :   [1m[36mProduct Create (0.6ms)[0m  [1m[32mINSERT INTO `products` (`name`, `price`, `description`, `category_id`) VALUES ('apple', 2.35, 'Little apple', 3)[0m
+D, [2022-03-03T09:25:28.662640 #1440] DEBUG -- :   [1m[36mTRANSACTION (1.9ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-03T09:25:28.664082 #1440] DEBUG -- :   [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-03T09:25:28.665039 #1440] DEBUG -- :   [1m[36mProduct Create (0.4ms)[0m  [1m[32mINSERT INTO `products` (`name`, `price`, `description`, `category_id`) VALUES ('lemon', 6.15, 'Big lemon', 3)[0m
+D, [2022-03-03T09:25:28.667390 #1440] DEBUG -- :   [1m[36mTRANSACTION (1.9ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-03T09:25:28.673650 #1440] DEBUG -- :   [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-03T09:25:28.674804 #1440] DEBUG -- :   [1m[36mProduct Create (0.6ms)[0m  [1m[32mINSERT INTO `products` (`name`, `price`, `description`, `category_id`) VALUES ('limousine', 25.95, 'A limousine', 4)[0m
+D, [2022-03-03T09:25:28.677235 #1440] DEBUG -- :   [1m[36mTRANSACTION (1.8ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-03T09:25:28.679045 #1440] DEBUG -- :   [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-03T09:25:28.679904 #1440] DEBUG -- :   [1m[36mProduct Create (0.5ms)[0m  [1m[32mINSERT INTO `products` (`name`, `price`, `description`, `category_id`) VALUES ('truck', 200.0, 'A truck', 4)[0m
+D, [2022-03-03T09:25:28.682165 #1440] DEBUG -- :   [1m[36mTRANSACTION (1.7ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-03T09:25:28.691933 #1440] DEBUG -- :   [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-03T09:25:28.693221 #1440] DEBUG -- :   [1m[36mClient Create (0.7ms)[0m  [1m[32mINSERT INTO `clients` (`firstname`, `lastname`) VALUES ('yannick', 'baudraz')[0m
+D, [2022-03-03T09:25:28.695778 #1440] DEBUG -- :   [1m[36mTRANSACTION (1.8ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-03T09:25:28.697531 #1440] DEBUG -- :   [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-03T09:25:28.698385 #1440] DEBUG -- :   [1m[36mClient Create (0.4ms)[0m  [1m[32mINSERT INTO `clients` (`firstname`, `lastname`) VALUES ('john', 'doedoe')[0m
+D, [2022-03-03T09:25:28.700528 #1440] DEBUG -- :   [1m[36mTRANSACTION (1.7ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-03T09:25:28.735377 #1440] DEBUG -- :   [1m[36mTRANSACTION (0.8ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-03T09:25:28.737233 #1440] DEBUG -- :   [1m[36mOrder Create (1.1ms)[0m  [1m[32mINSERT INTO `orders` (`status`, `created_at`, `updated_at`) VALUES ('PROGRESS', '2022-03-03 08:25:28.733900', '2022-03-03 08:25:28.733900')[0m
+D, [2022-03-03T09:25:28.740255 #1440] DEBUG -- :   [1m[36mOrderItem Create (1.1ms)[0m  [1m[32mINSERT INTO `order_items` (`order_id`, `item_id`, `quantity`, `item_price`) VALUES (1, 5, 2, 2.35)[0m
+D, [2022-03-03T09:25:28.742620 #1440] DEBUG -- :   [1m[36mOrderItem Create (1.0ms)[0m  [1m[32mINSERT INTO `order_items` (`order_id`, `item_id`, `quantity`, `item_price`) VALUES (1, 7, 125, 25.95)[0m
+D, [2022-03-03T09:25:28.745491 #1440] DEBUG -- :   [1m[36mOrderItem Create (1.4ms)[0m  [1m[32mINSERT INTO `order_items` (`order_id`, `item_id`, `quantity`, `item_price`) VALUES (1, 8, 3, 200.0)[0m
+D, [2022-03-03T09:25:28.750022 #1440] DEBUG -- :   [1m[36mTRANSACTION (3.3ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-03T09:25:28.755627 #1440] DEBUG -- :   [1m[36mTRANSACTION (0.7ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-03T09:25:28.757137 #1440] DEBUG -- :   [1m[36mOrder Update (0.8ms)[0m  [1m[33mUPDATE `orders` SET `orders`.`updated_at` = '2022-03-03 08:25:28.751918', `orders`.`client_id` = 3 WHERE `orders`.`id` = 1[0m
+D, [2022-03-03T09:25:28.760334 #1440] DEBUG -- :   [1m[36mTRANSACTION (2.1ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-03T09:25:28.764062 #1440] DEBUG -- :   [1m[36mTRANSACTION (0.7ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-03T09:25:28.765555 #1440] DEBUG -- :   [1m[36mOrder Create (0.7ms)[0m  [1m[32mINSERT INTO `orders` (`status`, `created_at`, `updated_at`) VALUES ('PROGRESS', '2022-03-03 08:25:28.762772', '2022-03-03 08:25:28.762772')[0m
+D, [2022-03-03T09:25:28.767986 #1440] DEBUG -- :   [1m[36mOrderItem Create (0.9ms)[0m  [1m[32mINSERT INTO `order_items` (`order_id`, `item_id`, `quantity`, `item_price`) VALUES (2, 5, 1, 2.35)[0m
+D, [2022-03-03T09:25:28.770666 #1440] DEBUG -- :   [1m[36mOrderItem Create (0.7ms)[0m  [1m[32mINSERT INTO `order_items` (`order_id`, `item_id`, `quantity`, `item_price`) VALUES (2, 6, 75, 6.15)[0m
+D, [2022-03-03T09:25:28.772709 #1440] DEBUG -- :   [1m[36mOrderItem Create (0.8ms)[0m  [1m[32mINSERT INTO `order_items` (`order_id`, `item_id`, `quantity`, `item_price`) VALUES (2, 7, 3, 25.95)[0m
+D, [2022-03-03T09:25:28.774704 #1440] DEBUG -- :   [1m[36mOrderItem Create (0.7ms)[0m  [1m[32mINSERT INTO `order_items` (`order_id`, `item_id`, `quantity`, `item_price`) VALUES (2, 8, 200, 200.0)[0m
+D, [2022-03-03T09:25:28.777824 #1440] DEBUG -- :   [1m[36mTRANSACTION (2.1ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-03T09:25:28.780620 #1440] DEBUG -- :   [1m[36mTRANSACTION (0.6ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-03T09:25:28.782239 #1440] DEBUG -- :   [1m[36mOrder Update (0.9ms)[0m  [1m[33mUPDATE `orders` SET `orders`.`updated_at` = '2022-03-03 08:25:28.779430', `orders`.`client_id` = 3 WHERE `orders`.`id` = 2[0m
+D, [2022-03-03T09:25:28.786421 #1440] DEBUG -- :   [1m[36mTRANSACTION (2.1ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-03T09:25:43.792027 #1471] DEBUG -- :   [1m[36mClient Load (0.4ms)[0m  [1m[34mSELECT `clients`.* FROM `clients` ORDER BY `clients`.`id` ASC LIMIT 1[0m
+D, [2022-03-03T09:25:43.848376 #1471] DEBUG -- :   [1m[36mProduct Load (1.0ms)[0m  [1m[34mSELECT `products`.* FROM `products` INNER JOIN `order_items` ON `products`.`id` = `order_items`.`item_id` INNER JOIN `orders` ON `order_items`.`order_id` = `orders`.`id` WHERE `orders`.`client_id` = 1 AND (price <= 0.2)[0m
+D, [2022-03-03T09:26:04.637983 #1502] DEBUG -- :   [1m[36mClient Load (0.4ms)[0m  [1m[34mSELECT `clients`.* FROM `clients` ORDER BY `clients`.`id` ASC LIMIT 1[0m
+D, [2022-03-03T09:26:04.697870 #1502] DEBUG -- :   [1m[36mProduct Load (0.9ms)[0m  [1m[34mSELECT `products`.* FROM `products` INNER JOIN `order_items` ON `products`.`id` = `order_items`.`item_id` INNER JOIN `orders` ON `order_items`.`order_id` = `orders`.`id` WHERE `orders`.`client_id` = 1 AND (price <= 0.2)[0m
+D, [2022-03-03T09:26:04.708071 #1502] DEBUG -- :   [1m[36mOrderItem Load (0.8ms)[0m  [1m[34mSELECT `order_items`.* FROM `order_items` INNER JOIN `orders` ON `order_items`.`order_id` = `orders`.`id` WHERE `orders`.`client_id` = 1 AND (quantity >= '50')[0m
+D, [2022-03-03T10:09:38.645097 #1533] DEBUG -- :   [1m[36mClient Load (0.5ms)[0m  [1m[34mSELECT `clients`.* FROM `clients` ORDER BY `clients`.`id` ASC LIMIT 1[0m
+D, [2022-03-03T10:09:38.694092 #1533] DEBUG -- :   [1m[36mProduct Load (2.8ms)[0m  [1m[34mSELECT `products`.* FROM `products` INNER JOIN `order_items` ON `products`.`id` = `order_items`.`item_id` INNER JOIN `orders` ON `order_items`.`order_id` = `orders`.`id` WHERE `orders`.`client_id` = 1 AND (price <= 0.2)[0m
+D, [2022-03-03T10:10:17.508289 #1564] DEBUG -- :   [1m[36mClient Load (0.9ms)[0m  [1m[34mSELECT `clients`.* FROM `clients` ORDER BY `clients`.`id` ASC LIMIT 1[0m
+D, [2022-03-03T10:10:17.555831 #1564] DEBUG -- :   [1m[36mProduct Load (0.7ms)[0m  [1m[34mSELECT `products`.* FROM `products` INNER JOIN `order_items` ON `products`.`id` = `order_items`.`item_id` INNER JOIN `orders` ON `order_items`.`order_id` = `orders`.`id` WHERE `orders`.`client_id` = 1 AND (price <= 0.2)[0m
+D, [2022-03-03T10:10:47.295192 #1595] DEBUG -- :   [1m[36mClient Load (0.6ms)[0m  [1m[34mSELECT `clients`.* FROM `clients` ORDER BY `clients`.`id` ASC LIMIT 1[0m
+D, [2022-03-03T10:10:47.342855 #1595] DEBUG -- :   [1m[36mProduct Load (0.8ms)[0m  [1m[34mSELECT `products`.* FROM `products` INNER JOIN `order_items` ON `products`.`id` = `order_items`.`item_id` INNER JOIN `orders` ON `order_items`.`order_id` = `orders`.`id` WHERE `orders`.`client_id` = 1 AND (price <= 0.2)[0m
+D, [2022-03-03T10:10:54.919075 #1626] DEBUG -- :   [1m[36mClient Load (0.5ms)[0m  [1m[34mSELECT `clients`.* FROM `clients` ORDER BY `clients`.`id` ASC LIMIT 1[0m
+D, [2022-03-03T10:10:54.976433 #1626] DEBUG -- :   [1m[36mProduct Load (1.1ms)[0m  [1m[34mSELECT `products`.* FROM `products` INNER JOIN `order_items` ON `products`.`id` = `order_items`.`item_id` INNER JOIN `orders` ON `order_items`.`order_id` = `orders`.`id` WHERE `orders`.`client_id` = 1 AND (price <= 0.2)[0m
+D, [2022-03-03T10:11:15.293503 #1657] DEBUG -- :   [1m[36mClient Load (0.4ms)[0m  [1m[34mSELECT `clients`.* FROM `clients` ORDER BY `clients`.`id` ASC LIMIT 1[0m
+D, [2022-03-03T10:11:15.351424 #1657] DEBUG -- :   [1m[36mProduct Load (1.0ms)[0m  [1m[34mSELECT `products`.* FROM `products` INNER JOIN `order_items` ON `products`.`id` = `order_items`.`item_id` INNER JOIN `orders` ON `order_items`.`order_id` = `orders`.`id` WHERE `orders`.`client_id` = 1 AND (price <= 0.2)[0m
+D, [2022-03-03T10:12:37.653594 #1688] DEBUG -- :   [1m[36mClient Load (0.7ms)[0m  [1m[34mSELECT `clients`.* FROM `clients` ORDER BY `clients`.`id` ASC LIMIT 1[0m
+D, [2022-03-03T10:12:37.700675 #1688] DEBUG -- :   [1m[36mProduct Load (1.0ms)[0m  [1m[34mSELECT `products`.* FROM `products` INNER JOIN `order_items` ON `products`.`id` = `order_items`.`item_id` INNER JOIN `orders` ON `order_items`.`order_id` = `orders`.`id` WHERE `orders`.`client_id` = 1 AND (price <= 0.20)[0m
+D, [2022-03-03T10:13:20.374825 #1750] DEBUG -- :   [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-03T10:13:20.376000 #1750] DEBUG -- :   [1m[36mCategory Create (0.5ms)[0m  [1m[32mINSERT INTO `categories` (`name`) VALUES ('PCR')[0m
+D, [2022-03-03T10:13:20.379218 #1750] DEBUG -- :   [1m[36mTRANSACTION (2.0ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-03T10:13:20.380638 #1750] DEBUG -- :   [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-03T10:13:20.381666 #1750] DEBUG -- :   [1m[36mCategory Create (0.5ms)[0m  [1m[32mINSERT INTO `categories` (`name`) VALUES ('SUP')[0m
+D, [2022-03-03T10:13:20.384046 #1750] DEBUG -- :   [1m[36mTRANSACTION (1.8ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-03T10:13:20.396900 #1750] DEBUG -- :   [1m[36mTRANSACTION (0.7ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-03T10:13:20.398165 #1750] DEBUG -- :   [1m[36mProduct Create (0.7ms)[0m  [1m[32mINSERT INTO `products` (`name`, `price`, `description`, `category_id`) VALUES ('apple', 0.05, 'Little apple', 1)[0m
+D, [2022-03-03T10:13:20.400991 #1750] DEBUG -- :   [1m[36mTRANSACTION (2.0ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-03T10:13:20.402955 #1750] DEBUG -- :   [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-03T10:13:20.404054 #1750] DEBUG -- :   [1m[36mProduct Create (0.6ms)[0m  [1m[32mINSERT INTO `products` (`name`, `price`, `description`, `category_id`) VALUES ('lemon', 6.15, 'Big lemon', 1)[0m
+D, [2022-03-03T10:13:20.407199 #1750] DEBUG -- :   [1m[36mTRANSACTION (2.0ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-03T10:13:20.413157 #1750] DEBUG -- :   [1m[36mTRANSACTION (0.6ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-03T10:13:20.414567 #1750] DEBUG -- :   [1m[36mProduct Create (0.7ms)[0m  [1m[32mINSERT INTO `products` (`name`, `price`, `description`, `category_id`) VALUES ('limousine', 25.95, 'A limousine', 2)[0m
+D, [2022-03-03T10:13:20.417112 #1750] DEBUG -- :   [1m[36mTRANSACTION (1.9ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-03T10:13:20.418573 #1750] DEBUG -- :   [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-03T10:13:20.419574 #1750] DEBUG -- :   [1m[36mProduct Create (0.6ms)[0m  [1m[32mINSERT INTO `products` (`name`, `price`, `description`, `category_id`) VALUES ('truck', 200.0, 'A truck', 2)[0m
+D, [2022-03-03T10:13:20.422039 #1750] DEBUG -- :   [1m[36mTRANSACTION (1.9ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-03T10:13:20.432321 #1750] DEBUG -- :   [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-03T10:13:20.433301 #1750] DEBUG -- :   [1m[36mClient Create (0.5ms)[0m  [1m[32mINSERT INTO `clients` (`firstname`, `lastname`) VALUES ('yannick', 'baudraz')[0m
+D, [2022-03-03T10:13:20.436149 #1750] DEBUG -- :   [1m[36mTRANSACTION (2.2ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-03T10:13:20.437491 #1750] DEBUG -- :   [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-03T10:13:20.438630 #1750] DEBUG -- :   [1m[36mClient Create (0.6ms)[0m  [1m[32mINSERT INTO `clients` (`firstname`, `lastname`) VALUES ('john', 'doedoe')[0m
+D, [2022-03-03T10:13:20.441040 #1750] DEBUG -- :   [1m[36mTRANSACTION (1.9ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-03T10:13:20.467458 #1750] DEBUG -- :   [1m[36mTRANSACTION (0.6ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-03T10:13:20.468802 #1750] DEBUG -- :   [1m[36mOrder Create (0.7ms)[0m  [1m[32mINSERT INTO `orders` (`status`, `created_at`, `updated_at`) VALUES ('PROGRESS', '2022-03-03 09:13:20.466286', '2022-03-03 09:13:20.466286')[0m
+D, [2022-03-03T10:13:20.470499 #1750] DEBUG -- :   [1m[36mOrderItem Create (0.6ms)[0m  [1m[32mINSERT INTO `order_items` (`order_id`, `item_id`, `quantity`, `item_price`) VALUES (1, 1, 2, 0.05)[0m
+D, [2022-03-03T10:13:20.471978 #1750] DEBUG -- :   [1m[36mOrderItem Create (0.5ms)[0m  [1m[32mINSERT INTO `order_items` (`order_id`, `item_id`, `quantity`, `item_price`) VALUES (1, 3, 125, 25.95)[0m
+D, [2022-03-03T10:13:20.473562 #1750] DEBUG -- :   [1m[36mOrderItem Create (0.6ms)[0m  [1m[32mINSERT INTO `order_items` (`order_id`, `item_id`, `quantity`, `item_price`) VALUES (1, 4, 3, 200.0)[0m
+D, [2022-03-03T10:13:20.476209 #1750] DEBUG -- :   [1m[36mTRANSACTION (2.0ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-03T10:13:20.479418 #1750] DEBUG -- :   [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-03T10:13:20.480377 #1750] DEBUG -- :   [1m[36mOrder Update (0.5ms)[0m  [1m[33mUPDATE `orders` SET `orders`.`updated_at` = '2022-03-03 09:13:20.477729', `orders`.`client_id` = 1 WHERE `orders`.`id` = 1[0m
+D, [2022-03-03T10:13:20.482876 #1750] DEBUG -- :   [1m[36mTRANSACTION (1.8ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-03T10:13:20.486107 #1750] DEBUG -- :   [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-03T10:13:20.487041 #1750] DEBUG -- :   [1m[36mOrder Create (0.5ms)[0m  [1m[32mINSERT INTO `orders` (`status`, `created_at`, `updated_at`) VALUES ('PROGRESS', '2022-03-03 09:13:20.485090', '2022-03-03 09:13:20.485090')[0m
+D, [2022-03-03T10:13:20.488625 #1750] DEBUG -- :   [1m[36mOrderItem Create (0.5ms)[0m  [1m[32mINSERT INTO `order_items` (`order_id`, `item_id`, `quantity`, `item_price`) VALUES (2, 1, 1, 0.05)[0m
+D, [2022-03-03T10:13:20.490133 #1750] DEBUG -- :   [1m[36mOrderItem Create (0.6ms)[0m  [1m[32mINSERT INTO `order_items` (`order_id`, `item_id`, `quantity`, `item_price`) VALUES (2, 2, 75, 6.15)[0m
+D, [2022-03-03T10:13:20.491637 #1750] DEBUG -- :   [1m[36mOrderItem Create (0.5ms)[0m  [1m[32mINSERT INTO `order_items` (`order_id`, `item_id`, `quantity`, `item_price`) VALUES (2, 3, 3, 25.95)[0m
+D, [2022-03-03T10:13:20.493044 #1750] DEBUG -- :   [1m[36mOrderItem Create (0.5ms)[0m  [1m[32mINSERT INTO `order_items` (`order_id`, `item_id`, `quantity`, `item_price`) VALUES (2, 4, 200, 200.0)[0m
+D, [2022-03-03T10:13:20.495726 #1750] DEBUG -- :   [1m[36mTRANSACTION (1.9ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-03T10:13:20.498261 #1750] DEBUG -- :   [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-03T10:13:20.499325 #1750] DEBUG -- :   [1m[36mOrder Update (0.6ms)[0m  [1m[33mUPDATE `orders` SET `orders`.`updated_at` = '2022-03-03 09:13:20.497316', `orders`.`client_id` = 1 WHERE `orders`.`id` = 2[0m
+D, [2022-03-03T10:13:20.502606 #1750] DEBUG -- :   [1m[36mTRANSACTION (2.0ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-03T10:13:29.630335 #1781] DEBUG -- :   [1m[36mClient Load (0.7ms)[0m  [1m[34mSELECT `clients`.* FROM `clients` ORDER BY `clients`.`id` ASC LIMIT 1[0m
+D, [2022-03-03T10:13:29.683705 #1781] DEBUG -- :   [1m[36mProduct Load (1.2ms)[0m  [1m[34mSELECT `products`.* FROM `products` INNER JOIN `order_items` ON `products`.`id` = `order_items`.`item_id` INNER JOIN `orders` ON `order_items`.`order_id` = `orders`.`id` WHERE `orders`.`client_id` = 1 AND (price <= 0.20)[0m
+D, [2022-03-03T10:13:46.616980 #1812] DEBUG -- :   [1m[36mClient Load (0.6ms)[0m  [1m[34mSELECT `clients`.* FROM `clients` ORDER BY `clients`.`id` ASC LIMIT 1[0m
+D, [2022-03-03T10:13:46.661817 #1812] DEBUG -- :   [1m[36mProduct Load (1.0ms)[0m  [1m[34mSELECT `products`.* FROM `products` INNER JOIN `order_items` ON `products`.`id` = `order_items`.`item_id` INNER JOIN `orders` ON `order_items`.`order_id` = `orders`.`id` WHERE `orders`.`client_id` = 1 AND (price <= 0.20)[0m
+D, [2022-03-03T10:14:07.880914 #1843] DEBUG -- :   [1m[36mClient Load (0.8ms)[0m  [1m[34mSELECT `clients`.* FROM `clients` ORDER BY `clients`.`id` ASC LIMIT 1[0m
+D, [2022-03-03T10:14:07.928895 #1843] DEBUG -- :   [1m[36mProduct Load (1.2ms)[0m  [1m[34mSELECT `products`.* FROM `products` INNER JOIN `order_items` ON `products`.`id` = `order_items`.`item_id` INNER JOIN `orders` ON `order_items`.`order_id` = `orders`.`id` WHERE `orders`.`client_id` = 1 AND (price <= 0.20)[0m
+D, [2022-03-03T10:14:15.116049 #1874] DEBUG -- :   [1m[36mClient Load (0.7ms)[0m  [1m[34mSELECT `clients`.* FROM `clients` ORDER BY `clients`.`id` ASC LIMIT 1[0m
+D, [2022-03-03T10:14:15.169877 #1874] DEBUG -- :   [1m[36mProduct Load (1.1ms)[0m  [1m[34mSELECT `products`.* FROM `products` INNER JOIN `order_items` ON `products`.`id` = `order_items`.`item_id` INNER JOIN `orders` ON `order_items`.`order_id` = `orders`.`id` WHERE `orders`.`client_id` = 1 AND (price <= 0.20)[0m
+D, [2022-03-03T10:14:15.181145 #1874] DEBUG -- :   [1m[36mOrderItem Load (0.8ms)[0m  [1m[34mSELECT `order_items`.* FROM `order_items` INNER JOIN `orders` ON `order_items`.`order_id` = `orders`.`id` WHERE `orders`.`client_id` = 1 AND (quantity >= '50')[0m
+D, [2022-03-03T10:14:15.186899 #1874] DEBUG -- :   [1m[36mProduct Load (1.0ms)[0m  [1m[34mSELECT `products`.* FROM `products` WHERE `products`.`id` = 3 LIMIT 1[0m
+D, [2022-03-03T10:14:15.188958 #1874] DEBUG -- :   [1m[36mProduct Load (0.9ms)[0m  [1m[34mSELECT `products`.* FROM `products` WHERE `products`.`id` = 2 LIMIT 1[0m
+D, [2022-03-03T10:14:15.191044 #1874] DEBUG -- :   [1m[36mProduct Load (0.7ms)[0m  [1m[34mSELECT `products`.* FROM `products` WHERE `products`.`id` = 4 LIMIT 1[0m
+D, [2022-03-09T14:41:45.120369 #268] DEBUG -- :   [1m[36mClient Load (4.4ms)[0m  [1m[34mSELECT `clients`.* FROM `clients` ORDER BY `clients`.`id` ASC LIMIT 1[0m
+D, [2022-03-09T14:41:45.213508 #268] DEBUG -- :   [1m[36mProduct Load (12.5ms)[0m  [1m[34mSELECT `products`.* FROM `products` INNER JOIN `order_items` ON `products`.`id` = `order_items`.`item_id` INNER JOIN `orders` ON `order_items`.`order_id` = `orders`.`id` WHERE `orders`.`client_id` = 1 AND (price <= 0.20)[0m
+D, [2022-03-09T14:42:04.453802 #299] DEBUG -- :   [1m[36mClient Load (0.4ms)[0m  [1m[34mSELECT `clients`.* FROM `clients` ORDER BY `clients`.`id` ASC LIMIT 1[0m
+D, [2022-03-09T14:42:04.514291 #299] DEBUG -- :   [1m[36mProduct Load (1.0ms)[0m  [1m[34mSELECT `products`.* FROM `products` INNER JOIN `order_items` ON `products`.`id` = `order_items`.`item_id` INNER JOIN `orders` ON `order_items`.`order_id` = `orders`.`id` WHERE `orders`.`client_id` = 1 AND (price <= 0.20)[0m
+D, [2022-03-09T14:42:08.910181 #330] DEBUG -- :   [1m[36mClient Load (0.3ms)[0m  [1m[34mSELECT `clients`.* FROM `clients` ORDER BY `clients`.`id` ASC LIMIT 1[0m
+D, [2022-03-09T14:42:08.954899 #330] DEBUG -- :   [1m[36mProduct Load (1.3ms)[0m  [1m[34mSELECT `products`.* FROM `products` INNER JOIN `order_items` ON `products`.`id` = `order_items`.`item_id` INNER JOIN `orders` ON `order_items`.`order_id` = `orders`.`id` WHERE `orders`.`client_id` = 1 AND (price <= 0.20)[0m
+D, [2022-03-09T14:42:08.967121 #330] DEBUG -- :   [1m[36mOrderItem Load (1.8ms)[0m  [1m[34mSELECT `order_items`.* FROM `order_items` INNER JOIN `orders` ON `order_items`.`order_id` = `orders`.`id` WHERE `orders`.`client_id` = 1 AND (quantity >= '50')[0m
+D, [2022-03-09T14:42:08.974711 #330] DEBUG -- :   [1m[36mProduct Load (0.7ms)[0m  [1m[34mSELECT `products`.* FROM `products` WHERE `products`.`id` = 3 LIMIT 1[0m
+D, [2022-03-09T14:42:08.977023 #330] DEBUG -- :   [1m[36mProduct Load (0.8ms)[0m  [1m[34mSELECT `products`.* FROM `products` WHERE `products`.`id` = 2 LIMIT 1[0m
+D, [2022-03-09T14:42:08.978669 #330] DEBUG -- :   [1m[36mProduct Load (0.6ms)[0m  [1m[34mSELECT `products`.* FROM `products` WHERE `products`.`id` = 4 LIMIT 1[0m
+D, [2022-03-10T08:36:35.801430 #13684] DEBUG -- :   [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-10T08:36:35.802741 #13684] DEBUG -- :   [1m[36mCategory Create (0.6ms)[0m  [1m[32mINSERT INTO `categories` (`name`) VALUES ('PCR')[0m
+D, [2022-03-10T08:36:35.808184 #13684] DEBUG -- :   [1m[36mTRANSACTION (3.1ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-10T08:36:35.809448 #13684] DEBUG -- :   [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-10T08:36:35.810225 #13684] DEBUG -- :   [1m[36mCategory Create (0.3ms)[0m  [1m[32mINSERT INTO `categories` (`name`) VALUES ('SUP')[0m
+D, [2022-03-10T08:36:35.813347 #13684] DEBUG -- :   [1m[36mTRANSACTION (2.6ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-10T08:36:35.828730 #13684] DEBUG -- :   [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-10T08:36:35.830303 #13684] DEBUG -- :   [1m[36mProduct Create (1.0ms)[0m  [1m[32mINSERT INTO `products` (`name`, `price`, `description`, `category_id`) VALUES ('apple', 0.05, 'Little apple', 1)[0m
+D, [2022-03-10T08:36:35.833937 #13684] DEBUG -- :   [1m[36mTRANSACTION (2.9ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-10T08:36:35.835238 #13684] DEBUG -- :   [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-10T08:36:35.835994 #13684] DEBUG -- :   [1m[36mProduct Create (0.3ms)[0m  [1m[32mINSERT INTO `products` (`name`, `price`, `description`, `category_id`) VALUES ('lemon', 6.15, 'Big lemon', 1)[0m
+D, [2022-03-10T08:36:35.839525 #13684] DEBUG -- :   [1m[36mTRANSACTION (2.8ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-10T08:36:35.841195 #13684] DEBUG -- :   [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-10T08:36:35.841942 #13684] DEBUG -- :   [1m[36mProduct Create (0.3ms)[0m  [1m[32mINSERT INTO `products` (`name`, `price`, `description`, `category_id`) VALUES ('limousine', 25.95, 'A limousine', 2)[0m
+D, [2022-03-10T08:36:35.847366 #13684] DEBUG -- :   [1m[36mTRANSACTION (4.6ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-10T08:36:35.848643 #13684] DEBUG -- :   [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-10T08:36:35.849430 #13684] DEBUG -- :   [1m[36mProduct Create (0.3ms)[0m  [1m[32mINSERT INTO `products` (`name`, `price`, `description`, `category_id`) VALUES ('truck', 200.0, 'A truck', 2)[0m
+D, [2022-03-10T08:36:35.852589 #13684] DEBUG -- :   [1m[36mTRANSACTION (2.6ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-10T08:36:35.859284 #13684] DEBUG -- :   [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-10T08:36:35.859966 #13684] DEBUG -- :   [1m[36mClient Create (0.2ms)[0m  [1m[32mINSERT INTO `clients` (`firstname`, `lastname`) VALUES ('yannick', 'baudraz')[0m
+D, [2022-03-10T08:36:35.863449 #13684] DEBUG -- :   [1m[36mTRANSACTION (2.9ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-10T08:37:15.877667 #19220] DEBUG -- :   [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-10T08:37:15.878651 #19220] DEBUG -- :   [1m[36mCategory Create (0.3ms)[0m  [1m[32mINSERT INTO `categories` (`name`) VALUES ('PCR')[0m
+D, [2022-03-10T08:37:15.884663 #19220] DEBUG -- :   [1m[36mTRANSACTION (3.2ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-10T08:37:15.885884 #19220] DEBUG -- :   [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-10T08:37:15.886669 #19220] DEBUG -- :   [1m[36mCategory Create (0.3ms)[0m  [1m[32mINSERT INTO `categories` (`name`) VALUES ('SUP')[0m
+D, [2022-03-10T08:37:15.889927 #19220] DEBUG -- :   [1m[36mTRANSACTION (2.7ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-10T08:37:15.904779 #19220] DEBUG -- :   [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-10T08:37:15.905707 #19220] DEBUG -- :   [1m[36mProduct Create (0.3ms)[0m  [1m[32mINSERT INTO `products` (`name`, `price`, `description`, `category_id`) VALUES ('apple', 0.05, 'Little apple', 3)[0m
+D, [2022-03-10T08:37:15.909351 #19220] DEBUG -- :   [1m[36mTRANSACTION (3.0ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-10T08:37:15.910475 #19220] DEBUG -- :   [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-10T08:37:15.910981 #19220] DEBUG -- :   [1m[36mProduct Create (0.3ms)[0m  [1m[32mINSERT INTO `products` (`name`, `price`, `description`, `category_id`) VALUES ('lemon', 6.15, 'Big lemon', 3)[0m
+D, [2022-03-10T08:37:15.913800 #19220] DEBUG -- :   [1m[36mTRANSACTION (2.4ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-10T08:37:15.914695 #19220] DEBUG -- :   [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-10T08:37:15.915210 #19220] DEBUG -- :   [1m[36mProduct Create (0.3ms)[0m  [1m[32mINSERT INTO `products` (`name`, `price`, `description`, `category_id`) VALUES ('limousine', 25.95, 'A limousine', 4)[0m
+D, [2022-03-10T08:37:15.917721 #19220] DEBUG -- :   [1m[36mTRANSACTION (2.2ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-10T08:37:15.918409 #19220] DEBUG -- :   [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-10T08:37:15.918821 #19220] DEBUG -- :   [1m[36mProduct Create (0.2ms)[0m  [1m[32mINSERT INTO `products` (`name`, `price`, `description`, `category_id`) VALUES ('truck', 200.0, 'A truck', 4)[0m
+D, [2022-03-10T08:37:15.921461 #19220] DEBUG -- :   [1m[36mTRANSACTION (2.4ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-10T08:37:15.927841 #19220] DEBUG -- :   [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-10T08:37:15.928295 #19220] DEBUG -- :   [1m[36mClient Create (0.2ms)[0m  [1m[32mINSERT INTO `clients` (`firstname`, `lastname`) VALUES ('yannick', 'baudraz')[0m
+D, [2022-03-10T08:37:15.931213 #19220] DEBUG -- :   [1m[36mTRANSACTION (2.6ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-10T08:37:15.931935 #19220] DEBUG -- :   [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-10T08:37:15.932459 #19220] DEBUG -- :   [1m[36mClient Create (0.2ms)[0m  [1m[32mINSERT INTO `clients` (`firstname`, `lastname`) VALUES ('john', 'doedoe')[0m
+D, [2022-03-10T08:37:15.935402 #19220] DEBUG -- :   [1m[36mTRANSACTION (2.6ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-10T08:37:15.961201 #19220] DEBUG -- :   [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-10T08:37:15.961851 #19220] DEBUG -- :   [1m[36mOrder Create (0.3ms)[0m  [1m[32mINSERT INTO `orders` (`status`, `created_at`, `updated_at`) VALUES ('PROGRESS', '2022-03-10 07:37:15.960229', '2022-03-10 07:37:15.960229')[0m
+D, [2022-03-10T08:37:15.962788 #19220] DEBUG -- :   [1m[36mOrderItem Create (0.2ms)[0m  [1m[32mINSERT INTO `order_items` (`order_id`, `item_id`, `quantity`, `item_price`) VALUES (1, 5, 2, 0.05)[0m
+D, [2022-03-10T08:37:15.963524 #19220] DEBUG -- :   [1m[36mOrderItem Create (0.2ms)[0m  [1m[32mINSERT INTO `order_items` (`order_id`, `item_id`, `quantity`, `item_price`) VALUES (1, 7, 125, 25.95)[0m
+D, [2022-03-10T08:37:15.964252 #19220] DEBUG -- :   [1m[36mOrderItem Create (0.2ms)[0m  [1m[32mINSERT INTO `order_items` (`order_id`, `item_id`, `quantity`, `item_price`) VALUES (1, 8, 3, 200.0)[0m
+D, [2022-03-10T08:37:15.968045 #19220] DEBUG -- :   [1m[36mTRANSACTION (3.4ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-10T08:37:15.972854 #19220] DEBUG -- :   [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-10T08:37:15.974930 #19220] DEBUG -- :   [1m[36mOrder Update (1.7ms)[0m  [1m[33mUPDATE `orders` SET `orders`.`updated_at` = '2022-03-10 07:37:15.969591', `orders`.`client_id` = 2 WHERE `orders`.`id` = 1[0m
+D, [2022-03-10T08:37:15.977883 #19220] DEBUG -- :   [1m[36mTRANSACTION (2.5ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-10T08:37:15.979646 #19220] DEBUG -- :   [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-10T08:37:15.980124 #19220] DEBUG -- :   [1m[36mOrder Create (0.2ms)[0m  [1m[32mINSERT INTO `orders` (`status`, `created_at`, `updated_at`) VALUES ('PROGRESS', '2022-03-10 07:37:15.979080', '2022-03-10 07:37:15.979080')[0m
+D, [2022-03-10T08:37:15.980966 #19220] DEBUG -- :   [1m[36mOrderItem Create (0.2ms)[0m  [1m[32mINSERT INTO `order_items` (`order_id`, `item_id`, `quantity`, `item_price`) VALUES (2, 5, 1, 0.05)[0m
+D, [2022-03-10T08:37:15.981813 #19220] DEBUG -- :   [1m[36mOrderItem Create (0.2ms)[0m  [1m[32mINSERT INTO `order_items` (`order_id`, `item_id`, `quantity`, `item_price`) VALUES (2, 6, 75, 6.15)[0m
+D, [2022-03-10T08:37:15.982497 #19220] DEBUG -- :   [1m[36mOrderItem Create (0.2ms)[0m  [1m[32mINSERT INTO `order_items` (`order_id`, `item_id`, `quantity`, `item_price`) VALUES (2, 7, 3, 25.95)[0m
+D, [2022-03-10T08:37:15.983150 #19220] DEBUG -- :   [1m[36mOrderItem Create (0.2ms)[0m  [1m[32mINSERT INTO `order_items` (`order_id`, `item_id`, `quantity`, `item_price`) VALUES (2, 8, 200, 200.0)[0m
+D, [2022-03-10T08:37:15.986167 #19220] DEBUG -- :   [1m[36mTRANSACTION (2.7ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-10T08:37:15.987242 #19220] DEBUG -- :   [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-10T08:37:15.987837 #19220] DEBUG -- :   [1m[36mOrder Update (0.3ms)[0m  [1m[33mUPDATE `orders` SET `orders`.`updated_at` = '2022-03-10 07:37:15.986731', `orders`.`client_id` = 2 WHERE `orders`.`id` = 2[0m
+D, [2022-03-10T08:37:15.990537 #19220] DEBUG -- :   [1m[36mTRANSACTION (2.4ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-10T08:48:25.411370 #18496] DEBUG -- :   [1m[36mClient Load (0.2ms)[0m  [1m[34mSELECT `clients`.* FROM `clients` ORDER BY `clients`.`id` ASC LIMIT 1[0m
+D, [2022-03-10T08:48:25.471058 #18496] DEBUG -- :   [1m[36mProduct Load (1.5ms)[0m  [1m[34mSELECT `products`.* FROM `products` INNER JOIN `order_items` ON `products`.`id` = `order_items`.`item_id` INNER JOIN `orders` ON `order_items`.`order_id` = `orders`.`id` WHERE `orders`.`client_id` = 1 AND (price <= 0.20)[0m
+D, [2022-03-10T08:48:25.477696 #18496] DEBUG -- :   [1m[36mOrderItem Load (0.4ms)[0m  [1m[34mSELECT `order_items`.* FROM `order_items` INNER JOIN `orders` ON `order_items`.`order_id` = `orders`.`id` WHERE `orders`.`client_id` = 1 AND (quantity >= 50)[0m
+D, [2022-03-10T08:48:41.987402 #3796] DEBUG -- :   [1m[36mClient Load (0.2ms)[0m  [1m[34mSELECT `clients`.* FROM `clients` ORDER BY `clients`.`id` ASC LIMIT 1[0m
+D, [2022-03-10T08:48:42.046267 #3796] DEBUG -- :   [1m[36mProduct Load (0.4ms)[0m  [1m[34mSELECT `products`.* FROM `products` INNER JOIN `order_items` ON `products`.`id` = `order_items`.`item_id` INNER JOIN `orders` ON `order_items`.`order_id` = `orders`.`id` WHERE `orders`.`client_id` = 1 AND (price <= 0.20)[0m
+D, [2022-03-10T08:48:42.054452 #3796] DEBUG -- :   [1m[36mOrderItem Load (0.4ms)[0m  [1m[34mSELECT `order_items`.* FROM `order_items` INNER JOIN `orders` ON `order_items`.`order_id` = `orders`.`id` WHERE `orders`.`client_id` = 1 AND (quantity >= 50)[0m
+D, [2022-03-10T08:48:56.964688 #18428] DEBUG -- :   [1m[36mClient Load (0.3ms)[0m  [1m[34mSELECT `clients`.* FROM `clients` ORDER BY `clients`.`id` ASC LIMIT 1[0m
+D, [2022-03-10T08:48:57.025358 #18428] DEBUG -- :   [1m[36mProduct Load (0.4ms)[0m  [1m[34mSELECT `products`.* FROM `products` INNER JOIN `order_items` ON `products`.`id` = `order_items`.`item_id` INNER JOIN `orders` ON `order_items`.`order_id` = `orders`.`id` WHERE `orders`.`client_id` = 1 AND (price <= 0.20)[0m
+D, [2022-03-10T08:48:57.033268 #18428] DEBUG -- :   [1m[36mOrderItem Load (0.4ms)[0m  [1m[34mSELECT `order_items`.* FROM `order_items` INNER JOIN `orders` ON `order_items`.`order_id` = `orders`.`id` WHERE `orders`.`client_id` = 1 AND (quantity >= 50)[0m
+D, [2022-03-10T08:48:57.035222 #18428] DEBUG -- :   [1m[36mClient Load (0.2ms)[0m  [1m[34mSELECT `clients`.* FROM `clients` ORDER BY `clients`.`id` ASC LIMIT 1[0m
+D, [2022-03-10T08:48:57.043391 #18428] DEBUG -- :   [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-10T08:48:57.044543 #18428] DEBUG -- :   [1m[36mTRANSACTION (0.2ms)[0m  [1m[31mROLLBACK[0m
+D, [2022-03-10T08:50:13.554086 #16128] DEBUG -- :   [1m[36mClient Load (0.4ms)[0m  [1m[34mSELECT `clients`.* FROM `clients` ORDER BY `clients`.`id` ASC LIMIT 1[0m
+D, [2022-03-10T08:50:13.609660 #16128] DEBUG -- :   [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT `products`.* FROM `products` INNER JOIN `order_items` ON `products`.`id` = `order_items`.`item_id` INNER JOIN `orders` ON `order_items`.`order_id` = `orders`.`id` WHERE `orders`.`client_id` = 1 AND (price <= 0.20)[0m
+D, [2022-03-10T08:50:13.616404 #16128] DEBUG -- :   [1m[36mOrderItem Load (0.5ms)[0m  [1m[34mSELECT `order_items`.* FROM `order_items` INNER JOIN `orders` ON `order_items`.`order_id` = `orders`.`id` WHERE `orders`.`client_id` = 1 AND (quantity >= 50)[0m
+D, [2022-03-10T08:50:13.618589 #16128] DEBUG -- :   [1m[36mClient Load (0.4ms)[0m  [1m[34mSELECT `clients`.* FROM `clients` ORDER BY `clients`.`id` ASC LIMIT 1[0m
+D, [2022-03-10T08:50:13.627418 #16128] DEBUG -- :   [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-10T08:50:13.628539 #16128] DEBUG -- :   [1m[36mTRANSACTION (0.2ms)[0m  [1m[31mROLLBACK[0m
+D, [2022-03-10T08:51:23.406193 #4048] DEBUG -- :   [1m[36mClient Load (0.2ms)[0m  [1m[34mSELECT `clients`.* FROM `clients` ORDER BY `clients`.`id` ASC LIMIT 1[0m
+D, [2022-03-10T08:51:23.461986 #4048] DEBUG -- :   [1m[36mProduct Load (0.4ms)[0m  [1m[34mSELECT `products`.* FROM `products` INNER JOIN `order_items` ON `products`.`id` = `order_items`.`item_id` INNER JOIN `orders` ON `order_items`.`order_id` = `orders`.`id` WHERE `orders`.`client_id` = 1 AND (price <= 0.20)[0m
+D, [2022-03-10T08:51:23.470509 #4048] DEBUG -- :   [1m[36mOrderItem Load (0.4ms)[0m  [1m[34mSELECT `order_items`.* FROM `order_items` INNER JOIN `orders` ON `order_items`.`order_id` = `orders`.`id` WHERE `orders`.`client_id` = 1 AND (quantity >= 50)[0m
+D, [2022-03-10T08:51:23.473025 #4048] DEBUG -- :   [1m[36mClient Load (0.3ms)[0m  [1m[34mSELECT `clients`.* FROM `clients` ORDER BY `clients`.`id` ASC LIMIT 1[0m
+D, [2022-03-10T08:51:23.480345 #4048] DEBUG -- :   [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-10T08:51:23.481841 #4048] DEBUG -- :   [1m[36mTRANSACTION (0.2ms)[0m  [1m[31mROLLBACK[0m
+D, [2022-03-10T08:51:23.489855 #4048] DEBUG -- :   [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-10T08:51:23.490782 #4048] DEBUG -- :   [1m[36mOrder Create (0.3ms)[0m  [1m[32mINSERT INTO `orders` (`created_at`, `updated_at`, `client_id`) VALUES ('2022-03-10 07:51:23.488778', '2022-03-10 07:51:23.488778', 1)[0m
+D, [2022-03-10T08:51:23.495362 #4048] DEBUG -- :   [1m[36mTRANSACTION (3.7ms)[0m  [1m[31mROLLBACK[0m
+D, [2022-03-10T08:54:55.577154 #11296] DEBUG -- :   [1m[36mClient Load (0.2ms)[0m  [1m[34mSELECT `clients`.* FROM `clients` ORDER BY `clients`.`id` ASC LIMIT 1[0m
+D, [2022-03-10T08:54:55.637466 #11296] DEBUG -- :   [1m[36mProduct Load (0.4ms)[0m  [1m[34mSELECT `products`.* FROM `products` INNER JOIN `order_items` ON `products`.`id` = `order_items`.`item_id` INNER JOIN `orders` ON `order_items`.`order_id` = `orders`.`id` WHERE `orders`.`client_id` = 1 AND (price <= 0.20)[0m
+D, [2022-03-10T08:54:55.643991 #11296] DEBUG -- :   [1m[36mOrderItem Load (0.4ms)[0m  [1m[34mSELECT `order_items`.* FROM `order_items` INNER JOIN `orders` ON `order_items`.`order_id` = `orders`.`id` WHERE `orders`.`client_id` = 1 AND (quantity >= 50)[0m
+D, [2022-03-10T08:56:03.639449 #9068] DEBUG -- :   [1m[36mClient Load (0.3ms)[0m  [1m[34mSELECT `clients`.* FROM `clients` ORDER BY `clients`.`id` ASC LIMIT 1[0m
+D, [2022-03-10T08:56:03.697562 #9068] DEBUG -- :   [1m[36mProduct Load (0.4ms)[0m  [1m[34mSELECT `products`.* FROM `products` INNER JOIN `order_items` ON `products`.`id` = `order_items`.`item_id` INNER JOIN `orders` ON `order_items`.`order_id` = `orders`.`id` WHERE `orders`.`client_id` = 1 AND (price <= 0.20)[0m
+D, [2022-03-10T08:56:03.705033 #9068] DEBUG -- :   [1m[36mOrderItem Load (0.4ms)[0m  [1m[34mSELECT `order_items`.* FROM `order_items` INNER JOIN `orders` ON `order_items`.`order_id` = `orders`.`id` WHERE `orders`.`client_id` = 1 AND (quantity >= 50)[0m
+D, [2022-03-10T08:56:03.708686 #9068] DEBUG -- :   [1m[36mClient Load (0.3ms)[0m  [1m[34mSELECT `clients`.* FROM `clients` ORDER BY `clients`.`id` ASC LIMIT 1[0m
+D, [2022-03-10T08:56:03.716540 #9068] DEBUG -- :   [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-10T08:56:03.717690 #9068] DEBUG -- :   [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mROLLBACK[0m
+D, [2022-03-10T08:56:03.725603 #9068] DEBUG -- :   [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-10T08:56:03.726332 #9068] DEBUG -- :   [1m[36mOrder Create (0.3ms)[0m  [1m[32mINSERT INTO `orders` (`created_at`, `updated_at`, `client_id`) VALUES ('2022-03-10 07:56:03.724298', '2022-03-10 07:56:03.724298', 1)[0m
+D, [2022-03-10T08:56:03.730821 #9068] DEBUG -- :   [1m[36mTRANSACTION (3.8ms)[0m  [1m[31mROLLBACK[0m
+D, [2022-03-10T08:58:11.220967 #14008] DEBUG -- :   [1m[36mClient Load (0.4ms)[0m  [1m[34mSELECT `clients`.* FROM `clients` ORDER BY `clients`.`id` ASC LIMIT 1[0m
+D, [2022-03-10T08:58:11.278070 #14008] DEBUG -- :   [1m[36mProduct Load (0.4ms)[0m  [1m[34mSELECT `products`.* FROM `products` INNER JOIN `order_items` ON `products`.`id` = `order_items`.`item_id` INNER JOIN `orders` ON `order_items`.`order_id` = `orders`.`id` WHERE `orders`.`client_id` = 1 AND (price <= 0.20)[0m
+D, [2022-03-10T08:58:11.285350 #14008] DEBUG -- :   [1m[36mOrderItem Load (0.6ms)[0m  [1m[34mSELECT `order_items`.* FROM `order_items` INNER JOIN `orders` ON `order_items`.`order_id` = `orders`.`id` WHERE `orders`.`client_id` = 1 AND (quantity >= 50)[0m
+D, [2022-03-10T08:58:11.288202 #14008] DEBUG -- :   [1m[36mClient Load (0.4ms)[0m  [1m[34mSELECT `clients`.* FROM `clients` ORDER BY `clients`.`id` ASC LIMIT 1[0m
+D, [2022-03-10T08:58:11.297243 #14008] DEBUG -- :   [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-10T08:58:11.298681 #14008] DEBUG -- :   [1m[36mTRANSACTION (0.2ms)[0m  [1m[31mROLLBACK[0m
+D, [2022-03-10T08:58:11.306513 #14008] DEBUG -- :   [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-10T08:58:11.307368 #14008] DEBUG -- :   [1m[36mOrder Create (0.3ms)[0m  [1m[32mINSERT INTO `orders` (`created_at`, `updated_at`, `client_id`) VALUES ('2022-03-10 07:58:11.305499', '2022-03-10 07:58:11.305499', 1)[0m
+D, [2022-03-10T08:58:11.311886 #14008] DEBUG -- :   [1m[36mTRANSACTION (3.3ms)[0m  [1m[31mROLLBACK[0m
+D, [2022-03-10T08:58:25.583588 #18144] DEBUG -- :   [1m[36mClient Load (0.2ms)[0m  [1m[34mSELECT `clients`.* FROM `clients` ORDER BY `clients`.`id` ASC LIMIT 1[0m
+D, [2022-03-10T08:58:25.668097 #18144] DEBUG -- :   [1m[36mProduct Load (0.4ms)[0m  [1m[34mSELECT `products`.* FROM `products` INNER JOIN `order_items` ON `products`.`id` = `order_items`.`item_id` INNER JOIN `orders` ON `order_items`.`order_id` = `orders`.`id` WHERE `orders`.`client_id` = 1 AND (price <= 0.20)[0m
+D, [2022-03-10T08:58:25.675049 #18144] DEBUG -- :   [1m[36mOrderItem Load (0.3ms)[0m  [1m[34mSELECT `order_items`.* FROM `order_items` INNER JOIN `orders` ON `order_items`.`order_id` = `orders`.`id` WHERE `orders`.`client_id` = 1 AND (quantity >= 50)[0m
+D, [2022-03-10T08:58:25.677237 #18144] DEBUG -- :   [1m[36mClient Load (0.3ms)[0m  [1m[34mSELECT `clients`.* FROM `clients` ORDER BY `clients`.`id` ASC LIMIT 1[0m
+D, [2022-03-10T08:58:25.689191 #18144] DEBUG -- :   [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-10T08:58:25.690362 #18144] DEBUG -- :   [1m[36mTRANSACTION (0.2ms)[0m  [1m[31mROLLBACK[0m
+D, [2022-03-10T08:58:25.699505 #18144] DEBUG -- :   [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-10T08:58:25.700151 #18144] DEBUG -- :   [1m[36mOrder Create (0.3ms)[0m  [1m[32mINSERT INTO `orders` (`created_at`, `updated_at`, `client_id`) VALUES ('2022-03-10 07:58:25.698623', '2022-03-10 07:58:25.698623', 1)[0m
+D, [2022-03-10T08:58:25.702406 #18144] DEBUG -- :   [1m[36mOrderItem Create (0.9ms)[0m  [1m[32mINSERT INTO `order_items` (`order_id`) VALUES (6)[0m
+D, [2022-03-10T08:58:25.705884 #18144] DEBUG -- :   [1m[36mTRANSACTION (2.8ms)[0m  [1m[31mROLLBACK[0m
+D, [2022-03-10T09:05:51.277903 #18832] DEBUG -- :   [1m[36mClient Load (0.2ms)[0m  [1m[34mSELECT `clients`.* FROM `clients` ORDER BY `clients`.`id` ASC LIMIT 1[0m
+D, [2022-03-10T09:05:51.329898 #18832] DEBUG -- :   [1m[36mProduct Load (0.5ms)[0m  [1m[34mSELECT `products`.* FROM `products` INNER JOIN `order_items` ON `products`.`id` = `order_items`.`item_id` INNER JOIN `orders` ON `order_items`.`order_id` = `orders`.`id` WHERE `orders`.`client_id` = 1 AND (price <= 0.20)[0m
+D, [2022-03-10T09:06:24.403362 #4924] DEBUG -- :   [1m[36mClient Load (0.1ms)[0m  [1m[34mSELECT `clients`.* FROM `clients` ORDER BY `clients`.`id` ASC LIMIT 1[0m
+D, [2022-03-10T09:06:24.459402 #4924] DEBUG -- :   [1m[36mProduct Load (0.5ms)[0m  [1m[34mSELECT `products`.* FROM `products` INNER JOIN `order_items` ON `products`.`id` = `order_items`.`item_id` INNER JOIN `orders` ON `order_items`.`order_id` = `orders`.`id` WHERE `orders`.`client_id` = 1 AND (price <= 0.20)[0m
+D, [2022-03-10T09:06:39.046788 #19268] DEBUG -- :   [1m[36mClient Load (0.3ms)[0m  [1m[34mSELECT `clients`.* FROM `clients` ORDER BY `clients`.`id` ASC LIMIT 1[0m
+D, [2022-03-10T09:06:39.104934 #19268] DEBUG -- :   [1m[36mProduct Load (0.6ms)[0m  [1m[34mSELECT `products`.* FROM `products` INNER JOIN `order_items` ON `products`.`id` = `order_items`.`item_id` INNER JOIN `orders` ON `order_items`.`order_id` = `orders`.`id` WHERE `orders`.`client_id` = 1 AND (price <= 0.20)[0m
+D, [2022-03-10T09:07:08.436665 #11152] DEBUG -- :   [1m[36mClient Load (0.3ms)[0m  [1m[34mSELECT `clients`.* FROM `clients` ORDER BY `clients`.`id` ASC LIMIT 1[0m
+D, [2022-03-10T09:07:08.495325 #11152] DEBUG -- :   [1m[36mProduct Load (0.4ms)[0m  [1m[34mSELECT `products`.* FROM `products` INNER JOIN `order_items` ON `products`.`id` = `order_items`.`item_id` INNER JOIN `orders` ON `order_items`.`order_id` = `orders`.`id` WHERE `orders`.`client_id` = 1 AND (price <= 0.20)[0m
+D, [2022-03-10T09:07:08.497247 #11152] DEBUG -- :   [1m[36mOrderItem Load (0.3ms)[0m  [1m[34mSELECT `order_items`.* FROM `order_items` WHERE (quantity >= 50)[0m
+D, [2022-03-10T09:07:08.510802 #11152] DEBUG -- :   [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT `products`.* FROM `products` WHERE `products`.`id` = 7 LIMIT 1[0m
+D, [2022-03-10T09:07:08.515396 #11152] DEBUG -- :   [1m[36mProduct Load (0.4ms)[0m  [1m[34mSELECT `products`.* FROM `products` WHERE `products`.`id` = 6 LIMIT 1[0m
+D, [2022-03-10T09:07:08.517224 #11152] DEBUG -- :   [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT `products`.* FROM `products` WHERE `products`.`id` = 8 LIMIT 1[0m
+D, [2022-03-10T09:07:08.520707 #11152] DEBUG -- :   [1m[36mClient Load (0.2ms)[0m  [1m[34mSELECT `clients`.* FROM `clients` ORDER BY `clients`.`id` ASC LIMIT 1[0m
+D, [2022-03-10T09:07:08.532170 #11152] DEBUG -- :   [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-10T09:07:08.532979 #11152] DEBUG -- :   [1m[36mOrder Create (0.3ms)[0m  [1m[32mINSERT INTO `orders` (`created_at`, `updated_at`, `client_id`) VALUES ('2022-03-10 08:07:08.530963', '2022-03-10 08:07:08.530963', 1)[0m
+D, [2022-03-10T09:07:08.534294 #11152] DEBUG -- :   [1m[36mOrderItem Create (0.4ms)[0m  [1m[32mINSERT INTO `order_items` (`order_id`) VALUES (7)[0m
+D, [2022-03-10T09:07:08.537617 #11152] DEBUG -- :   [1m[36mTRANSACTION (2.8ms)[0m  [1m[31mROLLBACK[0m
+D, [2022-03-10T09:08:48.154469 #13764] DEBUG -- :   [1m[36mClient Load (0.1ms)[0m  [1m[34mSELECT `clients`.* FROM `clients` ORDER BY `clients`.`id` ASC LIMIT 1[0m
+D, [2022-03-10T09:08:48.215890 #13764] DEBUG -- :   [1m[36mProduct Load (0.4ms)[0m  [1m[34mSELECT `products`.* FROM `products` INNER JOIN `order_items` ON `products`.`id` = `order_items`.`item_id` INNER JOIN `orders` ON `order_items`.`order_id` = `orders`.`id` WHERE `orders`.`client_id` = 1 AND (price <= 0.20)[0m
+D, [2022-03-10T09:08:48.218066 #13764] DEBUG -- :   [1m[36mOrderItem Load (0.3ms)[0m  [1m[34mSELECT `order_items`.* FROM `order_items` WHERE (quantity >= 50)[0m
+D, [2022-03-10T09:08:48.231291 #13764] DEBUG -- :   [1m[36mProduct Load (0.5ms)[0m  [1m[34mSELECT `products`.* FROM `products` WHERE `products`.`id` = 7 LIMIT 1[0m
+D, [2022-03-10T09:08:48.235549 #13764] DEBUG -- :   [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT `products`.* FROM `products` WHERE `products`.`id` = 6 LIMIT 1[0m
+D, [2022-03-10T09:08:48.237088 #13764] DEBUG -- :   [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT `products`.* FROM `products` WHERE `products`.`id` = 8 LIMIT 1[0m
+D, [2022-03-10T09:08:48.240551 #13764] DEBUG -- :   [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-10T09:08:48.241105 #13764] DEBUG -- :   [1m[36mClient Create (0.4ms)[0m  [1m[32mINSERT INTO `clients` (`firstname`, `lastname`) VALUES ('john', 'doedoe')[0m
+D, [2022-03-10T09:08:48.244022 #13764] DEBUG -- :   [1m[36mTRANSACTION (2.6ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-10T09:08:48.245278 #13764] DEBUG -- :   [1m[36mClient Load (0.3ms)[0m  [1m[34mSELECT `clients`.* FROM `clients` ORDER BY `clients`.`id` ASC LIMIT 1[0m
+D, [2022-03-10T09:11:52.236678 #9368] DEBUG -- :   [1m[36mClient Load (0.2ms)[0m  [1m[34mSELECT `clients`.* FROM `clients` ORDER BY `clients`.`id` ASC LIMIT 1[0m
+D, [2022-03-10T09:11:52.291789 #9368] DEBUG -- :   [1m[36mProduct Load (0.5ms)[0m  [1m[34mSELECT `products`.* FROM `products` INNER JOIN `order_items` ON `products`.`id` = `order_items`.`item_id` INNER JOIN `orders` ON `order_items`.`order_id` = `orders`.`id` WHERE `orders`.`client_id` = 1 AND (price <= 0.20)[0m
+D, [2022-03-10T09:11:52.294179 #9368] DEBUG -- :   [1m[36mOrderItem Load (0.5ms)[0m  [1m[34mSELECT `order_items`.* FROM `order_items` WHERE (quantity >= 50)[0m
+D, [2022-03-10T09:11:52.308431 #9368] DEBUG -- :   [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT `products`.* FROM `products` WHERE `products`.`id` = 7 LIMIT 1[0m
+D, [2022-03-10T09:11:52.312824 #9368] DEBUG -- :   [1m[36mProduct Load (0.4ms)[0m  [1m[34mSELECT `products`.* FROM `products` WHERE `products`.`id` = 6 LIMIT 1[0m
+D, [2022-03-10T09:11:52.314378 #9368] DEBUG -- :   [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT `products`.* FROM `products` WHERE `products`.`id` = 8 LIMIT 1[0m
+D, [2022-03-10T09:11:52.318151 #9368] DEBUG -- :   [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-10T09:11:52.318946 #9368] DEBUG -- :   [1m[36mClient Create (0.3ms)[0m  [1m[32mINSERT INTO `clients` (`firstname`, `lastname`) VALUES ('john', 'doedoe')[0m
+D, [2022-03-10T09:11:52.338630 #9368] DEBUG -- :   [1m[36mTRANSACTION (19.1ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-10T09:11:52.340411 #9368] DEBUG -- :   [1m[36mClient Load (0.4ms)[0m  [1m[34mSELECT `clients`.* FROM `clients` ORDER BY `clients`.`id` ASC LIMIT 1[0m
+D, [2022-03-10T09:12:00.454605 #19156] DEBUG -- :   [1m[36mClient Load (0.2ms)[0m  [1m[34mSELECT `clients`.* FROM `clients` ORDER BY `clients`.`id` ASC LIMIT 1[0m
+D, [2022-03-10T09:12:00.533000 #19156] DEBUG -- :   [1m[36mProduct Load (0.4ms)[0m  [1m[34mSELECT `products`.* FROM `products` INNER JOIN `order_items` ON `products`.`id` = `order_items`.`item_id` INNER JOIN `orders` ON `order_items`.`order_id` = `orders`.`id` WHERE `orders`.`client_id` = 1 AND (price <= 0.20)[0m
+D, [2022-03-10T09:12:00.535089 #19156] DEBUG -- :   [1m[36mOrderItem Load (0.3ms)[0m  [1m[34mSELECT `order_items`.* FROM `order_items` WHERE (quantity >= 50)[0m
+D, [2022-03-10T09:12:00.548100 #19156] DEBUG -- :   [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT `products`.* FROM `products` WHERE `products`.`id` = 7 LIMIT 1[0m
+D, [2022-03-10T09:12:00.551861 #19156] DEBUG -- :   [1m[36mProduct Load (0.4ms)[0m  [1m[34mSELECT `products`.* FROM `products` WHERE `products`.`id` = 6 LIMIT 1[0m
+D, [2022-03-10T09:12:00.553339 #19156] DEBUG -- :   [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT `products`.* FROM `products` WHERE `products`.`id` = 8 LIMIT 1[0m
+D, [2022-03-10T09:12:00.556461 #19156] DEBUG -- :   [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-10T09:12:00.556958 #19156] DEBUG -- :   [1m[36mClient Create (0.2ms)[0m  [1m[32mINSERT INTO `clients` (`firstname`, `lastname`) VALUES ('john', 'doedoe')[0m
+D, [2022-03-10T09:12:00.560775 #19156] DEBUG -- :   [1m[36mTRANSACTION (3.3ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-10T09:12:00.562332 #19156] DEBUG -- :   [1m[36mClient Load (0.3ms)[0m  [1m[34mSELECT `clients`.* FROM `clients` ORDER BY `clients`.`id` ASC LIMIT 1[0m
+D, [2022-03-10T09:12:00.570266 #19156] DEBUG -- :   [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-10T09:12:00.570730 #19156] DEBUG -- :   [1m[36mOrder Create (0.2ms)[0m  [1m[32mINSERT INTO `orders` (`created_at`, `updated_at`, `client_id`) VALUES ('2022-03-10 08:12:00.569576', '2022-03-10 08:12:00.569576', 1)[0m
+D, [2022-03-10T09:12:00.571566 #19156] DEBUG -- :   [1m[36mOrderItem Create (0.3ms)[0m  [1m[32mINSERT INTO `order_items` (`order_id`) VALUES (8)[0m
+D, [2022-03-10T09:12:00.574271 #19156] DEBUG -- :   [1m[36mTRANSACTION (2.5ms)[0m  [1m[31mROLLBACK[0m
+D, [2022-03-10T09:12:25.716547 #13216] DEBUG -- :   [1m[36mClient Load (0.3ms)[0m  [1m[34mSELECT `clients`.* FROM `clients` ORDER BY `clients`.`id` ASC LIMIT 1[0m
+D, [2022-03-10T09:12:25.771421 #13216] DEBUG -- :   [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT `products`.* FROM `products` INNER JOIN `order_items` ON `products`.`id` = `order_items`.`item_id` INNER JOIN `orders` ON `order_items`.`order_id` = `orders`.`id` WHERE `orders`.`client_id` = 1 AND (price <= 0.20)[0m
+D, [2022-03-10T09:12:25.773340 #13216] DEBUG -- :   [1m[36mOrderItem Load (0.3ms)[0m  [1m[34mSELECT `order_items`.* FROM `order_items` WHERE (quantity >= 50)[0m
+D, [2022-03-10T09:12:25.786273 #13216] DEBUG -- :   [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT `products`.* FROM `products` WHERE `products`.`id` = 7 LIMIT 1[0m
+D, [2022-03-10T09:12:25.790104 #13216] DEBUG -- :   [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT `products`.* FROM `products` WHERE `products`.`id` = 6 LIMIT 1[0m
+D, [2022-03-10T09:12:25.792099 #13216] DEBUG -- :   [1m[36mProduct Load (0.4ms)[0m  [1m[34mSELECT `products`.* FROM `products` WHERE `products`.`id` = 8 LIMIT 1[0m
+D, [2022-03-10T09:12:25.794904 #13216] DEBUG -- :   [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-10T09:12:25.795857 #13216] DEBUG -- :   [1m[36mClient Create (0.3ms)[0m  [1m[32mINSERT INTO `clients` (`firstname`, `lastname`) VALUES ('john', 'doedoe')[0m
+D, [2022-03-10T09:12:25.800122 #13216] DEBUG -- :   [1m[36mTRANSACTION (3.5ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-10T09:12:25.802185 #13216] DEBUG -- :   [1m[36mClient Load (0.3ms)[0m  [1m[34mSELECT `clients`.* FROM `clients` ORDER BY `clients`.`id` ASC LIMIT 1[0m
+D, [2022-03-10T09:12:25.811326 #13216] DEBUG -- :   [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-10T09:12:25.812026 #13216] DEBUG -- :   [1m[36mOrder Create (0.3ms)[0m  [1m[32mINSERT INTO `orders` (`created_at`, `updated_at`, `client_id`) VALUES ('2022-03-10 08:12:25.810494', '2022-03-10 08:12:25.810494', 1)[0m
+D, [2022-03-10T09:12:25.813604 #13216] DEBUG -- :   [1m[36mOrderItem Create (0.6ms)[0m  [1m[32mINSERT INTO `order_items` (`order_id`) VALUES (9)[0m
+D, [2022-03-10T09:12:25.816596 #13216] DEBUG -- :   [1m[36mTRANSACTION (2.4ms)[0m  [1m[31mROLLBACK[0m
+D, [2022-03-10T09:12:52.206433 #14792] DEBUG -- :   [1m[36mClient Load (0.3ms)[0m  [1m[34mSELECT `clients`.* FROM `clients` ORDER BY `clients`.`id` ASC LIMIT 1[0m
+D, [2022-03-10T09:12:52.264572 #14792] DEBUG -- :   [1m[36mProduct Load (0.5ms)[0m  [1m[34mSELECT `products`.* FROM `products` INNER JOIN `order_items` ON `products`.`id` = `order_items`.`item_id` INNER JOIN `orders` ON `order_items`.`order_id` = `orders`.`id` WHERE `orders`.`client_id` = 1 AND (price <= 0.20)[0m
+D, [2022-03-10T09:12:52.266660 #14792] DEBUG -- :   [1m[36mOrderItem Load (0.4ms)[0m  [1m[34mSELECT `order_items`.* FROM `order_items` WHERE (quantity >= 50)[0m
+D, [2022-03-10T09:12:52.279922 #14792] DEBUG -- :   [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT `products`.* FROM `products` WHERE `products`.`id` = 7 LIMIT 1[0m
+D, [2022-03-10T09:12:52.283472 #14792] DEBUG -- :   [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT `products`.* FROM `products` WHERE `products`.`id` = 6 LIMIT 1[0m
+D, [2022-03-10T09:12:52.284867 #14792] DEBUG -- :   [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT `products`.* FROM `products` WHERE `products`.`id` = 8 LIMIT 1[0m
+D, [2022-03-10T09:12:52.288937 #14792] DEBUG -- :   [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-10T09:12:52.289664 #14792] DEBUG -- :   [1m[36mClient Create (0.3ms)[0m  [1m[32mINSERT INTO `clients` (`firstname`, `lastname`) VALUES ('john', 'doedoe')[0m
+D, [2022-03-10T09:12:52.310323 #14792] DEBUG -- :   [1m[36mTRANSACTION (20.2ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-10T09:12:52.311752 #14792] DEBUG -- :   [1m[36mClient Load (0.3ms)[0m  [1m[34mSELECT `clients`.* FROM `clients` ORDER BY `clients`.`id` ASC LIMIT 1[0m
+D, [2022-03-10T09:12:52.320252 #14792] DEBUG -- :   [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-10T09:12:52.320767 #14792] DEBUG -- :   [1m[36mOrder Create (0.2ms)[0m  [1m[32mINSERT INTO `orders` (`created_at`, `updated_at`, `client_id`) VALUES ('2022-03-10 08:12:52.319454', '2022-03-10 08:12:52.319454', 1)[0m
+D, [2022-03-10T09:12:52.322075 #14792] DEBUG -- :   [1m[36mOrderItem Create (0.4ms)[0m  [1m[32mINSERT INTO `order_items` (`order_id`) VALUES (10)[0m
+D, [2022-03-10T09:12:52.324516 #14792] DEBUG -- :   [1m[36mTRANSACTION (2.1ms)[0m  [1m[31mROLLBACK[0m
+D, [2022-03-10T09:13:43.853559 #10772] DEBUG -- :   [1m[36mClient Load (0.4ms)[0m  [1m[34mSELECT `clients`.* FROM `clients` ORDER BY `clients`.`id` ASC LIMIT 1[0m
+D, [2022-03-10T09:13:43.907855 #10772] DEBUG -- :   [1m[36mProduct Load (0.4ms)[0m  [1m[34mSELECT `products`.* FROM `products` INNER JOIN `order_items` ON `products`.`id` = `order_items`.`item_id` INNER JOIN `orders` ON `order_items`.`order_id` = `orders`.`id` WHERE `orders`.`client_id` = 1 AND (price <= 0.20)[0m
+D, [2022-03-10T09:13:43.910432 #10772] DEBUG -- :   [1m[36mOrderItem Load (0.3ms)[0m  [1m[34mSELECT `order_items`.* FROM `order_items` WHERE (quantity >= 50)[0m
+D, [2022-03-10T09:13:43.921634 #10772] DEBUG -- :   [1m[36mProduct Load (0.4ms)[0m  [1m[34mSELECT `products`.* FROM `products` WHERE `products`.`id` = 7 LIMIT 1[0m
+D, [2022-03-10T09:13:43.928030 #10772] DEBUG -- :   [1m[36mProduct Load (0.5ms)[0m  [1m[34mSELECT `products`.* FROM `products` WHERE `products`.`id` = 6 LIMIT 1[0m
+D, [2022-03-10T09:13:43.930009 #10772] DEBUG -- :   [1m[36mProduct Load (0.4ms)[0m  [1m[34mSELECT `products`.* FROM `products` WHERE `products`.`id` = 8 LIMIT 1[0m
+D, [2022-03-10T09:13:43.933355 #10772] DEBUG -- :   [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-10T09:13:43.934139 #10772] DEBUG -- :   [1m[36mClient Create (0.3ms)[0m  [1m[32mINSERT INTO `clients` (`firstname`, `lastname`) VALUES ('john', 'doedoe')[0m
+D, [2022-03-10T09:13:43.937688 #10772] DEBUG -- :   [1m[36mTRANSACTION (2.9ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-10T09:13:43.939782 #10772] DEBUG -- :   [1m[36mClient Load (0.4ms)[0m  [1m[34mSELECT `clients`.* FROM `clients` ORDER BY `clients`.`id` ASC LIMIT 1[0m
+D, [2022-03-10T09:13:43.948741 #10772] DEBUG -- :   [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-10T09:13:43.949661 #10772] DEBUG -- :   [1m[36mOrder Create (0.4ms)[0m  [1m[32mINSERT INTO `orders` (`created_at`, `updated_at`, `client_id`) VALUES ('2022-03-10 08:13:43.947874', '2022-03-10 08:13:43.947874', 1)[0m
+D, [2022-03-10T09:13:43.951648 #10772] DEBUG -- :   [1m[36mOrderItem Create (0.4ms)[0m  [1m[32mINSERT INTO `order_items` (`order_id`) VALUES (11)[0m
+D, [2022-03-10T09:13:43.955254 #10772] DEBUG -- :   [1m[36mTRANSACTION (3.0ms)[0m  [1m[31mROLLBACK[0m
+D, [2022-03-10T09:15:26.718150 #18304] DEBUG -- :   [1m[36mClient Load (0.2ms)[0m  [1m[34mSELECT `clients`.* FROM `clients` ORDER BY `clients`.`id` ASC LIMIT 1[0m
+D, [2022-03-10T09:15:26.783982 #18304] DEBUG -- :   [1m[36mProduct Load (0.4ms)[0m  [1m[34mSELECT `products`.* FROM `products` INNER JOIN `order_items` ON `products`.`id` = `order_items`.`item_id` INNER JOIN `orders` ON `order_items`.`order_id` = `orders`.`id` WHERE `orders`.`client_id` = 1 AND (price <= 0.20)[0m
+D, [2022-03-10T09:15:26.786025 #18304] DEBUG -- :   [1m[36mOrderItem Load (0.3ms)[0m  [1m[34mSELECT `order_items`.* FROM `order_items` WHERE (quantity >= 50)[0m
+D, [2022-03-10T09:15:26.800160 #18304] DEBUG -- :   [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT `products`.* FROM `products` WHERE `products`.`id` = 7 LIMIT 1[0m
+D, [2022-03-10T09:15:26.805551 #18304] DEBUG -- :   [1m[36mProduct Load (0.4ms)[0m  [1m[34mSELECT `products`.* FROM `products` WHERE `products`.`id` = 6 LIMIT 1[0m
+D, [2022-03-10T09:15:26.808453 #18304] DEBUG -- :   [1m[36mProduct Load (0.6ms)[0m  [1m[34mSELECT `products`.* FROM `products` WHERE `products`.`id` = 8 LIMIT 1[0m
+D, [2022-03-10T09:15:26.812697 #18304] DEBUG -- :   [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-10T09:15:26.813321 #18304] DEBUG -- :   [1m[36mClient Create (0.2ms)[0m  [1m[32mINSERT INTO `clients` (`firstname`, `lastname`) VALUES ('john', 'doedoe')[0m
+D, [2022-03-10T09:15:26.816339 #18304] DEBUG -- :   [1m[36mTRANSACTION (2.5ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-10T09:15:26.818047 #18304] DEBUG -- :   [1m[36mClient Load (0.3ms)[0m  [1m[34mSELECT `clients`.* FROM `clients` ORDER BY `clients`.`id` ASC LIMIT 1[0m
+D, [2022-03-10T09:15:26.827852 #18304] DEBUG -- :   [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-10T09:15:26.828658 #18304] DEBUG -- :   [1m[36mOrder Create (0.3ms)[0m  [1m[32mINSERT INTO `orders` (`created_at`, `updated_at`, `client_id`) VALUES ('2022-03-10 08:15:26.826672', '2022-03-10 08:15:26.826672', 1)[0m
+D, [2022-03-10T09:15:26.830275 #18304] DEBUG -- :   [1m[36mOrderItem Create (0.4ms)[0m  [1m[32mINSERT INTO `order_items` (`order_id`) VALUES (12)[0m
+D, [2022-03-10T09:15:26.833807 #18304] DEBUG -- :   [1m[36mTRANSACTION (3.0ms)[0m  [1m[31mROLLBACK[0m
+D, [2022-03-10T09:15:39.868130 #7988] DEBUG -- :   [1m[36mClient Load (0.3ms)[0m  [1m[34mSELECT `clients`.* FROM `clients` ORDER BY `clients`.`id` ASC LIMIT 1[0m
+D, [2022-03-10T09:15:39.926697 #7988] DEBUG -- :   [1m[36mProduct Load (0.5ms)[0m  [1m[34mSELECT `products`.* FROM `products` INNER JOIN `order_items` ON `products`.`id` = `order_items`.`item_id` INNER JOIN `orders` ON `order_items`.`order_id` = `orders`.`id` WHERE `orders`.`client_id` = 1 AND (price <= 0.20)[0m
+D, [2022-03-10T09:15:39.928860 #7988] DEBUG -- :   [1m[36mOrderItem Load (0.4ms)[0m  [1m[34mSELECT `order_items`.* FROM `order_items` WHERE (quantity >= 50)[0m
+D, [2022-03-10T09:15:39.941207 #7988] DEBUG -- :   [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT `products`.* FROM `products` WHERE `products`.`id` = 7 LIMIT 1[0m
+D, [2022-03-10T09:15:39.945848 #7988] DEBUG -- :   [1m[36mProduct Load (0.4ms)[0m  [1m[34mSELECT `products`.* FROM `products` WHERE `products`.`id` = 6 LIMIT 1[0m
+D, [2022-03-10T09:15:39.947475 #7988] DEBUG -- :   [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT `products`.* FROM `products` WHERE `products`.`id` = 8 LIMIT 1[0m
+D, [2022-03-10T09:15:39.950122 #7988] DEBUG -- :   [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-10T09:15:39.950570 #7988] DEBUG -- :   [1m[36mClient Create (0.2ms)[0m  [1m[32mINSERT INTO `clients` (`firstname`, `lastname`) VALUES ('john', 'doedoe')[0m
+D, [2022-03-10T09:15:39.954268 #7988] DEBUG -- :   [1m[36mTRANSACTION (3.4ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-10T09:15:39.955565 #7988] DEBUG -- :   [1m[36mClient Load (0.3ms)[0m  [1m[34mSELECT `clients`.* FROM `clients` ORDER BY `clients`.`id` ASC LIMIT 1[0m
+D, [2022-03-10T09:15:39.966698 #7988] DEBUG -- :   [1m[36mProduct Load (0.5ms)[0m  [1m[34mSELECT `products`.* FROM `products` ORDER BY `products`.`id` ASC LIMIT 1[0m
+D, [2022-03-10T09:16:38.582621 #10884] DEBUG -- :   [1m[36mClient Load (0.2ms)[0m  [1m[34mSELECT `clients`.* FROM `clients` ORDER BY `clients`.`id` ASC LIMIT 1[0m
+D, [2022-03-10T09:16:38.636614 #10884] DEBUG -- :   [1m[36mProduct Load (0.4ms)[0m  [1m[34mSELECT `products`.* FROM `products` INNER JOIN `order_items` ON `products`.`id` = `order_items`.`item_id` INNER JOIN `orders` ON `order_items`.`order_id` = `orders`.`id` WHERE `orders`.`client_id` = 1 AND (price <= 0.20)[0m
+D, [2022-03-10T09:16:38.638488 #10884] DEBUG -- :   [1m[36mOrderItem Load (0.3ms)[0m  [1m[34mSELECT `order_items`.* FROM `order_items` WHERE (quantity >= 50)[0m
+D, [2022-03-10T09:16:38.650914 #10884] DEBUG -- :   [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT `products`.* FROM `products` WHERE `products`.`id` = 7 LIMIT 1[0m
+D, [2022-03-10T09:16:38.654613 #10884] DEBUG -- :   [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT `products`.* FROM `products` WHERE `products`.`id` = 6 LIMIT 1[0m
+D, [2022-03-10T09:16:38.655741 #10884] DEBUG -- :   [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT `products`.* FROM `products` WHERE `products`.`id` = 8 LIMIT 1[0m
+D, [2022-03-10T09:16:38.659054 #10884] DEBUG -- :   [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-10T09:16:38.659948 #10884] DEBUG -- :   [1m[36mClient Create (0.4ms)[0m  [1m[32mINSERT INTO `clients` (`firstname`, `lastname`) VALUES ('john', 'doedoe')[0m
+D, [2022-03-10T09:16:38.680939 #10884] DEBUG -- :   [1m[36mTRANSACTION (20.1ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-10T09:16:38.682623 #10884] DEBUG -- :   [1m[36mClient Load (0.2ms)[0m  [1m[34mSELECT `clients`.* FROM `clients` ORDER BY `clients`.`id` ASC LIMIT 1[0m
+D, [2022-03-10T09:16:38.692517 #10884] DEBUG -- :   [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT `products`.* FROM `products` ORDER BY `products`.`id` ASC LIMIT 1[0m
+D, [2022-03-10T09:16:57.968295 #2404] DEBUG -- :   [1m[36mClient Load (0.2ms)[0m  [1m[34mSELECT `clients`.* FROM `clients` ORDER BY `clients`.`id` ASC LIMIT 1[0m
+D, [2022-03-10T09:16:58.030803 #2404] DEBUG -- :   [1m[36mProduct Load (0.4ms)[0m  [1m[34mSELECT `products`.* FROM `products` INNER JOIN `order_items` ON `products`.`id` = `order_items`.`item_id` INNER JOIN `orders` ON `order_items`.`order_id` = `orders`.`id` WHERE `orders`.`client_id` = 1 AND (price <= 0.20)[0m
+D, [2022-03-10T09:16:58.032918 #2404] DEBUG -- :   [1m[36mOrderItem Load (0.4ms)[0m  [1m[34mSELECT `order_items`.* FROM `order_items` WHERE (quantity >= 50)[0m
+D, [2022-03-10T09:16:58.045444 #2404] DEBUG -- :   [1m[36mProduct Load (0.4ms)[0m  [1m[34mSELECT `products`.* FROM `products` WHERE `products`.`id` = 7 LIMIT 1[0m
+D, [2022-03-10T09:16:58.049232 #2404] DEBUG -- :   [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT `products`.* FROM `products` WHERE `products`.`id` = 6 LIMIT 1[0m
+D, [2022-03-10T09:16:58.050864 #2404] DEBUG -- :   [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT `products`.* FROM `products` WHERE `products`.`id` = 8 LIMIT 1[0m
+D, [2022-03-10T09:16:58.054761 #2404] DEBUG -- :   [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-10T09:16:58.055928 #2404] DEBUG -- :   [1m[36mClient Create (0.4ms)[0m  [1m[32mINSERT INTO `clients` (`firstname`, `lastname`) VALUES ('john', 'doedoe')[0m
+D, [2022-03-10T09:16:58.060285 #2404] DEBUG -- :   [1m[36mTRANSACTION (3.5ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-10T09:16:58.063462 #2404] DEBUG -- :   [1m[36mClient Load (0.3ms)[0m  [1m[34mSELECT `clients`.* FROM `clients` ORDER BY `clients`.`id` ASC LIMIT 1[0m
+D, [2022-03-10T09:16:58.074604 #2404] DEBUG -- :   [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT `products`.* FROM `products` ORDER BY `products`.`id` ASC LIMIT 1[0m
+D, [2022-03-10T09:17:30.821723 #18284] DEBUG -- :   [1m[36mClient Load (0.4ms)[0m  [1m[34mSELECT `clients`.* FROM `clients` ORDER BY `clients`.`id` ASC LIMIT 1[0m
+D, [2022-03-10T09:17:30.880272 #18284] DEBUG -- :   [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT `products`.* FROM `products` INNER JOIN `order_items` ON `products`.`id` = `order_items`.`item_id` INNER JOIN `orders` ON `order_items`.`order_id` = `orders`.`id` WHERE `orders`.`client_id` = 1 AND (price <= 0.20)[0m
+D, [2022-03-10T09:17:30.881623 #18284] DEBUG -- :   [1m[36mOrderItem Load (0.2ms)[0m  [1m[34mSELECT `order_items`.* FROM `order_items` WHERE (quantity >= 50)[0m
+D, [2022-03-10T09:17:30.892678 #18284] DEBUG -- :   [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT `products`.* FROM `products` WHERE `products`.`id` = 7 LIMIT 1[0m
+D, [2022-03-10T09:17:30.898092 #18284] DEBUG -- :   [1m[36mProduct Load (1.0ms)[0m  [1m[34mSELECT `products`.* FROM `products` WHERE `products`.`id` = 6 LIMIT 1[0m
+D, [2022-03-10T09:17:30.899669 #18284] DEBUG -- :   [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT `products`.* FROM `products` WHERE `products`.`id` = 8 LIMIT 1[0m
+D, [2022-03-10T09:17:30.902484 #18284] DEBUG -- :   [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-10T09:17:30.902834 #18284] DEBUG -- :   [1m[36mClient Create (0.2ms)[0m  [1m[32mINSERT INTO `clients` (`firstname`, `lastname`) VALUES ('john', 'doedoe')[0m
+D, [2022-03-10T09:17:30.905827 #18284] DEBUG -- :   [1m[36mTRANSACTION (2.8ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-10T09:17:30.907037 #18284] DEBUG -- :   [1m[36mClient Load (0.3ms)[0m  [1m[34mSELECT `clients`.* FROM `clients` ORDER BY `clients`.`id` ASC LIMIT 1[0m
+D, [2022-03-10T09:17:30.916190 #18284] DEBUG -- :   [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT `products`.* FROM `products` ORDER BY `products`.`id` ASC LIMIT 1[0m
+D, [2022-03-10T09:20:57.745927 #18980] DEBUG -- :   [1m[36mClient Load (0.2ms)[0m  [1m[34mSELECT `clients`.* FROM `clients` ORDER BY `clients`.`id` ASC LIMIT 1[0m
+D, [2022-03-10T09:20:57.802311 #18980] DEBUG -- :   [1m[36mProduct Load (0.4ms)[0m  [1m[34mSELECT `products`.* FROM `products` INNER JOIN `order_items` ON `products`.`id` = `order_items`.`item_id` INNER JOIN `orders` ON `order_items`.`order_id` = `orders`.`id` WHERE `orders`.`client_id` = 1 AND (price <= 0.20)[0m
+D, [2022-03-10T09:20:57.803844 #18980] DEBUG -- :   [1m[36mOrderItem Load (0.3ms)[0m  [1m[34mSELECT `order_items`.* FROM `order_items` WHERE (quantity >= 50)[0m
+D, [2022-03-10T09:20:57.817132 #18980] DEBUG -- :   [1m[36mProduct Load (0.4ms)[0m  [1m[34mSELECT `products`.* FROM `products` WHERE `products`.`id` = 7 LIMIT 1[0m
+D, [2022-03-10T09:20:57.821022 #18980] DEBUG -- :   [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT `products`.* FROM `products` WHERE `products`.`id` = 6 LIMIT 1[0m
+D, [2022-03-10T09:20:57.822660 #18980] DEBUG -- :   [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT `products`.* FROM `products` WHERE `products`.`id` = 8 LIMIT 1[0m
+D, [2022-03-10T09:20:57.825642 #18980] DEBUG -- :   [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-10T09:20:57.826789 #18980] DEBUG -- :   [1m[36mClient Create (0.5ms)[0m  [1m[32mINSERT INTO `clients` (`firstname`, `lastname`) VALUES ('john', 'doedoe')[0m
+D, [2022-03-10T09:20:57.831434 #18980] DEBUG -- :   [1m[36mTRANSACTION (3.5ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-10T09:20:57.833258 #18980] DEBUG -- :   [1m[36mClient Load (0.4ms)[0m  [1m[34mSELECT `clients`.* FROM `clients` ORDER BY `clients`.`id` ASC LIMIT 1[0m
+D, [2022-03-10T09:20:57.843491 #18980] DEBUG -- :   [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT `products`.* FROM `products` ORDER BY `products`.`id` ASC LIMIT 1[0m
+D, [2022-03-10T09:24:45.249966 #1720] DEBUG -- :   [1m[36mClient Load (0.2ms)[0m  [1m[34mSELECT `clients`.* FROM `clients` ORDER BY `clients`.`id` ASC LIMIT 1[0m
+D, [2022-03-10T09:24:45.301923 #1720] DEBUG -- :   [1m[36mProduct Load (0.5ms)[0m  [1m[34mSELECT `products`.* FROM `products` INNER JOIN `order_items` ON `products`.`id` = `order_items`.`item_id` INNER JOIN `orders` ON `order_items`.`order_id` = `orders`.`id` WHERE `orders`.`client_id` = 1 AND (price <= 0.20)[0m
+D, [2022-03-10T09:24:45.304086 #1720] DEBUG -- :   [1m[36mOrderItem Load (0.4ms)[0m  [1m[34mSELECT `order_items`.* FROM `order_items` WHERE (quantity >= 50)[0m
+D, [2022-03-10T09:24:45.317180 #1720] DEBUG -- :   [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT `products`.* FROM `products` WHERE `products`.`id` = 7 LIMIT 1[0m
+D, [2022-03-10T09:24:45.321684 #1720] DEBUG -- :   [1m[36mProduct Load (0.5ms)[0m  [1m[34mSELECT `products`.* FROM `products` WHERE `products`.`id` = 6 LIMIT 1[0m
+D, [2022-03-10T09:24:45.323251 #1720] DEBUG -- :   [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT `products`.* FROM `products` WHERE `products`.`id` = 8 LIMIT 1[0m
+D, [2022-03-10T09:24:45.325731 #1720] DEBUG -- :   [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-10T09:24:45.326150 #1720] DEBUG -- :   [1m[36mClient Create (0.2ms)[0m  [1m[32mINSERT INTO `clients` (`firstname`, `lastname`) VALUES ('john', 'doedoe')[0m
+D, [2022-03-10T09:24:45.329147 #1720] DEBUG -- :   [1m[36mTRANSACTION (2.7ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-10T09:24:45.330641 #1720] DEBUG -- :   [1m[36mClient Load (0.2ms)[0m  [1m[34mSELECT `clients`.* FROM `clients` ORDER BY `clients`.`id` ASC LIMIT 1[0m
+D, [2022-03-10T09:24:45.342809 #1720] DEBUG -- :   [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT `products`.* FROM `products` ORDER BY `products`.`id` ASC LIMIT 1[0m
+D, [2022-03-10T09:27:02.957888 #14324] DEBUG -- :   [1m[36mClient Load (0.4ms)[0m  [1m[34mSELECT `clients`.* FROM `clients` ORDER BY `clients`.`id` ASC LIMIT 1[0m
+D, [2022-03-10T09:27:03.019606 #14324] DEBUG -- :   [1m[36mProduct Load (0.4ms)[0m  [1m[34mSELECT `products`.* FROM `products` INNER JOIN `order_items` ON `products`.`id` = `order_items`.`item_id` INNER JOIN `orders` ON `order_items`.`order_id` = `orders`.`id` WHERE `orders`.`client_id` = 1 AND (price <= 0.20)[0m
+D, [2022-03-10T09:27:03.021571 #14324] DEBUG -- :   [1m[36mOrderItem Load (0.3ms)[0m  [1m[34mSELECT `order_items`.* FROM `order_items` WHERE (quantity >= 50)[0m
+D, [2022-03-10T09:27:03.034024 #14324] DEBUG -- :   [1m[36mProduct Load (0.4ms)[0m  [1m[34mSELECT `products`.* FROM `products` WHERE `products`.`id` = 7 LIMIT 1[0m
+D, [2022-03-10T09:27:03.039263 #14324] DEBUG -- :   [1m[36mProduct Load (0.4ms)[0m  [1m[34mSELECT `products`.* FROM `products` WHERE `products`.`id` = 6 LIMIT 1[0m
+D, [2022-03-10T09:27:03.041271 #14324] DEBUG -- :   [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT `products`.* FROM `products` WHERE `products`.`id` = 8 LIMIT 1[0m
+D, [2022-03-10T09:27:03.044957 #14324] DEBUG -- :   [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-10T09:27:03.045494 #14324] DEBUG -- :   [1m[36mClient Create (0.2ms)[0m  [1m[32mINSERT INTO `clients` (`firstname`, `lastname`) VALUES ('john', 'doedoe')[0m
+D, [2022-03-10T09:27:03.049012 #14324] DEBUG -- :   [1m[36mTRANSACTION (3.1ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-10T09:27:03.050604 #14324] DEBUG -- :   [1m[36mClient Load (0.2ms)[0m  [1m[34mSELECT `clients`.* FROM `clients` ORDER BY `clients`.`id` ASC LIMIT 1[0m
+D, [2022-03-10T09:27:03.061914 #14324] DEBUG -- :   [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT `products`.* FROM `products` ORDER BY `products`.`id` ASC LIMIT 1[0m
+D, [2022-03-10T09:29:23.959704 #18560] DEBUG -- :   [1m[36mClient Load (0.2ms)[0m  [1m[34mSELECT `clients`.* FROM `clients` ORDER BY `clients`.`id` ASC LIMIT 1[0m
+D, [2022-03-10T09:29:24.017200 #18560] DEBUG -- :   [1m[36mProduct Load (0.4ms)[0m  [1m[34mSELECT `products`.* FROM `products` INNER JOIN `order_items` ON `products`.`id` = `order_items`.`item_id` INNER JOIN `orders` ON `order_items`.`order_id` = `orders`.`id` WHERE `orders`.`client_id` = 1 AND (price <= 0.20)[0m
+D, [2022-03-10T09:29:24.019373 #18560] DEBUG -- :   [1m[36mOrderItem Load (0.3ms)[0m  [1m[34mSELECT `order_items`.* FROM `order_items` WHERE (quantity >= 50)[0m
+D, [2022-03-10T09:29:24.040819 #18560] DEBUG -- :   [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT `products`.* FROM `products` WHERE `products`.`id` = 7 LIMIT 1[0m
+D, [2022-03-10T09:29:24.044656 #18560] DEBUG -- :   [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT `products`.* FROM `products` WHERE `products`.`id` = 6 LIMIT 1[0m
+D, [2022-03-10T09:29:24.046049 #18560] DEBUG -- :   [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT `products`.* FROM `products` WHERE `products`.`id` = 8 LIMIT 1[0m
+D, [2022-03-10T09:29:24.049454 #18560] DEBUG -- :   [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-10T09:29:24.049857 #18560] DEBUG -- :   [1m[36mClient Create (0.2ms)[0m  [1m[32mINSERT INTO `clients` (`firstname`, `lastname`) VALUES ('john', 'doedoe')[0m
+D, [2022-03-10T09:29:24.052735 #18560] DEBUG -- :   [1m[36mTRANSACTION (2.3ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-10T09:29:24.053969 #18560] DEBUG -- :   [1m[36mClient Load (0.4ms)[0m  [1m[34mSELECT `clients`.* FROM `clients` ORDER BY `clients`.`id` ASC LIMIT 1[0m
+D, [2022-03-10T09:29:24.065286 #18560] DEBUG -- :   [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-10T09:29:24.065804 #18560] DEBUG -- :   [1m[36mOrder Create (0.3ms)[0m  [1m[32mINSERT INTO `orders` (`created_at`, `updated_at`, `client_id`) VALUES ('2022-03-10 08:29:24.063969', '2022-03-10 08:29:24.063969', 1)[0m
+D, [2022-03-10T09:29:24.069756 #18560] DEBUG -- :   [1m[36mTRANSACTION (3.0ms)[0m  [1m[31mROLLBACK[0m
+D, [2022-03-10T09:29:40.049766 #3684] DEBUG -- :   [1m[36mClient Load (0.4ms)[0m  [1m[34mSELECT `clients`.* FROM `clients` ORDER BY `clients`.`id` ASC LIMIT 1[0m
+D, [2022-03-10T09:29:40.104743 #3684] DEBUG -- :   [1m[36mProduct Load (0.5ms)[0m  [1m[34mSELECT `products`.* FROM `products` INNER JOIN `order_items` ON `products`.`id` = `order_items`.`item_id` INNER JOIN `orders` ON `order_items`.`order_id` = `orders`.`id` WHERE `orders`.`client_id` = 1 AND (price <= 0.20)[0m
+D, [2022-03-10T09:29:40.106644 #3684] DEBUG -- :   [1m[36mOrderItem Load (0.3ms)[0m  [1m[34mSELECT `order_items`.* FROM `order_items` WHERE (quantity >= 50)[0m
+D, [2022-03-10T09:29:40.120014 #3684] DEBUG -- :   [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT `products`.* FROM `products` WHERE `products`.`id` = 7 LIMIT 1[0m
+D, [2022-03-10T09:29:40.123542 #3684] DEBUG -- :   [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT `products`.* FROM `products` WHERE `products`.`id` = 6 LIMIT 1[0m
+D, [2022-03-10T09:29:40.125172 #3684] DEBUG -- :   [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT `products`.* FROM `products` WHERE `products`.`id` = 8 LIMIT 1[0m
+D, [2022-03-10T09:29:40.129358 #3684] DEBUG -- :   [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-10T09:29:40.130033 #3684] DEBUG -- :   [1m[36mClient Create (0.2ms)[0m  [1m[32mINSERT INTO `clients` (`firstname`, `lastname`) VALUES ('john', 'doedoe')[0m
+D, [2022-03-10T09:29:40.150129 #3684] DEBUG -- :   [1m[36mTRANSACTION (19.6ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-10T09:29:40.152128 #3684] DEBUG -- :   [1m[36mClient Load (0.3ms)[0m  [1m[34mSELECT `clients`.* FROM `clients` ORDER BY `clients`.`id` ASC LIMIT 1[0m
+D, [2022-03-10T09:29:40.162840 #3684] DEBUG -- :   [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT `products`.* FROM `products` ORDER BY `products`.`id` ASC LIMIT 1[0m
+D, [2022-03-10T09:55:26.764048 #14524] DEBUG -- :   [1m[36mClient Load (0.3ms)[0m  [1m[34mSELECT `clients`.* FROM `clients` ORDER BY `clients`.`id` ASC LIMIT 1[0m
+D, [2022-03-10T09:55:26.815022 #14524] DEBUG -- :   [1m[36mProduct Load (0.4ms)[0m  [1m[34mSELECT `products`.* FROM `products` INNER JOIN `order_items` ON `products`.`id` = `order_items`.`item_id` INNER JOIN `orders` ON `order_items`.`order_id` = `orders`.`id` WHERE `orders`.`client_id` = 1 AND (price <= 0.20)[0m
+D, [2022-03-10T09:55:26.817068 #14524] DEBUG -- :   [1m[36mOrderItem Load (0.3ms)[0m  [1m[34mSELECT `order_items`.* FROM `order_items` WHERE (quantity >= 50)[0m
+D, [2022-03-10T09:55:26.831124 #14524] DEBUG -- :   [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT `products`.* FROM `products` WHERE `products`.`id` = 7 LIMIT 1[0m
+D, [2022-03-10T09:55:26.834659 #14524] DEBUG -- :   [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT `products`.* FROM `products` WHERE `products`.`id` = 6 LIMIT 1[0m
+D, [2022-03-10T09:55:26.836065 #14524] DEBUG -- :   [1m[36mProduct Load (0.4ms)[0m  [1m[34mSELECT `products`.* FROM `products` WHERE `products`.`id` = 8 LIMIT 1[0m
+D, [2022-03-10T09:55:26.840891 #14524] DEBUG -- :   [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-10T09:55:26.841527 #14524] DEBUG -- :   [1m[36mClient Create (0.3ms)[0m  [1m[32mINSERT INTO `clients` (`firstname`, `lastname`) VALUES ('john', 'doedoe')[0m
+D, [2022-03-10T09:55:26.845010 #14524] DEBUG -- :   [1m[36mTRANSACTION (3.0ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-10T09:55:26.846103 #14524] DEBUG -- :   [1m[36mClient Load (0.2ms)[0m  [1m[34mSELECT `clients`.* FROM `clients` ORDER BY `clients`.`id` ASC LIMIT 1[0m
+D, [2022-03-10T09:55:26.857239 #14524] DEBUG -- :   [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT `products`.* FROM `products` ORDER BY `products`.`id` ASC LIMIT 1[0m
+D, [2022-03-10T09:55:31.828162 #12060] DEBUG -- :   [1m[36mClient Load (0.3ms)[0m  [1m[34mSELECT `clients`.* FROM `clients` ORDER BY `clients`.`id` ASC LIMIT 1[0m
+D, [2022-03-10T09:55:31.883448 #12060] DEBUG -- :   [1m[36mProduct Load (0.4ms)[0m  [1m[34mSELECT `products`.* FROM `products` INNER JOIN `order_items` ON `products`.`id` = `order_items`.`item_id` INNER JOIN `orders` ON `order_items`.`order_id` = `orders`.`id` WHERE `orders`.`client_id` = 1 AND (price <= 0.20)[0m
+D, [2022-03-10T09:55:31.885732 #12060] DEBUG -- :   [1m[36mOrderItem Load (0.4ms)[0m  [1m[34mSELECT `order_items`.* FROM `order_items` WHERE (quantity >= 50)[0m
+D, [2022-03-10T09:55:31.902037 #12060] DEBUG -- :   [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT `products`.* FROM `products` WHERE `products`.`id` = 7 LIMIT 1[0m
+D, [2022-03-10T09:55:31.906362 #12060] DEBUG -- :   [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT `products`.* FROM `products` WHERE `products`.`id` = 6 LIMIT 1[0m
+D, [2022-03-10T09:55:31.909378 #12060] DEBUG -- :   [1m[36mProduct Load (0.5ms)[0m  [1m[34mSELECT `products`.* FROM `products` WHERE `products`.`id` = 8 LIMIT 1[0m
+D, [2022-03-10T09:55:31.914113 #12060] DEBUG -- :   [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-10T09:55:31.914799 #12060] DEBUG -- :   [1m[36mClient Create (0.3ms)[0m  [1m[32mINSERT INTO `clients` (`firstname`, `lastname`) VALUES ('john', 'doedoe')[0m
+D, [2022-03-10T09:55:31.918361 #12060] DEBUG -- :   [1m[36mTRANSACTION (2.9ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-10T09:55:31.919768 #12060] DEBUG -- :   [1m[36mClient Load (0.3ms)[0m  [1m[34mSELECT `clients`.* FROM `clients` ORDER BY `clients`.`id` ASC LIMIT 1[0m
+D, [2022-03-10T09:55:31.933054 #12060] DEBUG -- :   [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT `products`.* FROM `products` ORDER BY `products`.`id` ASC LIMIT 1[0m
+D, [2022-03-10T09:56:40.236678 #19372] DEBUG -- :   [1m[36mClient Load (0.3ms)[0m  [1m[34mSELECT `clients`.* FROM `clients` ORDER BY `clients`.`id` ASC LIMIT 1[0m
+D, [2022-03-10T09:56:40.294428 #19372] DEBUG -- :   [1m[36mProduct Load (0.4ms)[0m  [1m[34mSELECT `products`.* FROM `products` INNER JOIN `order_items` ON `products`.`id` = `order_items`.`item_id` INNER JOIN `orders` ON `order_items`.`order_id` = `orders`.`id` WHERE `orders`.`client_id` = 1 AND (price <= 0.20)[0m
+D, [2022-03-10T09:56:40.296634 #19372] DEBUG -- :   [1m[36mOrderItem Load (0.3ms)[0m  [1m[34mSELECT `order_items`.* FROM `order_items` WHERE (quantity >= 50)[0m
+D, [2022-03-10T09:56:40.308426 #19372] DEBUG -- :   [1m[36mProduct Load (0.4ms)[0m  [1m[34mSELECT `products`.* FROM `products` WHERE `products`.`id` = 7 LIMIT 1[0m
+D, [2022-03-10T09:56:40.312675 #19372] DEBUG -- :   [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT `products`.* FROM `products` WHERE `products`.`id` = 6 LIMIT 1[0m
+D, [2022-03-10T09:56:40.314618 #19372] DEBUG -- :   [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT `products`.* FROM `products` WHERE `products`.`id` = 8 LIMIT 1[0m
+D, [2022-03-10T09:56:40.317604 #19372] DEBUG -- :   [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-10T09:56:40.318071 #19372] DEBUG -- :   [1m[36mClient Create (0.2ms)[0m  [1m[32mINSERT INTO `clients` (`firstname`, `lastname`) VALUES ('john', 'doedoe')[0m
+D, [2022-03-10T09:56:40.321828 #19372] DEBUG -- :   [1m[36mTRANSACTION (3.3ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-10T09:56:40.324390 #19372] DEBUG -- :   [1m[36mClient Load (0.7ms)[0m  [1m[34mSELECT `clients`.* FROM `clients` ORDER BY `clients`.`id` ASC LIMIT 1[0m
+D, [2022-03-10T09:56:40.336365 #19372] DEBUG -- :   [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT `products`.* FROM `products` ORDER BY `products`.`id` ASC LIMIT 1[0m
+D, [2022-03-10T09:59:02.861669 #8500] DEBUG -- :   [1m[36mClient Load (0.2ms)[0m  [1m[34mSELECT `clients`.* FROM `clients` ORDER BY `clients`.`id` ASC LIMIT 1[0m
+D, [2022-03-10T09:59:02.920418 #8500] DEBUG -- :   [1m[36mProduct Load (0.4ms)[0m  [1m[34mSELECT `products`.* FROM `products` INNER JOIN `order_items` ON `products`.`id` = `order_items`.`item_id` INNER JOIN `orders` ON `order_items`.`order_id` = `orders`.`id` WHERE `orders`.`client_id` = 1 AND (price <= 0.20)[0m
+D, [2022-03-10T09:59:02.922373 #8500] DEBUG -- :   [1m[36mOrderItem Load (0.3ms)[0m  [1m[34mSELECT `order_items`.* FROM `order_items` WHERE (quantity >= 50)[0m
+D, [2022-03-10T09:59:02.935353 #8500] DEBUG -- :   [1m[36mProduct Load (0.5ms)[0m  [1m[34mSELECT `products`.* FROM `products` WHERE `products`.`id` = 7 LIMIT 1[0m
+D, [2022-03-10T09:59:02.939264 #8500] DEBUG -- :   [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT `products`.* FROM `products` WHERE `products`.`id` = 6 LIMIT 1[0m
+D, [2022-03-10T09:59:02.940630 #8500] DEBUG -- :   [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT `products`.* FROM `products` WHERE `products`.`id` = 8 LIMIT 1[0m
+D, [2022-03-10T09:59:02.944308 #8500] DEBUG -- :   [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-10T09:59:02.945084 #8500] DEBUG -- :   [1m[36mClient Create (0.3ms)[0m  [1m[32mINSERT INTO `clients` (`firstname`, `lastname`) VALUES ('john', 'doedoe')[0m
+D, [2022-03-10T09:59:02.948804 #8500] DEBUG -- :   [1m[36mTRANSACTION (3.1ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-10T09:59:02.950335 #8500] DEBUG -- :   [1m[36mClient Load (0.3ms)[0m  [1m[34mSELECT `clients`.* FROM `clients` ORDER BY `clients`.`id` ASC LIMIT 1[0m
+D, [2022-03-10T09:59:02.961456 #8500] DEBUG -- :   [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT `products`.* FROM `products` ORDER BY `products`.`id` ASC LIMIT 1[0m
+D, [2022-03-10T10:00:30.820711 #18256] DEBUG -- :   [1m[36mClient Load (0.2ms)[0m  [1m[34mSELECT `clients`.* FROM `clients` ORDER BY `clients`.`id` ASC LIMIT 1[0m
+D, [2022-03-10T10:00:30.879083 #18256] DEBUG -- :   [1m[36mProduct Load (0.5ms)[0m  [1m[34mSELECT `products`.* FROM `products` INNER JOIN `order_items` ON `products`.`id` = `order_items`.`item_id` INNER JOIN `orders` ON `order_items`.`order_id` = `orders`.`id` WHERE `orders`.`client_id` = 1 AND (price <= 0.20)[0m
+D, [2022-03-10T10:00:30.880840 #18256] DEBUG -- :   [1m[36mOrderItem Load (0.3ms)[0m  [1m[34mSELECT `order_items`.* FROM `order_items` WHERE (quantity >= 50)[0m
+D, [2022-03-10T10:00:30.893786 #18256] DEBUG -- :   [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT `products`.* FROM `products` WHERE `products`.`id` = 7 LIMIT 1[0m
+D, [2022-03-10T10:00:30.898631 #18256] DEBUG -- :   [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT `products`.* FROM `products` WHERE `products`.`id` = 6 LIMIT 1[0m
+D, [2022-03-10T10:00:30.899908 #18256] DEBUG -- :   [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT `products`.* FROM `products` WHERE `products`.`id` = 8 LIMIT 1[0m
+D, [2022-03-10T10:00:30.902737 #18256] DEBUG -- :   [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-10T10:00:30.903502 #18256] DEBUG -- :   [1m[36mClient Create (0.2ms)[0m  [1m[32mINSERT INTO `clients` (`firstname`, `lastname`) VALUES ('john', 'doedoe')[0m
+D, [2022-03-10T10:00:30.906617 #18256] DEBUG -- :   [1m[36mTRANSACTION (2.8ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-10T10:00:30.907838 #18256] DEBUG -- :   [1m[36mClient Load (0.3ms)[0m  [1m[34mSELECT `clients`.* FROM `clients` ORDER BY `clients`.`id` ASC LIMIT 1[0m
+D, [2022-03-10T10:01:07.282765 #18304] DEBUG -- :   [1m[36mClient Load (0.3ms)[0m  [1m[34mSELECT `clients`.* FROM `clients` ORDER BY `clients`.`id` ASC LIMIT 1[0m
+D, [2022-03-10T10:01:07.342830 #18304] DEBUG -- :   [1m[36mProduct Load (0.5ms)[0m  [1m[34mSELECT `products`.* FROM `products` INNER JOIN `order_items` ON `products`.`id` = `order_items`.`item_id` INNER JOIN `orders` ON `order_items`.`order_id` = `orders`.`id` WHERE `orders`.`client_id` = 1 AND (price <= 0.20)[0m
+D, [2022-03-10T10:01:07.344771 #18304] DEBUG -- :   [1m[36mOrderItem Load (0.5ms)[0m  [1m[34mSELECT `order_items`.* FROM `order_items` WHERE (quantity >= 50)[0m
+D, [2022-03-10T10:01:07.358370 #18304] DEBUG -- :   [1m[36mProduct Load (0.5ms)[0m  [1m[34mSELECT `products`.* FROM `products` WHERE `products`.`id` = 7 LIMIT 1[0m
+D, [2022-03-10T10:01:07.363359 #18304] DEBUG -- :   [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT `products`.* FROM `products` WHERE `products`.`id` = 6 LIMIT 1[0m
+D, [2022-03-10T10:01:07.364747 #18304] DEBUG -- :   [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT `products`.* FROM `products` WHERE `products`.`id` = 8 LIMIT 1[0m
+D, [2022-03-10T10:01:07.367769 #18304] DEBUG -- :   [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-10T10:01:07.368503 #18304] DEBUG -- :   [1m[36mClient Create (0.3ms)[0m  [1m[32mINSERT INTO `clients` (`firstname`, `lastname`) VALUES ('john', 'doedoe')[0m
+D, [2022-03-10T10:01:07.371596 #18304] DEBUG -- :   [1m[36mTRANSACTION (2.6ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-10T10:01:07.373433 #18304] DEBUG -- :   [1m[36mClient Load (0.3ms)[0m  [1m[34mSELECT `clients`.* FROM `clients` ORDER BY `clients`.`id` ASC LIMIT 1[0m
+D, [2022-03-10T10:02:03.213340 #6832] DEBUG -- :   [1m[36mClient Load (0.3ms)[0m  [1m[34mSELECT `clients`.* FROM `clients` ORDER BY `clients`.`id` ASC LIMIT 1[0m
+D, [2022-03-10T10:02:03.270014 #6832] DEBUG -- :   [1m[36mProduct Load (0.4ms)[0m  [1m[34mSELECT `products`.* FROM `products` INNER JOIN `order_items` ON `products`.`id` = `order_items`.`item_id` INNER JOIN `orders` ON `order_items`.`order_id` = `orders`.`id` WHERE `orders`.`client_id` = 1 AND (price <= 0.20)[0m
+D, [2022-03-10T10:02:03.271668 #6832] DEBUG -- :   [1m[36mOrderItem Load (0.3ms)[0m  [1m[34mSELECT `order_items`.* FROM `order_items` WHERE (quantity >= 50)[0m
+D, [2022-03-10T10:02:03.287661 #6832] DEBUG -- :   [1m[36mProduct Load (0.4ms)[0m  [1m[34mSELECT `products`.* FROM `products` WHERE `products`.`id` = 7 LIMIT 1[0m
+D, [2022-03-10T10:02:03.292746 #6832] DEBUG -- :   [1m[36mProduct Load (0.6ms)[0m  [1m[34mSELECT `products`.* FROM `products` WHERE `products`.`id` = 6 LIMIT 1[0m
+D, [2022-03-10T10:02:03.294972 #6832] DEBUG -- :   [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT `products`.* FROM `products` WHERE `products`.`id` = 8 LIMIT 1[0m
+D, [2022-03-10T10:02:03.297996 #6832] DEBUG -- :   [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-10T10:02:03.298658 #6832] DEBUG -- :   [1m[36mClient Create (0.3ms)[0m  [1m[32mINSERT INTO `clients` (`firstname`, `lastname`) VALUES ('john', 'doedoe')[0m
+D, [2022-03-10T10:02:03.302216 #6832] DEBUG -- :   [1m[36mTRANSACTION (3.1ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-10T10:02:03.304048 #6832] DEBUG -- :   [1m[36mClient Load (0.3ms)[0m  [1m[34mSELECT `clients`.* FROM `clients` ORDER BY `clients`.`id` ASC LIMIT 1[0m
+D, [2022-03-10T10:29:03.342932 #19052] DEBUG -- :   [1m[36mClient Load (0.3ms)[0m  [1m[34mSELECT `clients`.* FROM `clients` ORDER BY `clients`.`id` ASC LIMIT 1[0m
+D, [2022-03-10T10:29:03.398975 #19052] DEBUG -- :   [1m[36mProduct Load (0.4ms)[0m  [1m[34mSELECT `products`.* FROM `products` INNER JOIN `order_items` ON `products`.`id` = `order_items`.`item_id` INNER JOIN `orders` ON `order_items`.`order_id` = `orders`.`id` WHERE `orders`.`client_id` = 1 AND (price <= 0.20)[0m
+D, [2022-03-10T10:29:03.400750 #19052] DEBUG -- :   [1m[36mOrderItem Load (0.3ms)[0m  [1m[34mSELECT `order_items`.* FROM `order_items` WHERE (quantity >= 50)[0m
+D, [2022-03-10T10:29:03.413198 #19052] DEBUG -- :   [1m[36mProduct Load (0.4ms)[0m  [1m[34mSELECT `products`.* FROM `products` WHERE `products`.`id` = 7 LIMIT 1[0m
+D, [2022-03-10T10:29:03.416933 #19052] DEBUG -- :   [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT `products`.* FROM `products` WHERE `products`.`id` = 6 LIMIT 1[0m
+D, [2022-03-10T10:29:03.418506 #19052] DEBUG -- :   [1m[36mProduct Load (0.4ms)[0m  [1m[34mSELECT `products`.* FROM `products` WHERE `products`.`id` = 8 LIMIT 1[0m
+D, [2022-03-10T10:29:03.421858 #19052] DEBUG -- :   [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-10T10:29:03.422393 #19052] DEBUG -- :   [1m[36mClient Create (0.4ms)[0m  [1m[32mINSERT INTO `clients` (`firstname`, `lastname`) VALUES ('john', 'doedoe')[0m
+D, [2022-03-10T10:29:03.435414 #19052] DEBUG -- :   [1m[36mTRANSACTION (12.6ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-10T10:29:03.437188 #19052] DEBUG -- :   [1m[36mClient Load (0.4ms)[0m  [1m[34mSELECT `clients`.* FROM `clients` ORDER BY `clients`.`id` ASC LIMIT 1[0m
+D, [2022-03-10T10:29:29.651061 #15308] DEBUG -- :   [1m[36mClient Load (0.2ms)[0m  [1m[34mSELECT `clients`.* FROM `clients` ORDER BY `clients`.`id` ASC LIMIT 1[0m
+D, [2022-03-10T10:29:29.709973 #15308] DEBUG -- :   [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT `products`.* FROM `products` INNER JOIN `order_items` ON `products`.`id` = `order_items`.`item_id` INNER JOIN `orders` ON `order_items`.`order_id` = `orders`.`id` WHERE `orders`.`client_id` = 1 AND (price <= 0.20)[0m
+D, [2022-03-10T10:29:29.711207 #15308] DEBUG -- :   [1m[36mOrderItem Load (0.2ms)[0m  [1m[34mSELECT `order_items`.* FROM `order_items` WHERE (quantity >= 50)[0m
+D, [2022-03-10T10:29:29.726295 #15308] DEBUG -- :   [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT `products`.* FROM `products` WHERE `products`.`id` = 7 LIMIT 1[0m
+D, [2022-03-10T10:29:29.729985 #15308] DEBUG -- :   [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT `products`.* FROM `products` WHERE `products`.`id` = 6 LIMIT 1[0m
+D, [2022-03-10T10:29:29.731149 #15308] DEBUG -- :   [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT `products`.* FROM `products` WHERE `products`.`id` = 8 LIMIT 1[0m
+D, [2022-03-10T10:29:29.733570 #15308] DEBUG -- :   [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-10T10:29:29.734093 #15308] DEBUG -- :   [1m[36mClient Create (0.2ms)[0m  [1m[32mINSERT INTO `clients` (`firstname`, `lastname`) VALUES ('john', 'doedoe')[0m
+D, [2022-03-10T10:29:29.737193 #15308] DEBUG -- :   [1m[36mTRANSACTION (2.6ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-10T10:29:29.738596 #15308] DEBUG -- :   [1m[36mClient Load (0.3ms)[0m  [1m[34mSELECT `clients`.* FROM `clients` ORDER BY `clients`.`id` ASC LIMIT 1[0m
+D, [2022-03-10T10:29:29.749122 #15308] DEBUG -- :   [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT `products`.* FROM `products` ORDER BY `products`.`id` ASC LIMIT 1[0m
+D, [2022-03-10T10:30:20.464934 #11304] DEBUG -- :   [1m[36mClient Load (0.2ms)[0m  [1m[34mSELECT `clients`.* FROM `clients` ORDER BY `clients`.`id` ASC LIMIT 1[0m
+D, [2022-03-10T10:30:20.553593 #11304] DEBUG -- :   [1m[36mProduct Load (1.6ms)[0m  [1m[34mSELECT `products`.* FROM `products` INNER JOIN `order_items` ON `products`.`id` = `order_items`.`item_id` INNER JOIN `orders` ON `order_items`.`order_id` = `orders`.`id` WHERE `orders`.`client_id` = 1 AND (price <= 0.20)[0m
+D, [2022-03-10T10:30:20.566314 #11304] DEBUG -- :   [1m[36mOrderItem Load (0.4ms)[0m  [1m[34mSELECT `order_items`.* FROM `order_items` WHERE (quantity >= 50)[0m
+D, [2022-03-10T10:30:20.597697 #11304] DEBUG -- :   [1m[36mProduct Load (0.4ms)[0m  [1m[34mSELECT `products`.* FROM `products` WHERE `products`.`id` = 7 LIMIT 1[0m
+D, [2022-03-10T10:30:20.606669 #11304] DEBUG -- :   [1m[36mProduct Load (0.6ms)[0m  [1m[34mSELECT `products`.* FROM `products` WHERE `products`.`id` = 6 LIMIT 1[0m
+D, [2022-03-10T10:30:20.609001 #11304] DEBUG -- :   [1m[36mProduct Load (0.7ms)[0m  [1m[34mSELECT `products`.* FROM `products` WHERE `products`.`id` = 8 LIMIT 1[0m
+D, [2022-03-10T10:30:20.612036 #11304] DEBUG -- :   [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-10T10:30:20.612611 #11304] DEBUG -- :   [1m[36mClient Create (0.4ms)[0m  [1m[32mINSERT INTO `clients` (`firstname`, `lastname`) VALUES ('john', 'doedoe')[0m
+D, [2022-03-10T10:30:20.615570 #11304] DEBUG -- :   [1m[36mTRANSACTION (2.6ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-10T10:30:20.616993 #11304] DEBUG -- :   [1m[36mClient Load (0.4ms)[0m  [1m[34mSELECT `clients`.* FROM `clients` ORDER BY `clients`.`id` ASC LIMIT 1[0m
+D, [2022-03-10T10:30:20.639129 #11304] DEBUG -- :   [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT `products`.* FROM `products` ORDER BY `products`.`id` ASC LIMIT 1[0m
+D, [2022-03-10T10:30:26.251422 #1292] DEBUG -- :   [1m[36mClient Load (0.2ms)[0m  [1m[34mSELECT `clients`.* FROM `clients` ORDER BY `clients`.`id` ASC LIMIT 1[0m
+D, [2022-03-10T10:30:26.305143 #1292] DEBUG -- :   [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT `products`.* FROM `products` INNER JOIN `order_items` ON `products`.`id` = `order_items`.`item_id` INNER JOIN `orders` ON `order_items`.`order_id` = `orders`.`id` WHERE `orders`.`client_id` = 1 AND (price <= 0.20)[0m
+D, [2022-03-10T10:30:26.306629 #1292] DEBUG -- :   [1m[36mOrderItem Load (0.2ms)[0m  [1m[34mSELECT `order_items`.* FROM `order_items` WHERE (quantity >= 50)[0m
+D, [2022-03-10T10:30:26.319136 #1292] DEBUG -- :   [1m[36mProduct Load (0.5ms)[0m  [1m[34mSELECT `products`.* FROM `products` WHERE `products`.`id` = 7 LIMIT 1[0m
+D, [2022-03-10T10:30:26.323625 #1292] DEBUG -- :   [1m[36mProduct Load (0.5ms)[0m  [1m[34mSELECT `products`.* FROM `products` WHERE `products`.`id` = 6 LIMIT 1[0m
+D, [2022-03-10T10:30:26.326465 #1292] DEBUG -- :   [1m[36mProduct Load (0.5ms)[0m  [1m[34mSELECT `products`.* FROM `products` WHERE `products`.`id` = 8 LIMIT 1[0m
+D, [2022-03-10T10:30:26.329468 #1292] DEBUG -- :   [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-10T10:30:26.330120 #1292] DEBUG -- :   [1m[36mClient Create (0.3ms)[0m  [1m[32mINSERT INTO `clients` (`firstname`, `lastname`) VALUES ('john', 'doedoe')[0m
+D, [2022-03-10T10:30:26.333146 #1292] DEBUG -- :   [1m[36mTRANSACTION (2.6ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-10T10:30:26.334455 #1292] DEBUG -- :   [1m[36mClient Load (0.2ms)[0m  [1m[34mSELECT `clients`.* FROM `clients` ORDER BY `clients`.`id` ASC LIMIT 1[0m
+D, [2022-03-10T10:30:26.347973 #1292] DEBUG -- :   [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT `products`.* FROM `products` ORDER BY `products`.`id` ASC LIMIT 1[0m
+D, [2022-03-10T10:30:26.350442 #1292] DEBUG -- :   [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT `products`.* FROM `products` ORDER BY `products`.`id` ASC LIMIT 1[0m
+D, [2022-03-10T10:31:17.435218 #15636] DEBUG -- :   [1m[36mClient Load (0.3ms)[0m  [1m[34mSELECT `clients`.* FROM `clients` ORDER BY `clients`.`id` ASC LIMIT 1[0m
+D, [2022-03-10T10:31:17.490160 #15636] DEBUG -- :   [1m[36mProduct Load (0.4ms)[0m  [1m[34mSELECT `products`.* FROM `products` INNER JOIN `order_items` ON `products`.`id` = `order_items`.`item_id` INNER JOIN `orders` ON `order_items`.`order_id` = `orders`.`id` WHERE `orders`.`client_id` = 1 AND (price <= 0.20)[0m
+D, [2022-03-10T10:31:17.492083 #15636] DEBUG -- :   [1m[36mOrderItem Load (0.3ms)[0m  [1m[34mSELECT `order_items`.* FROM `order_items` WHERE (quantity >= 50)[0m
+D, [2022-03-10T10:31:17.505335 #15636] DEBUG -- :   [1m[36mProduct Load (0.4ms)[0m  [1m[34mSELECT `products`.* FROM `products` WHERE `products`.`id` = 7 LIMIT 1[0m
+D, [2022-03-10T10:31:17.508642 #15636] DEBUG -- :   [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT `products`.* FROM `products` WHERE `products`.`id` = 6 LIMIT 1[0m
+D, [2022-03-10T10:31:17.510017 #15636] DEBUG -- :   [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT `products`.* FROM `products` WHERE `products`.`id` = 8 LIMIT 1[0m
+D, [2022-03-10T10:31:17.512935 #15636] DEBUG -- :   [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-10T10:31:17.513377 #15636] DEBUG -- :   [1m[36mClient Create (0.3ms)[0m  [1m[32mINSERT INTO `clients` (`firstname`, `lastname`) VALUES ('john', 'doedoe')[0m
+D, [2022-03-10T10:31:17.516519 #15636] DEBUG -- :   [1m[36mTRANSACTION (2.7ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-10T10:31:17.518582 #15636] DEBUG -- :   [1m[36mClient Load (0.3ms)[0m  [1m[34mSELECT `clients`.* FROM `clients` ORDER BY `clients`.`id` ASC LIMIT 1[0m
+D, [2022-03-10T10:31:17.530853 #15636] DEBUG -- :   [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT `products`.* FROM `products` ORDER BY `products`.`id` ASC LIMIT 1[0m
+D, [2022-03-10T10:31:17.533662 #15636] DEBUG -- :   [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT `products`.* FROM `products` ORDER BY `products`.`id` ASC LIMIT 1[0m
+D, [2022-03-10T10:31:50.301834 #7108] DEBUG -- :   [1m[36mClient Load (0.2ms)[0m  [1m[34mSELECT `clients`.* FROM `clients` ORDER BY `clients`.`id` ASC LIMIT 1[0m
+D, [2022-03-10T10:31:50.356124 #7108] DEBUG -- :   [1m[36mProduct Load (0.4ms)[0m  [1m[34mSELECT `products`.* FROM `products` INNER JOIN `order_items` ON `products`.`id` = `order_items`.`item_id` INNER JOIN `orders` ON `order_items`.`order_id` = `orders`.`id` WHERE `orders`.`client_id` = 1 AND (price <= 0.20)[0m
+D, [2022-03-10T10:31:50.358287 #7108] DEBUG -- :   [1m[36mOrderItem Load (0.3ms)[0m  [1m[34mSELECT `order_items`.* FROM `order_items` WHERE (quantity >= 50)[0m
+D, [2022-03-10T10:31:50.371667 #7108] DEBUG -- :   [1m[36mProduct Load (0.4ms)[0m  [1m[34mSELECT `products`.* FROM `products` WHERE `products`.`id` = 7 LIMIT 1[0m
+D, [2022-03-10T10:31:50.375900 #7108] DEBUG -- :   [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT `products`.* FROM `products` WHERE `products`.`id` = 6 LIMIT 1[0m
+D, [2022-03-10T10:31:50.377175 #7108] DEBUG -- :   [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT `products`.* FROM `products` WHERE `products`.`id` = 8 LIMIT 1[0m
+D, [2022-03-10T10:31:50.380212 #7108] DEBUG -- :   [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-10T10:31:50.381005 #7108] DEBUG -- :   [1m[36mClient Create (0.3ms)[0m  [1m[32mINSERT INTO `clients` (`firstname`, `lastname`) VALUES ('john', 'doedoe')[0m
+D, [2022-03-10T10:31:50.383908 #7108] DEBUG -- :   [1m[36mTRANSACTION (2.4ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-10T10:31:50.385991 #7108] DEBUG -- :   [1m[36mClient Load (0.4ms)[0m  [1m[34mSELECT `clients`.* FROM `clients` ORDER BY `clients`.`id` ASC LIMIT 1[0m
+D, [2022-03-10T10:31:50.397622 #7108] DEBUG -- :   [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT `products`.* FROM `products` ORDER BY `products`.`id` ASC LIMIT 1[0m
+D, [2022-03-10T10:31:50.399822 #7108] DEBUG -- :   [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT `products`.* FROM `products` ORDER BY `products`.`id` ASC LIMIT 1[0m
+D, [2022-03-10T10:32:28.010863 #1700] DEBUG -- :   [1m[36mClient Load (0.2ms)[0m  [1m[34mSELECT `clients`.* FROM `clients` ORDER BY `clients`.`id` ASC LIMIT 1[0m
+D, [2022-03-10T10:32:28.064510 #1700] DEBUG -- :   [1m[36mProduct Load (0.4ms)[0m  [1m[34mSELECT `products`.* FROM `products` INNER JOIN `order_items` ON `products`.`id` = `order_items`.`item_id` INNER JOIN `orders` ON `order_items`.`order_id` = `orders`.`id` WHERE `orders`.`client_id` = 1 AND (price <= 0.20)[0m
+D, [2022-03-10T10:32:28.066588 #1700] DEBUG -- :   [1m[36mOrderItem Load (0.3ms)[0m  [1m[34mSELECT `order_items`.* FROM `order_items` WHERE (quantity >= 50)[0m
+D, [2022-03-10T10:32:28.081747 #1700] DEBUG -- :   [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT `products`.* FROM `products` WHERE `products`.`id` = 7 LIMIT 1[0m
+D, [2022-03-10T10:32:28.085221 #1700] DEBUG -- :   [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT `products`.* FROM `products` WHERE `products`.`id` = 6 LIMIT 1[0m
+D, [2022-03-10T10:32:28.087273 #1700] DEBUG -- :   [1m[36mProduct Load (0.4ms)[0m  [1m[34mSELECT `products`.* FROM `products` WHERE `products`.`id` = 8 LIMIT 1[0m
+D, [2022-03-10T10:32:28.090749 #1700] DEBUG -- :   [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-10T10:32:28.091261 #1700] DEBUG -- :   [1m[36mClient Create (0.3ms)[0m  [1m[32mINSERT INTO `clients` (`firstname`, `lastname`) VALUES ('john', 'doedoe')[0m
+D, [2022-03-10T10:32:28.094447 #1700] DEBUG -- :   [1m[36mTRANSACTION (2.9ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-10T10:32:28.096033 #1700] DEBUG -- :   [1m[36mClient Load (0.4ms)[0m  [1m[34mSELECT `clients`.* FROM `clients` ORDER BY `clients`.`id` ASC LIMIT 1[0m
+D, [2022-03-10T10:32:28.106478 #1700] DEBUG -- :   [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT `products`.* FROM `products` ORDER BY `products`.`id` ASC LIMIT 1[0m
+D, [2022-03-10T10:32:28.108747 #1700] DEBUG -- :   [1m[36mProduct Load (0.4ms)[0m  [1m[34mSELECT `products`.* FROM `products` ORDER BY `products`.`id` ASC LIMIT 1[0m
+D, [2022-03-10T10:32:28.110583 #1700] DEBUG -- :   [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-10T10:32:28.111120 #1700] DEBUG -- :   [1m[36mOrder Create (0.3ms)[0m  [1m[32mINSERT INTO `orders` (`created_at`, `updated_at`, `client_id`) VALUES ('2022-03-10 09:32:28.109795', '2022-03-10 09:32:28.109795', 1)[0m
+D, [2022-03-10T10:32:28.112888 #1700] DEBUG -- :   [1m[36mOrderItem Create (0.4ms)[0m  [1m[32mINSERT INTO `order_items` (`order_id`, `item_id`, `quantity`, `item_price`) VALUES (14, 1, 10, 0.05)[0m
+D, [2022-03-10T10:32:28.116018 #1700] DEBUG -- :   [1m[36mTRANSACTION (2.8ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-10T10:32:53.700054 #5984] DEBUG -- :   [1m[36mClient Load (0.2ms)[0m  [1m[34mSELECT `clients`.* FROM `clients` ORDER BY `clients`.`id` ASC LIMIT 1[0m
+D, [2022-03-10T10:32:53.761097 #5984] DEBUG -- :   [1m[36mProduct Load (0.5ms)[0m  [1m[34mSELECT `products`.* FROM `products` INNER JOIN `order_items` ON `products`.`id` = `order_items`.`item_id` INNER JOIN `orders` ON `order_items`.`order_id` = `orders`.`id` WHERE `orders`.`client_id` = 1 AND (price <= 0.20)[0m
+D, [2022-03-10T10:32:53.765131 #5984] DEBUG -- :   [1m[36mOrderItem Load (0.3ms)[0m  [1m[34mSELECT `order_items`.* FROM `order_items` WHERE (quantity >= 50)[0m
+D, [2022-03-10T10:32:53.779616 #5984] DEBUG -- :   [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT `products`.* FROM `products` WHERE `products`.`id` = 7 LIMIT 1[0m
+D, [2022-03-10T10:32:53.780991 #5984] DEBUG -- :   [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT `products`.* FROM `products` WHERE `products`.`id` = 6 LIMIT 1[0m
+D, [2022-03-10T10:32:53.782318 #5984] DEBUG -- :   [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT `products`.* FROM `products` WHERE `products`.`id` = 8 LIMIT 1[0m
+D, [2022-03-10T10:32:53.785148 #5984] DEBUG -- :   [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-10T10:32:53.785835 #5984] DEBUG -- :   [1m[36mClient Create (0.2ms)[0m  [1m[32mINSERT INTO `clients` (`firstname`, `lastname`) VALUES ('john', 'doedoe')[0m
+D, [2022-03-10T10:32:53.789614 #5984] DEBUG -- :   [1m[36mTRANSACTION (3.0ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-10T10:32:53.791213 #5984] DEBUG -- :   [1m[36mClient Load (0.3ms)[0m  [1m[34mSELECT `clients`.* FROM `clients` ORDER BY `clients`.`id` ASC LIMIT 1[0m
+D, [2022-03-10T10:32:53.802536 #5984] DEBUG -- :   [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT `products`.* FROM `products` ORDER BY `products`.`id` ASC LIMIT 1[0m
+D, [2022-03-10T10:32:53.805195 #5984] DEBUG -- :   [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT `products`.* FROM `products` ORDER BY `products`.`id` ASC LIMIT 1[0m
+D, [2022-03-10T10:32:53.807024 #5984] DEBUG -- :   [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-10T10:32:53.807346 #5984] DEBUG -- :   [1m[36mOrder Create (0.2ms)[0m  [1m[32mINSERT INTO `orders` (`created_at`, `updated_at`, `client_id`) VALUES ('2022-03-10 09:32:53.806402', '2022-03-10 09:32:53.806402', 1)[0m
+D, [2022-03-10T10:32:53.808108 #5984] DEBUG -- :   [1m[36mOrderItem Create (0.1ms)[0m  [1m[32mINSERT INTO `order_items` (`order_id`, `item_id`, `quantity`, `item_price`) VALUES (15, 1, 10, 0.05)[0m
+D, [2022-03-10T10:32:53.811201 #5984] DEBUG -- :   [1m[36mTRANSACTION (2.8ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-16T13:44:35.510712 #12324] DEBUG -- :   [1m[36mOrder Load (5.9ms)[0m  [1m[34mSELECT `orders`.* FROM `orders` ORDER BY `orders`.`id` ASC LIMIT 1[0m
+D, [2022-03-16T13:44:55.267848 #1324] DEBUG -- :   [1m[36mOrder Load (0.4ms)[0m  [1m[34mSELECT `orders`.* FROM `orders` ORDER BY `orders`.`id` ASC LIMIT 1[0m
+D, [2022-03-16T13:44:55.355594 #1324] DEBUG -- :   [1m[35m (7.9ms)[0m  [1m[34mSELECT SUM(`order_items`.`item_price`) FROM `order_items` WHERE `order_items`.`order_id` = 1[0m
+D, [2022-03-16T13:49:31.338419 #16924] DEBUG -- :   [1m[36mOrder Load (0.5ms)[0m  [1m[34mSELECT `orders`.* FROM `orders` ORDER BY `orders`.`id` ASC LIMIT 1[0m
+D, [2022-03-16T13:49:31.381309 #16924] DEBUG -- :   [1m[35m (0.5ms)[0m  [1m[34mSELECT SUM(`order_items`.`item_price`) FROM `order_items` WHERE `order_items`.`order_id` = 1[0m
+D, [2022-03-16T13:49:49.689821 #10064] DEBUG -- :   [1m[36mOrder Load (0.2ms)[0m  [1m[34mSELECT `orders`.* FROM `orders` ORDER BY `orders`.`id` ASC LIMIT 1[0m
+D, [2022-03-16T13:49:49.726409 #10064] DEBUG -- :   [1m[35m (0.4ms)[0m  [1m[34mSELECT SUM(`order_items`.`item_price`) FROM `order_items` WHERE `order_items`.`order_id` = 1[0m
+D, [2022-03-16T13:49:49.729131 #10064] DEBUG -- :   [1m[36mOrder Load (0.3ms)[0m  [1m[34mSELECT `orders`.* FROM `orders` ORDER BY `orders`.`id` ASC LIMIT 1[0m
+D, [2022-03-16T13:49:49.730778 #10064] DEBUG -- :   [1m[36mOrderItem Load (0.2ms)[0m  [1m[34mSELECT `order_items`.* FROM `order_items` WHERE `order_items`.`order_id` = 1 LIMIT 1[0m
+D, [2022-03-16T13:50:55.928548 #12416] DEBUG -- :   [1m[36mOrder Load (0.1ms)[0m  [1m[34mSELECT `orders`.* FROM `orders` ORDER BY `orders`.`id` ASC LIMIT 1[0m
+D, [2022-03-16T13:50:55.966294 #12416] DEBUG -- :   [1m[35m (0.6ms)[0m  [1m[34mSELECT SUM(`order_items`.`item_price`) FROM `order_items` WHERE `order_items`.`order_id` = 1[0m
+D, [2022-03-16T13:50:55.968899 #12416] DEBUG -- :   [1m[36mOrder Load (0.4ms)[0m  [1m[34mSELECT `orders`.* FROM `orders` ORDER BY `orders`.`id` ASC LIMIT 1[0m
+D, [2022-03-16T13:50:55.971123 #12416] DEBUG -- :   [1m[36mOrderItem Load (0.2ms)[0m  [1m[34mSELECT `order_items`.* FROM `order_items` WHERE `order_items`.`order_id` = 1 LIMIT 1[0m
+D, [2022-03-16T13:51:56.683930 #1472] DEBUG -- :   [1m[36mOrder Load (0.3ms)[0m  [1m[34mSELECT `orders`.* FROM `orders` ORDER BY `orders`.`id` ASC LIMIT 1[0m
+D, [2022-03-16T13:51:56.726056 #1472] DEBUG -- :   [1m[35m (2.5ms)[0m  [1m[34mSELECT SUM(price) FROM `order_items` WHERE `order_items`.`order_id` = 1[0m
+D, [2022-03-16T13:55:33.403738 #1952] DEBUG -- :   [1m[36mOrder Load (0.4ms)[0m  [1m[34mSELECT `orders`.* FROM `orders` ORDER BY `orders`.`id` ASC LIMIT 1[0m
+D, [2022-03-16T13:55:33.445102 #1952] DEBUG -- :   [1m[35m (0.4ms)[0m  [1m[34mSELECT SUM(`order_items`.`item_price`) FROM `order_items` WHERE `order_items`.`order_id` = 1[0m
+D, [2022-03-16T13:55:33.447252 #1952] DEBUG -- :   [1m[36mOrder Load (0.2ms)[0m  [1m[34mSELECT `orders`.* FROM `orders` ORDER BY `orders`.`id` ASC LIMIT 1[0m
+D, [2022-03-16T13:55:33.448737 #1952] DEBUG -- :   [1m[36mOrderItem Load (0.2ms)[0m  [1m[34mSELECT `order_items`.* FROM `order_items` WHERE `order_items`.`order_id` = 1 LIMIT 1[0m
+D, [2022-03-16T13:55:50.818064 #12392] DEBUG -- :   [1m[36mOrder Load (0.2ms)[0m  [1m[34mSELECT `orders`.* FROM `orders` ORDER BY `orders`.`id` ASC LIMIT 1[0m
+D, [2022-03-16T13:55:50.856037 #12392] DEBUG -- :   [1m[35m (0.3ms)[0m  [1m[34mSELECT SUM(price) FROM `order_items` WHERE `order_items`.`order_id` = 1[0m
+D, [2022-03-16T13:55:59.661598 #14552] DEBUG -- :   [1m[36mOrder Load (0.2ms)[0m  [1m[34mSELECT `orders`.* FROM `orders` ORDER BY `orders`.`id` ASC LIMIT 1[0m
+D, [2022-03-16T13:55:59.696794 #14552] DEBUG -- :   [1m[35m (0.4ms)[0m  [1m[34mSELECT SUM(price) FROM `order_items` WHERE `order_items`.`order_id` = 1[0m
+D, [2022-03-16T13:56:07.053150 #17556] DEBUG -- :   [1m[36mOrder Load (0.2ms)[0m  [1m[34mSELECT `orders`.* FROM `orders` ORDER BY `orders`.`id` ASC LIMIT 1[0m
+D, [2022-03-16T13:56:07.093168 #17556] DEBUG -- :   [1m[35m (0.3ms)[0m  [1m[34mSELECT SUM(price) FROM `order_items` WHERE `order_items`.`order_id` = 1[0m
+D, [2022-03-16T13:56:12.278174 #4332] DEBUG -- :   [1m[36mOrder Load (0.2ms)[0m  [1m[34mSELECT `orders`.* FROM `orders` ORDER BY `orders`.`id` ASC LIMIT 1[0m
+D, [2022-03-16T13:56:12.314418 #4332] DEBUG -- :   [1m[35m (0.4ms)[0m  [1m[34mSELECT SUM(price) FROM `order_items` WHERE `order_items`.`order_id` = 1[0m
+D, [2022-03-16T13:56:30.539215 #17588] DEBUG -- :   [1m[36mOrder Load (0.8ms)[0m  [1m[34mSELECT `orders`.* FROM `orders` ORDER BY `orders`.`id` ASC LIMIT 1[0m
+D, [2022-03-16T13:56:30.574915 #17588] DEBUG -- :   [1m[35m (0.4ms)[0m  [1m[34mSELECT SUM(price) FROM `order_items` WHERE `order_items`.`order_id` = 1[0m
+D, [2022-03-16T13:56:49.339745 #16484] DEBUG -- :   [1m[36mOrder Load (0.5ms)[0m  [1m[34mSELECT `orders`.* FROM `orders` ORDER BY `orders`.`id` ASC LIMIT 1[0m
+D, [2022-03-16T13:56:49.375422 #16484] DEBUG -- :   [1m[36mOrderItem Load (0.3ms)[0m  [1m[34mSELECT `order_items`.* FROM `order_items` WHERE `order_items`.`order_id` = 1[0m
+D, [2022-03-16T13:57:26.695801 #16884] DEBUG -- :   [1m[36mOrder Load (0.2ms)[0m  [1m[34mSELECT `orders`.* FROM `orders` ORDER BY `orders`.`id` ASC LIMIT 1[0m
+D, [2022-03-16T13:57:26.735913 #16884] DEBUG -- :   [1m[36mOrderItem Load (0.4ms)[0m  [1m[34mSELECT `order_items`.* FROM `order_items` WHERE `order_items`.`order_id` = 1[0m
+D, [2022-03-16T13:57:26.745326 #16884] DEBUG -- :   [1m[36mOrder Load (0.3ms)[0m  [1m[34mSELECT `orders`.* FROM `orders` ORDER BY `orders`.`id` ASC LIMIT 1[0m
+D, [2022-03-16T13:57:26.746705 #16884] DEBUG -- :   [1m[36mOrderItem Load (0.3ms)[0m  [1m[34mSELECT `order_items`.* FROM `order_items` WHERE `order_items`.`order_id` = 1 LIMIT 1[0m
+D, [2022-03-16T13:57:44.994711 #11160] DEBUG -- :   [1m[36mOrder Load (0.2ms)[0m  [1m[34mSELECT `orders`.* FROM `orders` ORDER BY `orders`.`id` ASC LIMIT 1[0m
+D, [2022-03-16T13:57:45.039867 #11160] DEBUG -- :   [1m[36mOrderItem Load (0.4ms)[0m  [1m[34mSELECT `order_items`.* FROM `order_items` WHERE `order_items`.`order_id` = 1[0m
+D, [2022-03-16T13:57:45.048335 #11160] DEBUG -- :   [1m[36mOrder Load (0.2ms)[0m  [1m[34mSELECT `orders`.* FROM `orders` ORDER BY `orders`.`id` ASC LIMIT 1[0m
+D, [2022-03-16T13:57:45.049814 #11160] DEBUG -- :   [1m[36mOrderItem Load (0.4ms)[0m  [1m[34mSELECT `order_items`.* FROM `order_items` WHERE `order_items`.`order_id` = 1 LIMIT 1[0m
+D, [2022-03-16T13:58:41.078769 #7028] DEBUG -- :   [1m[36mOrder Load (0.2ms)[0m  [1m[34mSELECT `orders`.* FROM `orders` ORDER BY `orders`.`id` ASC LIMIT 1[0m
+D, [2022-03-16T13:58:41.119438 #7028] DEBUG -- :   [1m[36mOrderItem Load (0.3ms)[0m  [1m[34mSELECT `order_items`.* FROM `order_items` WHERE `order_items`.`order_id` = 1[0m
+D, [2022-03-16T13:58:41.127568 #7028] DEBUG -- :   [1m[36mOrder Load (0.3ms)[0m  [1m[34mSELECT `orders`.* FROM `orders` ORDER BY `orders`.`id` ASC LIMIT 1[0m
+D, [2022-03-16T13:58:41.128809 #7028] DEBUG -- :   [1m[36mOrderItem Load (0.3ms)[0m  [1m[34mSELECT `order_items`.* FROM `order_items` WHERE `order_items`.`order_id` = 1 LIMIT 1[0m
+D, [2022-03-16T13:58:56.195330 #4256] DEBUG -- :   [1m[36mOrder Load (0.2ms)[0m  [1m[34mSELECT `orders`.* FROM `orders` ORDER BY `orders`.`id` ASC LIMIT 1[0m
+D, [2022-03-16T13:58:56.229705 #4256] DEBUG -- :   [1m[36mOrderItem Load (0.4ms)[0m  [1m[34mSELECT `order_items`.* FROM `order_items` WHERE `order_items`.`order_id` = 1[0m
+D, [2022-03-16T13:58:56.239095 #4256] DEBUG -- :   [1m[36mOrder Load (0.4ms)[0m  [1m[34mSELECT `orders`.* FROM `orders` ORDER BY `orders`.`id` ASC LIMIT 1[0m
+D, [2022-03-16T13:58:56.240735 #4256] DEBUG -- :   [1m[36mOrderItem Load (0.4ms)[0m  [1m[34mSELECT `order_items`.* FROM `order_items` WHERE `order_items`.`order_id` = 1 LIMIT 1[0m
+D, [2022-03-16T13:59:13.292576 #3488] DEBUG -- :   [1m[36mOrder Load (0.2ms)[0m  [1m[34mSELECT `orders`.* FROM `orders` ORDER BY `orders`.`id` ASC LIMIT 1[0m
+D, [2022-03-16T13:59:13.327127 #3488] DEBUG -- :   [1m[36mOrderItem Load (0.3ms)[0m  [1m[34mSELECT `order_items`.* FROM `order_items` WHERE `order_items`.`order_id` = 1[0m
+D, [2022-03-16T13:59:13.336002 #3488] DEBUG -- :   [1m[36mOrder Load (0.4ms)[0m  [1m[34mSELECT `orders`.* FROM `orders` ORDER BY `orders`.`id` ASC LIMIT 1[0m
+D, [2022-03-16T13:59:13.337494 #3488] DEBUG -- :   [1m[36mOrderItem Load (0.4ms)[0m  [1m[34mSELECT `order_items`.* FROM `order_items` WHERE `order_items`.`order_id` = 1 LIMIT 1[0m
+D, [2022-03-16T14:08:07.968760 #3664] DEBUG -- :   [1m[36mOrder Load (0.3ms)[0m  [1m[34mSELECT `orders`.* FROM `orders` ORDER BY `orders`.`id` ASC LIMIT 1[0m
+D, [2022-03-16T14:08:08.013277 #3664] DEBUG -- :   [1m[36mOrderItem Load (0.3ms)[0m  [1m[34mSELECT `order_items`.* FROM `order_items` WHERE `order_items`.`order_id` = 1[0m
+D, [2022-03-16T14:08:08.022675 #3664] DEBUG -- :   [1m[36mOrder Load (0.3ms)[0m  [1m[34mSELECT `orders`.* FROM `orders` ORDER BY `orders`.`id` ASC LIMIT 1[0m
+D, [2022-03-16T14:08:08.024077 #3664] DEBUG -- :   [1m[36mOrderItem Load (0.3ms)[0m  [1m[34mSELECT `order_items`.* FROM `order_items` WHERE `order_items`.`order_id` = 1 LIMIT 1[0m
+D, [2022-03-16T14:09:07.391497 #17684] DEBUG -- :   [1m[36mOrder Load (0.2ms)[0m  [1m[34mSELECT `orders`.* FROM `orders` ORDER BY `orders`.`id` ASC LIMIT 1[0m
+D, [2022-03-16T14:09:07.449087 #17684] DEBUG -- :   [1m[36mOrderItem Load (0.3ms)[0m  [1m[34mSELECT `order_items`.* FROM `order_items` WHERE `order_items`.`order_id` = 1[0m
+D, [2022-03-16T14:09:07.463918 #17684] DEBUG -- :   [1m[36mOrder Load (0.5ms)[0m  [1m[34mSELECT `orders`.* FROM `orders` ORDER BY `orders`.`id` ASC LIMIT 1[0m
+D, [2022-03-16T14:09:07.465797 #17684] DEBUG -- :   [1m[36mOrderItem Load (0.4ms)[0m  [1m[34mSELECT `order_items`.* FROM `order_items` WHERE `order_items`.`order_id` = 1 LIMIT 1[0m
+D, [2022-03-16T14:10:55.324625 #14288] DEBUG -- :   [1m[36mOrder Load (0.2ms)[0m  [1m[34mSELECT `orders`.* FROM `orders` ORDER BY `orders`.`id` ASC LIMIT 1[0m
+D, [2022-03-16T14:10:55.365561 #14288] DEBUG -- :   [1m[36mOrderItem Load (0.5ms)[0m  [1m[34mSELECT `order_items`.* FROM `order_items` WHERE `order_items`.`order_id` = 1[0m
+D, [2022-03-16T14:10:55.375946 #14288] DEBUG -- :   [1m[36mOrder Load (0.4ms)[0m  [1m[34mSELECT `orders`.* FROM `orders` ORDER BY `orders`.`id` ASC LIMIT 1[0m
+D, [2022-03-16T14:10:55.377216 #14288] DEBUG -- :   [1m[36mOrderItem Load (0.3ms)[0m  [1m[34mSELECT `order_items`.* FROM `order_items` WHERE `order_items`.`order_id` = 1 LIMIT 1[0m
+D, [2022-03-16T14:14:03.894378 #5284] DEBUG -- :   [1m[36mOrder Load (0.3ms)[0m  [1m[34mSELECT `orders`.* FROM `orders` ORDER BY `orders`.`id` ASC LIMIT 1[0m
+D, [2022-03-16T14:14:03.930573 #5284] DEBUG -- :   [1m[36mOrderItem Load (0.3ms)[0m  [1m[34mSELECT `order_items`.* FROM `order_items` WHERE `order_items`.`order_id` = 1[0m
+D, [2022-03-16T14:14:03.939774 #5284] DEBUG -- :   [1m[36mOrder Load (0.4ms)[0m  [1m[34mSELECT `orders`.* FROM `orders` ORDER BY `orders`.`id` ASC LIMIT 1[0m
+D, [2022-03-16T14:14:03.941169 #5284] DEBUG -- :   [1m[36mOrderItem Load (0.3ms)[0m  [1m[34mSELECT `order_items`.* FROM `order_items` WHERE `order_items`.`order_id` = 1 LIMIT 1[0m
+D, [2022-03-17T08:12:38.580449 #19364] DEBUG -- :   [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-17T08:12:38.581667 #19364] DEBUG -- :   [1m[36mCategory Create (0.5ms)[0m  [1m[32mINSERT INTO `categories` (`name`) VALUES ('PCR')[0m
+D, [2022-03-17T08:12:38.587008 #19364] DEBUG -- :   [1m[36mTRANSACTION (2.9ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-17T08:12:38.587629 #19364] DEBUG -- :   [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-17T08:12:38.588055 #19364] DEBUG -- :   [1m[36mCategory Create (0.3ms)[0m  [1m[32mINSERT INTO `categories` (`name`) VALUES ('SUP')[0m
+D, [2022-03-17T08:12:38.590457 #19364] DEBUG -- :   [1m[36mTRANSACTION (2.1ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-17T08:12:38.618550 #19364] DEBUG -- :   [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-17T08:12:38.619949 #19364] DEBUG -- :   [1m[36mProduct Create (1.0ms)[0m  [1m[32mINSERT INTO `products` (`name`, `price`, `description`, `category_id`) VALUES ('apple', 0.05, 'Little apple', 1)[0m
+D, [2022-03-17T08:12:38.623138 #19364] DEBUG -- :   [1m[36mTRANSACTION (2.6ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-17T08:12:38.624205 #19364] DEBUG -- :   [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-17T08:12:38.624720 #19364] DEBUG -- :   [1m[36mProduct Create (0.3ms)[0m  [1m[32mINSERT INTO `products` (`name`, `price`, `description`, `category_id`) VALUES ('lemon', 6.15, 'Big lemon', 1)[0m
+D, [2022-03-17T08:12:38.627656 #19364] DEBUG -- :   [1m[36mTRANSACTION (2.6ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-17T08:12:38.628610 #19364] DEBUG -- :   [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-17T08:12:38.629200 #19364] DEBUG -- :   [1m[36mProduct Create (0.3ms)[0m  [1m[32mINSERT INTO `products` (`name`, `price`, `description`, `category_id`) VALUES ('limousine', 25.95, 'A limousine', 2)[0m
+D, [2022-03-17T08:12:38.632293 #19364] DEBUG -- :   [1m[36mTRANSACTION (2.7ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-17T08:12:38.633491 #19364] DEBUG -- :   [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-17T08:12:38.634107 #19364] DEBUG -- :   [1m[36mProduct Create (0.3ms)[0m  [1m[32mINSERT INTO `products` (`name`, `price`, `description`, `category_id`) VALUES ('truck', 200.0, 'A truck', 2)[0m
+D, [2022-03-17T08:12:38.637704 #19364] DEBUG -- :   [1m[36mTRANSACTION (3.0ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-17T08:12:38.643998 #19364] DEBUG -- :   [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-17T08:12:38.644636 #19364] DEBUG -- :   [1m[36mClient Create (0.3ms)[0m  [1m[32mINSERT INTO `clients` (`firstname`, `lastname`) VALUES ('yannick', 'baudraz')[0m
+D, [2022-03-17T08:12:38.647966 #19364] DEBUG -- :   [1m[36mTRANSACTION (2.9ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-17T08:12:38.649048 #19364] DEBUG -- :   [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-17T08:12:38.649647 #19364] DEBUG -- :   [1m[36mClient Create (0.2ms)[0m  [1m[32mINSERT INTO `clients` (`firstname`, `lastname`) VALUES ('john', 'doedoe')[0m
+D, [2022-03-17T08:12:38.652228 #19364] DEBUG -- :   [1m[36mTRANSACTION (2.2ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-17T08:16:19.519486 #15856] DEBUG -- :   [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-17T08:16:19.520313 #15856] DEBUG -- :   [1m[36mCategory Create (0.2ms)[0m  [1m[32mINSERT INTO `categories` (`name`) VALUES ('PCR')[0m
+D, [2022-03-17T08:16:19.529850 #15856] DEBUG -- :   [1m[36mTRANSACTION (2.7ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-17T08:16:19.530815 #15856] DEBUG -- :   [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-17T08:16:19.531393 #15856] DEBUG -- :   [1m[36mCategory Create (0.2ms)[0m  [1m[32mINSERT INTO `categories` (`name`) VALUES ('SUP')[0m
+D, [2022-03-17T08:16:19.534415 #15856] DEBUG -- :   [1m[36mTRANSACTION (2.5ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-17T08:16:19.569370 #15856] DEBUG -- :   [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-17T08:16:19.570177 #15856] DEBUG -- :   [1m[36mProduct Create (0.2ms)[0m  [1m[32mINSERT INTO `products` (`name`, `price`, `description`, `category_id`) VALUES ('apple', 0.05, 'Little apple', 3)[0m
+D, [2022-03-17T08:16:19.573605 #15856] DEBUG -- :   [1m[36mTRANSACTION (2.7ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-17T08:16:19.574766 #15856] DEBUG -- :   [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-17T08:16:19.575398 #15856] DEBUG -- :   [1m[36mProduct Create (0.3ms)[0m  [1m[32mINSERT INTO `products` (`name`, `price`, `description`, `category_id`) VALUES ('lemon', 6.15, 'Big lemon', 3)[0m
+D, [2022-03-17T08:16:19.578333 #15856] DEBUG -- :   [1m[36mTRANSACTION (2.5ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-17T08:16:19.579450 #15856] DEBUG -- :   [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-17T08:16:19.580068 #15856] DEBUG -- :   [1m[36mProduct Create (0.3ms)[0m  [1m[32mINSERT INTO `products` (`name`, `price`, `description`, `category_id`) VALUES ('limousine', 25.95, 'A limousine', 4)[0m
+D, [2022-03-17T08:16:19.582946 #15856] DEBUG -- :   [1m[36mTRANSACTION (2.4ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-17T08:16:19.584415 #15856] DEBUG -- :   [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-17T08:16:19.585036 #15856] DEBUG -- :   [1m[36mProduct Create (0.3ms)[0m  [1m[32mINSERT INTO `products` (`name`, `price`, `description`, `category_id`) VALUES ('truck', 200.0, 'A truck', 4)[0m
+D, [2022-03-17T08:16:19.588476 #15856] DEBUG -- :   [1m[36mTRANSACTION (2.9ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-17T08:16:19.601909 #15856] DEBUG -- :   [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-17T08:16:19.602431 #15856] DEBUG -- :   [1m[36mClient Create (0.2ms)[0m  [1m[32mINSERT INTO `clients` (`firstname`, `lastname`) VALUES ('yannick', 'baudraz')[0m
+D, [2022-03-17T08:16:19.605928 #15856] DEBUG -- :   [1m[36mTRANSACTION (3.2ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-17T08:16:19.606832 #15856] DEBUG -- :   [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-17T08:16:19.607418 #15856] DEBUG -- :   [1m[36mClient Create (0.3ms)[0m  [1m[32mINSERT INTO `clients` (`firstname`, `lastname`) VALUES ('john', 'doedoe')[0m
+D, [2022-03-17T08:16:19.610848 #15856] DEBUG -- :   [1m[36mTRANSACTION (3.0ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-17T08:16:19.671630 #15856] DEBUG -- :   [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-17T08:16:19.672180 #15856] DEBUG -- :   [1m[36mOrder Create (0.3ms)[0m  [1m[32mINSERT INTO `orders` (`status`, `created_at`, `updated_at`, `client_id`) VALUES ('PROGRESS', '2022-03-17 07:16:19.670419', '2022-03-17 07:16:19.670419', 3)[0m
+D, [2022-03-17T08:16:19.673181 #15856] DEBUG -- :   [1m[36mOrderItem Create (0.2ms)[0m  [1m[32mINSERT INTO `order_items` (`order_id`, `item_id`, `quantity`, `item_price`) VALUES (1, 5, 2, 0.05)[0m
+D, [2022-03-17T08:16:19.673953 #15856] DEBUG -- :   [1m[36mOrderItem Create (0.2ms)[0m  [1m[32mINSERT INTO `order_items` (`order_id`, `item_id`, `quantity`, `item_price`) VALUES (1, 7, 125, 25.95)[0m
+D, [2022-03-17T08:16:19.674698 #15856] DEBUG -- :   [1m[36mOrderItem Create (0.2ms)[0m  [1m[32mINSERT INTO `order_items` (`order_id`, `item_id`, `quantity`, `item_price`) VALUES (1, 8, 3, 200.0)[0m
+D, [2022-03-17T08:16:19.678033 #15856] DEBUG -- :   [1m[36mTRANSACTION (2.7ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-17T08:16:30.042969 #14852] DEBUG -- :   [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-17T08:16:30.043827 #14852] DEBUG -- :   [1m[36mCategory Create (0.3ms)[0m  [1m[32mINSERT INTO `categories` (`name`) VALUES ('PCR')[0m
+D, [2022-03-17T08:16:30.049423 #14852] DEBUG -- :   [1m[36mTRANSACTION (2.9ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-17T08:16:30.050695 #14852] DEBUG -- :   [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-17T08:16:30.051377 #14852] DEBUG -- :   [1m[36mCategory Create (0.2ms)[0m  [1m[32mINSERT INTO `categories` (`name`) VALUES ('SUP')[0m
+D, [2022-03-17T08:16:30.054602 #14852] DEBUG -- :   [1m[36mTRANSACTION (2.7ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-17T08:16:30.069939 #14852] DEBUG -- :   [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-17T08:16:30.070536 #14852] DEBUG -- :   [1m[36mProduct Create (0.3ms)[0m  [1m[32mINSERT INTO `products` (`name`, `price`, `description`, `category_id`) VALUES ('apple', 0.05, 'Little apple', 5)[0m
+D, [2022-03-17T08:16:30.073312 #14852] DEBUG -- :   [1m[36mTRANSACTION (2.4ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-17T08:16:30.074430 #14852] DEBUG -- :   [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-17T08:16:30.075082 #14852] DEBUG -- :   [1m[36mProduct Create (0.3ms)[0m  [1m[32mINSERT INTO `products` (`name`, `price`, `description`, `category_id`) VALUES ('lemon', 6.15, 'Big lemon', 5)[0m
+D, [2022-03-17T08:16:30.077864 #14852] DEBUG -- :   [1m[36mTRANSACTION (2.4ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-17T08:16:30.079014 #14852] DEBUG -- :   [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-17T08:16:30.079634 #14852] DEBUG -- :   [1m[36mProduct Create (0.3ms)[0m  [1m[32mINSERT INTO `products` (`name`, `price`, `description`, `category_id`) VALUES ('limousine', 25.95, 'A limousine', 6)[0m
+D, [2022-03-17T08:16:30.083349 #14852] DEBUG -- :   [1m[36mTRANSACTION (3.3ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-17T08:16:30.084422 #14852] DEBUG -- :   [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-17T08:16:30.085021 #14852] DEBUG -- :   [1m[36mProduct Create (0.3ms)[0m  [1m[32mINSERT INTO `products` (`name`, `price`, `description`, `category_id`) VALUES ('truck', 200.0, 'A truck', 6)[0m
+D, [2022-03-17T08:16:30.088335 #14852] DEBUG -- :   [1m[36mTRANSACTION (2.8ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-17T08:16:30.094862 #14852] DEBUG -- :   [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-17T08:16:30.095477 #14852] DEBUG -- :   [1m[36mClient Create (0.3ms)[0m  [1m[32mINSERT INTO `clients` (`firstname`, `lastname`) VALUES ('yannick', 'baudraz')[0m
+D, [2022-03-17T08:16:30.098801 #14852] DEBUG -- :   [1m[36mTRANSACTION (2.8ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-17T08:16:30.099970 #14852] DEBUG -- :   [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-17T08:16:30.100512 #14852] DEBUG -- :   [1m[36mClient Create (0.3ms)[0m  [1m[32mINSERT INTO `clients` (`firstname`, `lastname`) VALUES ('john', 'doedoe')[0m
+D, [2022-03-17T08:16:30.102992 #14852] DEBUG -- :   [1m[36mTRANSACTION (2.1ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-17T08:16:30.129168 #14852] DEBUG -- :   [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-17T08:16:30.129771 #14852] DEBUG -- :   [1m[36mOrder Create (0.3ms)[0m  [1m[32mINSERT INTO `orders` (`status`, `created_at`, `updated_at`, `client_id`) VALUES ('PROGRESS', '2022-03-17 07:16:30.128304', '2022-03-17 07:16:30.128304', 5)[0m
+D, [2022-03-17T08:16:30.130625 #14852] DEBUG -- :   [1m[36mOrderItem Create (0.2ms)[0m  [1m[32mINSERT INTO `order_items` (`order_id`, `item_id`, `quantity`, `item_price`) VALUES (2, 9, 2, 0.05)[0m
+D, [2022-03-17T08:16:30.131357 #14852] DEBUG -- :   [1m[36mOrderItem Create (0.2ms)[0m  [1m[32mINSERT INTO `order_items` (`order_id`, `item_id`, `quantity`, `item_price`) VALUES (2, 11, 125, 25.95)[0m
+D, [2022-03-17T08:16:30.132124 #14852] DEBUG -- :   [1m[36mOrderItem Create (0.2ms)[0m  [1m[32mINSERT INTO `order_items` (`order_id`, `item_id`, `quantity`, `item_price`) VALUES (2, 12, 3, 200.0)[0m
+D, [2022-03-17T08:16:30.135565 #14852] DEBUG -- :   [1m[36mTRANSACTION (3.0ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-17T08:17:01.497285 #17340] DEBUG -- :   [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-17T08:17:01.498100 #17340] DEBUG -- :   [1m[36mCategory Create (0.2ms)[0m  [1m[32mINSERT INTO `categories` (`name`) VALUES ('PCR')[0m
+D, [2022-03-17T08:17:01.520438 #17340] DEBUG -- :   [1m[36mTRANSACTION (19.2ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-17T08:17:01.521661 #17340] DEBUG -- :   [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-17T08:17:01.522428 #17340] DEBUG -- :   [1m[36mCategory Create (0.3ms)[0m  [1m[32mINSERT INTO `categories` (`name`) VALUES ('SUP')[0m
+D, [2022-03-17T08:17:01.525776 #17340] DEBUG -- :   [1m[36mTRANSACTION (2.7ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-17T08:17:01.540704 #17340] DEBUG -- :   [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-17T08:17:01.541334 #17340] DEBUG -- :   [1m[36mProduct Create (0.3ms)[0m  [1m[32mINSERT INTO `products` (`name`, `price`, `description`, `category_id`) VALUES ('apple', 0.05, 'Little apple', 7)[0m
+D, [2022-03-17T08:17:01.544225 #17340] DEBUG -- :   [1m[36mTRANSACTION (2.5ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-17T08:17:01.545351 #17340] DEBUG -- :   [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-17T08:17:01.545940 #17340] DEBUG -- :   [1m[36mProduct Create (0.3ms)[0m  [1m[32mINSERT INTO `products` (`name`, `price`, `description`, `category_id`) VALUES ('lemon', 6.15, 'Big lemon', 7)[0m
+D, [2022-03-17T08:17:01.548739 #17340] DEBUG -- :   [1m[36mTRANSACTION (2.4ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-17T08:17:01.549774 #17340] DEBUG -- :   [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-17T08:17:01.550402 #17340] DEBUG -- :   [1m[36mProduct Create (0.3ms)[0m  [1m[32mINSERT INTO `products` (`name`, `price`, `description`, `category_id`) VALUES ('limousine', 25.95, 'A limousine', 8)[0m
+D, [2022-03-17T08:17:01.553040 #17340] DEBUG -- :   [1m[36mTRANSACTION (2.2ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-17T08:17:01.554145 #17340] DEBUG -- :   [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-17T08:17:01.554779 #17340] DEBUG -- :   [1m[36mProduct Create (0.3ms)[0m  [1m[32mINSERT INTO `products` (`name`, `price`, `description`, `category_id`) VALUES ('truck', 200.0, 'A truck', 8)[0m
+D, [2022-03-17T08:17:01.557893 #17340] DEBUG -- :   [1m[36mTRANSACTION (2.6ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-17T08:17:01.564423 #17340] DEBUG -- :   [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-17T08:17:01.565034 #17340] DEBUG -- :   [1m[36mClient Create (0.2ms)[0m  [1m[32mINSERT INTO `clients` (`firstname`, `lastname`) VALUES ('yannick', 'baudraz')[0m
+D, [2022-03-17T08:17:01.568582 #17340] DEBUG -- :   [1m[36mTRANSACTION (3.1ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-17T08:17:01.569664 #17340] DEBUG -- :   [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-17T08:17:01.570184 #17340] DEBUG -- :   [1m[36mClient Create (0.3ms)[0m  [1m[32mINSERT INTO `clients` (`firstname`, `lastname`) VALUES ('john', 'doedoe')[0m
+D, [2022-03-17T08:17:01.572689 #17340] DEBUG -- :   [1m[36mTRANSACTION (2.2ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-17T08:17:01.601549 #17340] DEBUG -- :   [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-17T08:17:01.602371 #17340] DEBUG -- :   [1m[36mOrder Create (0.4ms)[0m  [1m[32mINSERT INTO `orders` (`status`, `created_at`, `updated_at`, `client_id`) VALUES ('PROGRESS', '2022-03-17 07:17:01.600399', '2022-03-17 07:17:01.600399', 7)[0m
+D, [2022-03-17T08:17:01.603646 #17340] DEBUG -- :   [1m[36mOrderItem Create (0.3ms)[0m  [1m[32mINSERT INTO `order_items` (`order_id`, `item_id`, `quantity`, `item_price`) VALUES (3, 13, 2, 0.05)[0m
+D, [2022-03-17T08:17:01.604450 #17340] DEBUG -- :   [1m[36mOrderItem Create (0.2ms)[0m  [1m[32mINSERT INTO `order_items` (`order_id`, `item_id`, `quantity`, `item_price`) VALUES (3, 15, 125, 25.95)[0m
+D, [2022-03-17T08:17:01.605108 #17340] DEBUG -- :   [1m[36mOrderItem Create (0.1ms)[0m  [1m[32mINSERT INTO `order_items` (`order_id`, `item_id`, `quantity`, `item_price`) VALUES (3, 16, 3, 200.0)[0m
+D, [2022-03-17T08:17:01.608006 #17340] DEBUG -- :   [1m[36mTRANSACTION (2.5ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-17T08:17:01.610592 #17340] DEBUG -- :   [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-17T08:17:01.611169 #17340] DEBUG -- :   [1m[36mOrder Create (0.3ms)[0m  [1m[32mINSERT INTO `orders` (`status`, `created_at`, `updated_at`, `client_id`) VALUES ('PROGRESS', '2022-03-17 07:17:01.609910', '2022-03-17 07:17:01.609910', 7)[0m
+D, [2022-03-17T08:17:01.611978 #17340] DEBUG -- :   [1m[36mOrderItem Create (0.2ms)[0m  [1m[32mINSERT INTO `order_items` (`order_id`, `item_id`, `quantity`, `item_price`) VALUES (4, 13, 1, 0.05)[0m
+D, [2022-03-17T08:17:01.612713 #17340] DEBUG -- :   [1m[36mOrderItem Create (0.2ms)[0m  [1m[32mINSERT INTO `order_items` (`order_id`, `item_id`, `quantity`, `item_price`) VALUES (4, 14, 75, 6.15)[0m
+D, [2022-03-17T08:17:01.613438 #17340] DEBUG -- :   [1m[36mOrderItem Create (0.2ms)[0m  [1m[32mINSERT INTO `order_items` (`order_id`, `item_id`, `quantity`, `item_price`) VALUES (4, 15, 3, 25.95)[0m
+D, [2022-03-17T08:17:01.614189 #17340] DEBUG -- :   [1m[36mOrderItem Create (0.2ms)[0m  [1m[32mINSERT INTO `order_items` (`order_id`, `item_id`, `quantity`, `item_price`) VALUES (4, 16, 200, 200.0)[0m
+D, [2022-03-17T08:17:01.617300 #17340] DEBUG -- :   [1m[36mTRANSACTION (2.6ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-17T08:17:20.019056 #16840] DEBUG -- :   [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-17T08:17:20.019666 #16840] DEBUG -- :   [1m[36mCategory Create (0.2ms)[0m  [1m[32mINSERT INTO `categories` (`name`) VALUES ('PCR')[0m
+D, [2022-03-17T08:17:20.024890 #16840] DEBUG -- :   [1m[36mTRANSACTION (2.7ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-17T08:17:20.025574 #16840] DEBUG -- :   [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-17T08:17:20.026043 #16840] DEBUG -- :   [1m[36mCategory Create (0.1ms)[0m  [1m[32mINSERT INTO `categories` (`name`) VALUES ('SUP')[0m
+D, [2022-03-17T08:17:20.028848 #16840] DEBUG -- :   [1m[36mTRANSACTION (2.4ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-17T08:17:20.060898 #16840] DEBUG -- :   [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-17T08:17:20.061676 #16840] DEBUG -- :   [1m[36mProduct Create (0.3ms)[0m  [1m[32mINSERT INTO `products` (`name`, `price`, `description`, `category_id`) VALUES ('apple', 0.05, 'Little apple', 1)[0m
+D, [2022-03-17T08:17:20.064432 #16840] DEBUG -- :   [1m[36mTRANSACTION (2.2ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-17T08:17:20.065378 #16840] DEBUG -- :   [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-17T08:17:20.065948 #16840] DEBUG -- :   [1m[36mProduct Create (0.2ms)[0m  [1m[32mINSERT INTO `products` (`name`, `price`, `description`, `category_id`) VALUES ('lemon', 6.15, 'Big lemon', 1)[0m
+D, [2022-03-17T08:17:20.068790 #16840] DEBUG -- :   [1m[36mTRANSACTION (2.3ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-17T08:17:20.070085 #16840] DEBUG -- :   [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-17T08:17:20.070802 #16840] DEBUG -- :   [1m[36mProduct Create (0.3ms)[0m  [1m[32mINSERT INTO `products` (`name`, `price`, `description`, `category_id`) VALUES ('limousine', 25.95, 'A limousine', 2)[0m
+D, [2022-03-17T08:17:20.073687 #16840] DEBUG -- :   [1m[36mTRANSACTION (2.4ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-17T08:17:20.074645 #16840] DEBUG -- :   [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-17T08:17:20.075177 #16840] DEBUG -- :   [1m[36mProduct Create (0.2ms)[0m  [1m[32mINSERT INTO `products` (`name`, `price`, `description`, `category_id`) VALUES ('truck', 200.0, 'A truck', 2)[0m
+D, [2022-03-17T08:17:20.077828 #16840] DEBUG -- :   [1m[36mTRANSACTION (2.2ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-17T08:17:20.090884 #16840] DEBUG -- :   [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-17T08:17:20.091900 #16840] DEBUG -- :   [1m[36mClient Create (0.3ms)[0m  [1m[32mINSERT INTO `clients` (`firstname`, `lastname`) VALUES ('yannick', 'baudraz')[0m
+D, [2022-03-17T08:17:20.095389 #16840] DEBUG -- :   [1m[36mTRANSACTION (2.7ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-17T08:17:20.096981 #16840] DEBUG -- :   [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-17T08:17:20.097828 #16840] DEBUG -- :   [1m[36mClient Create (0.2ms)[0m  [1m[32mINSERT INTO `clients` (`firstname`, `lastname`) VALUES ('john', 'doedoe')[0m
+D, [2022-03-17T08:17:20.101316 #16840] DEBUG -- :   [1m[36mTRANSACTION (2.5ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-17T08:17:20.138454 #16840] DEBUG -- :   [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-17T08:17:20.139066 #16840] DEBUG -- :   [1m[36mOrder Create (0.3ms)[0m  [1m[32mINSERT INTO `orders` (`status`, `created_at`, `updated_at`, `client_id`) VALUES ('PROGRESS', '2022-03-17 07:17:20.137560', '2022-03-17 07:17:20.137560', 1)[0m
+D, [2022-03-17T08:17:20.140362 #16840] DEBUG -- :   [1m[36mOrderItem Create (0.2ms)[0m  [1m[32mINSERT INTO `order_items` (`order_id`, `item_id`, `quantity`, `item_price`) VALUES (1, 1, 2, 0.05)[0m
+D, [2022-03-17T08:17:20.141092 #16840] DEBUG -- :   [1m[36mOrderItem Create (0.2ms)[0m  [1m[32mINSERT INTO `order_items` (`order_id`, `item_id`, `quantity`, `item_price`) VALUES (1, 3, 125, 25.95)[0m
+D, [2022-03-17T08:17:20.141683 #16840] DEBUG -- :   [1m[36mOrderItem Create (0.1ms)[0m  [1m[32mINSERT INTO `order_items` (`order_id`, `item_id`, `quantity`, `item_price`) VALUES (1, 4, 3, 200.0)[0m
+D, [2022-03-17T08:17:20.144595 #16840] DEBUG -- :   [1m[36mTRANSACTION (2.6ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-17T08:17:20.146658 #16840] DEBUG -- :   [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-17T08:17:20.147091 #16840] DEBUG -- :   [1m[36mOrder Create (0.2ms)[0m  [1m[32mINSERT INTO `orders` (`status`, `created_at`, `updated_at`, `client_id`) VALUES ('PROGRESS', '2022-03-17 07:17:20.146224', '2022-03-17 07:17:20.146224', 1)[0m
+D, [2022-03-17T08:17:20.148091 #16840] DEBUG -- :   [1m[36mOrderItem Create (0.3ms)[0m  [1m[32mINSERT INTO `order_items` (`order_id`, `item_id`, `quantity`, `item_price`) VALUES (2, 1, 1, 0.05)[0m
+D, [2022-03-17T08:17:20.148746 #16840] DEBUG -- :   [1m[36mOrderItem Create (0.1ms)[0m  [1m[32mINSERT INTO `order_items` (`order_id`, `item_id`, `quantity`, `item_price`) VALUES (2, 2, 75, 6.15)[0m
+D, [2022-03-17T08:17:20.149489 #16840] DEBUG -- :   [1m[36mOrderItem Create (0.2ms)[0m  [1m[32mINSERT INTO `order_items` (`order_id`, `item_id`, `quantity`, `item_price`) VALUES (2, 3, 3, 25.95)[0m
+D, [2022-03-17T08:17:20.150115 #16840] DEBUG -- :   [1m[36mOrderItem Create (0.1ms)[0m  [1m[32mINSERT INTO `order_items` (`order_id`, `item_id`, `quantity`, `item_price`) VALUES (2, 4, 200, 200.0)[0m
+D, [2022-03-17T08:17:20.152654 #16840] DEBUG -- :   [1m[36mTRANSACTION (2.3ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-17T08:28:22.583405 #15720] DEBUG -- :   [1m[35m (0.5ms)[0m  [1m[34mSELECT COUNT(*) FROM `clients`[0m
+D, [2022-03-17T08:28:22.591638 #15720] DEBUG -- :   [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM `clients` WHERE `clients`.`type` = 'Particular'[0m
+D, [2022-03-17T08:28:37.413306 #15420] DEBUG -- :   [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM `clients`[0m
+D, [2022-03-17T08:28:37.421336 #15420] DEBUG -- :   [1m[35m (0.4ms)[0m  [1m[34mSELECT COUNT(*) FROM `clients` WHERE `clients`.`type` = 'Particular'[0m
+D, [2022-03-17T08:28:37.423576 #15420] DEBUG -- :   [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM `clients` WHERE `clients`.`type` = 'Company'[0m
+D, [2022-03-17T08:28:52.867249 #10344] DEBUG -- :   [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM `clients`[0m
+D, [2022-03-17T08:28:52.876460 #10344] DEBUG -- :   [1m[35m (0.4ms)[0m  [1m[34mSELECT COUNT(*) FROM `clients` WHERE `clients`.`type` = 'Particular'[0m
+D, [2022-03-17T08:28:52.879479 #10344] DEBUG -- :   [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM `clients` WHERE `clients`.`type` = 'Company'[0m
+D, [2022-03-17T10:04:31.379386 #14716] DEBUG -- :   [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-17T10:04:31.380244 #14716] DEBUG -- :   [1m[36mCategory Create (0.2ms)[0m  [1m[32mINSERT INTO `categories` (`name`) VALUES ('PCR')[0m
+D, [2022-03-17T10:04:31.386252 #14716] DEBUG -- :   [1m[36mTRANSACTION (2.7ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-17T10:04:31.387064 #14716] DEBUG -- :   [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-17T10:04:31.387687 #14716] DEBUG -- :   [1m[36mCategory Create (0.2ms)[0m  [1m[32mINSERT INTO `categories` (`name`) VALUES ('SUP')[0m
+D, [2022-03-17T10:04:31.390545 #14716] DEBUG -- :   [1m[36mTRANSACTION (2.6ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-17T10:04:31.396552 #14716] DEBUG -- :   [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-17T10:04:31.397145 #14716] DEBUG -- :   [1m[36mSupplier Create (0.3ms)[0m  [1m[32mINSERT INTO `suppliers` (`name`) VALUES ('Mauro inc')[0m
+D, [2022-03-17T10:04:31.400322 #14716] DEBUG -- :   [1m[36mTRANSACTION (2.9ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-17T10:04:31.401156 #14716] DEBUG -- :   [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-17T10:04:31.401679 #14716] DEBUG -- :   [1m[36mSupplier Create (0.2ms)[0m  [1m[32mINSERT INTO `suppliers` (`name`) VALUES ('Santos©')[0m
+D, [2022-03-17T10:04:31.405175 #14716] DEBUG -- :   [1m[36mTRANSACTION (3.2ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-17T10:04:31.423296 #14716] DEBUG -- :   [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-17T10:04:31.423971 #14716] DEBUG -- :   [1m[36mProduct Create (0.3ms)[0m  [1m[32mINSERT INTO `products` (`name`, `price`, `description`, `category_id`) VALUES ('apple', 0.05, 'Little apple', 1)[0m
+D, [2022-03-17T10:04:31.427298 #14716] DEBUG -- :   [1m[36mTRANSACTION (2.9ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-17T10:04:31.428227 #14716] DEBUG -- :   [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-17T10:04:31.428791 #14716] DEBUG -- :   [1m[36mProduct Create (0.3ms)[0m  [1m[32mINSERT INTO `products` (`name`, `price`, `description`, `category_id`) VALUES ('lemon', 6.15, 'Big lemon', 1)[0m
+D, [2022-03-17T10:04:31.431592 #14716] DEBUG -- :   [1m[36mTRANSACTION (2.5ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-17T10:04:31.432294 #14716] DEBUG -- :   [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-17T10:04:31.432761 #14716] DEBUG -- :   [1m[36mProduct Create (0.2ms)[0m  [1m[32mINSERT INTO `products` (`name`, `price`, `description`, `category_id`) VALUES ('limousine', 25.95, 'A limousine', 2)[0m
+D, [2022-03-17T10:04:31.435624 #14716] DEBUG -- :   [1m[36mTRANSACTION (2.6ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-17T10:04:31.436277 #14716] DEBUG -- :   [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-17T10:04:31.436838 #14716] DEBUG -- :   [1m[36mProduct Create (0.3ms)[0m  [1m[32mINSERT INTO `products` (`name`, `price`, `description`, `category_id`) VALUES ('truck', 200.0, 'A truck', 2)[0m
+D, [2022-03-17T10:04:31.439532 #14716] DEBUG -- :   [1m[36mTRANSACTION (2.5ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-17T10:04:31.454979 #14716] DEBUG -- :   [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-17T10:04:31.455654 #14716] DEBUG -- :   [1m[36mProduct Update (0.3ms)[0m  [1m[33mUPDATE `products` SET `products`.`supplier_id` = 1 WHERE `products`.`id` = 1[0m
+D, [2022-03-17T10:04:31.458982 #14716] DEBUG -- :   [1m[36mTRANSACTION (2.8ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-17T10:04:31.460049 #14716] DEBUG -- :   [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-17T10:04:31.460688 #14716] DEBUG -- :   [1m[36mProduct Update (0.3ms)[0m  [1m[33mUPDATE `products` SET `products`.`supplier_id` = 1 WHERE `products`.`id` = 2[0m
+D, [2022-03-17T10:04:31.463392 #14716] DEBUG -- :   [1m[36mTRANSACTION (2.4ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-17T10:04:31.464240 #14716] DEBUG -- :   [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-17T10:04:31.464742 #14716] DEBUG -- :   [1m[36mProduct Update (0.2ms)[0m  [1m[33mUPDATE `products` SET `products`.`supplier_id` = 2 WHERE `products`.`id` = 4[0m
+D, [2022-03-17T10:04:31.467647 #14716] DEBUG -- :   [1m[36mTRANSACTION (2.6ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-17T10:04:31.474868 #14716] DEBUG -- :   [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-17T10:04:31.475462 #14716] DEBUG -- :   [1m[36mClient Create (0.2ms)[0m  [1m[32mINSERT INTO `clients` (`firstname`, `lastname`) VALUES ('yannick', 'baudraz')[0m
+D, [2022-03-17T10:04:31.478474 #14716] DEBUG -- :   [1m[36mTRANSACTION (2.7ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-17T10:04:31.479373 #14716] DEBUG -- :   [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-17T10:04:31.479784 #14716] DEBUG -- :   [1m[36mClient Create (0.2ms)[0m  [1m[32mINSERT INTO `clients` (`firstname`, `lastname`) VALUES ('john', 'doedoe')[0m
+D, [2022-03-17T10:04:31.482623 #14716] DEBUG -- :   [1m[36mTRANSACTION (2.6ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-17T10:04:31.499598 #14716] DEBUG -- :   [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-17T10:04:31.500104 #14716] DEBUG -- :   [1m[36mOrder Create (0.3ms)[0m  [1m[32mINSERT INTO `orders` (`status`, `created_at`, `updated_at`, `client_id`) VALUES ('PROGRESS', '2022-03-17 09:04:31.498709', '2022-03-17 09:04:31.498709', 1)[0m
+D, [2022-03-17T10:04:31.500854 #14716] DEBUG -- :   [1m[36mOrderItem Create (0.2ms)[0m  [1m[32mINSERT INTO `order_items` (`order_id`, `item_id`, `quantity`, `item_price`) VALUES (1, 1, 2, 0.05)[0m
+D, [2022-03-17T10:04:31.501497 #14716] DEBUG -- :   [1m[36mOrderItem Create (0.2ms)[0m  [1m[32mINSERT INTO `order_items` (`order_id`, `item_id`, `quantity`, `item_price`) VALUES (1, 3, 125, 25.95)[0m
+D, [2022-03-17T10:04:31.502153 #14716] DEBUG -- :   [1m[36mOrderItem Create (0.2ms)[0m  [1m[32mINSERT INTO `order_items` (`order_id`, `item_id`, `quantity`, `item_price`) VALUES (1, 4, 3, 200.0)[0m
+D, [2022-03-17T10:04:31.505549 #14716] DEBUG -- :   [1m[36mTRANSACTION (3.0ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-17T10:04:31.510272 #14716] DEBUG -- :   [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-17T10:04:31.511009 #14716] DEBUG -- :   [1m[36mOrder Create (0.4ms)[0m  [1m[32mINSERT INTO `orders` (`status`, `created_at`, `updated_at`, `client_id`) VALUES ('PROGRESS', '2022-03-17 09:04:31.509334', '2022-03-17 09:04:31.509334', 1)[0m
+D, [2022-03-17T10:04:31.512317 #14716] DEBUG -- :   [1m[36mOrderItem Create (0.3ms)[0m  [1m[32mINSERT INTO `order_items` (`order_id`, `item_id`, `quantity`, `item_price`) VALUES (2, 1, 1, 0.05)[0m
+D, [2022-03-17T10:04:31.513416 #14716] DEBUG -- :   [1m[36mOrderItem Create (0.3ms)[0m  [1m[32mINSERT INTO `order_items` (`order_id`, `item_id`, `quantity`, `item_price`) VALUES (2, 2, 75, 6.15)[0m
+D, [2022-03-17T10:04:31.514446 #14716] DEBUG -- :   [1m[36mOrderItem Create (0.3ms)[0m  [1m[32mINSERT INTO `order_items` (`order_id`, `item_id`, `quantity`, `item_price`) VALUES (2, 3, 3, 25.95)[0m
+D, [2022-03-17T10:04:31.515453 #14716] DEBUG -- :   [1m[36mOrderItem Create (0.2ms)[0m  [1m[32mINSERT INTO `order_items` (`order_id`, `item_id`, `quantity`, `item_price`) VALUES (2, 4, 200, 200.0)[0m
+D, [2022-03-17T10:04:31.518720 #14716] DEBUG -- :   [1m[36mTRANSACTION (2.8ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-17T10:11:27.191530 #15176] DEBUG -- :   [1m[36mSupplier Load (0.2ms)[0m  [1m[34mSELECT `suppliers`.* FROM `suppliers` ORDER BY `suppliers`.`id` ASC LIMIT 1[0m
+D, [2022-03-17T10:13:23.464000 #660] DEBUG -- :   [1m[36mSupplier Load (0.3ms)[0m  [1m[34mSELECT `suppliers`.* FROM `suppliers` ORDER BY `suppliers`.`id` ASC LIMIT 1[0m
+D, [2022-03-17T10:13:23.505646 #660] DEBUG -- :   [1m[35m (0.4ms)[0m  [1m[34mSELECT COUNT(*) FROM `products` WHERE `products`.`supplier_id` = 1[0m
+D, [2022-03-17T10:13:23.507568 #660] DEBUG -- :   [1m[36mProduct Load (0.4ms)[0m  [1m[34mSELECT `products`.* FROM `products` WHERE `products`.`supplier_id` = 1[0m
+D, [2022-03-17T10:15:57.589257 #13888] DEBUG -- :   [1m[36mSupplier Load (0.2ms)[0m  [1m[34mSELECT `suppliers`.* FROM `suppliers` ORDER BY `suppliers`.`id` ASC LIMIT 1[0m
+D, [2022-03-17T10:15:57.628559 #13888] DEBUG -- :   [1m[35m (0.6ms)[0m  [1m[34mSELECT COUNT(*) FROM `products` WHERE `products`.`supplier_id` = 1[0m
+D, [2022-03-17T10:15:57.631041 #13888] DEBUG -- :   [1m[36mProduct Load (0.4ms)[0m  [1m[34mSELECT `products`.* FROM `products` WHERE `products`.`supplier_id` = 1[0m
+D, [2022-03-17T10:15:57.672743 #13888] DEBUG -- :   [1m[35m (0.4ms)[0m  [1m[34mSELECT COUNT(*) FROM `categories` INNER JOIN `products` ON `categories`.`id` = `products`.`category_id` WHERE `products`.`supplier_id` = 1[0m
+D, [2022-03-17T10:15:57.674849 #13888] DEBUG -- :   [1m[36mCategory Load (0.4ms)[0m  [1m[34mSELECT `categories`.* FROM `categories` INNER JOIN `products` ON `categories`.`id` = `products`.`category_id` WHERE `products`.`supplier_id` = 1[0m
+D, [2022-03-17T10:16:45.900415 #15764] DEBUG -- :   [1m[36mSupplier Load (0.4ms)[0m  [1m[34mSELECT `suppliers`.* FROM `suppliers` ORDER BY `suppliers`.`id` ASC LIMIT 1[0m
+D, [2022-03-17T10:16:45.938256 #15764] DEBUG -- :   [1m[35m (0.4ms)[0m  [1m[34mSELECT COUNT(*) FROM `products` WHERE `products`.`supplier_id` = 1[0m
+D, [2022-03-17T10:16:45.940606 #15764] DEBUG -- :   [1m[36mProduct Load (0.4ms)[0m  [1m[34mSELECT `products`.* FROM `products` WHERE `products`.`supplier_id` = 1[0m
+D, [2022-03-17T10:16:45.961677 #15764] DEBUG -- :   [1m[35m (0.7ms)[0m  [1m[34mSELECT COUNT(*) FROM `categories` INNER JOIN `products` ON `categories`.`id` = `products`.`category_id` WHERE `products`.`supplier_id` = 1[0m
+D, [2022-03-17T10:16:45.963816 #15764] DEBUG -- :   [1m[36mCategory Load (0.4ms)[0m  [1m[34mSELECT DISTINCT `categories`.* FROM `categories` INNER JOIN `products` ON `categories`.`id` = `products`.`category_id` WHERE `products`.`supplier_id` = 1[0m
+D, [2022-03-17T10:18:46.158971 #14552] DEBUG -- :   [1m[36mSupplier Load (0.2ms)[0m  [1m[34mSELECT `suppliers`.* FROM `suppliers` ORDER BY `suppliers`.`id` ASC LIMIT 1[0m
+D, [2022-03-17T10:18:46.210257 #14552] DEBUG -- :   [1m[35m (0.4ms)[0m  [1m[34mSELECT COUNT(*) FROM `products` WHERE `products`.`supplier_id` = 1[0m
+D, [2022-03-17T10:18:46.212378 #14552] DEBUG -- :   [1m[36mProduct Load (0.4ms)[0m  [1m[34mSELECT `products`.* FROM `products` WHERE `products`.`supplier_id` = 1[0m
+D, [2022-03-17T10:22:12.288919 #2136] DEBUG -- :   [1m[36mSupplier Load (0.3ms)[0m  [1m[34mSELECT `suppliers`.* FROM `suppliers` ORDER BY `suppliers`.`id` ASC LIMIT 1[0m
+D, [2022-03-17T10:22:12.328993 #2136] DEBUG -- :   [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM `products` WHERE `products`.`supplier_id` = 1[0m
+D, [2022-03-17T10:22:12.331427 #2136] DEBUG -- :   [1m[36mProduct Load (0.4ms)[0m  [1m[34mSELECT `products`.* FROM `products` WHERE `products`.`supplier_id` = 1[0m
+D, [2022-03-17T10:22:12.355378 #2136] DEBUG -- :   [1m[36mCategory Load (0.5ms)[0m  [1m[34mSELECT DISTINCT `categories`.* FROM `categories` INNER JOIN `products` ON `categories`.`id` = `products`.`category_id` WHERE `products`.`supplier_id` = 1[0m
+D, [2022-03-23T13:46:13.251470 #17832] DEBUG -- :   [1m[36mSupplier Load (29.5ms)[0m  [1m[34mSELECT `suppliers`.* FROM `suppliers` ORDER BY `suppliers`.`id` ASC LIMIT 1[0m
+D, [2022-03-23T13:46:13.350681 #17832] DEBUG -- :   [1m[35m (1.3ms)[0m  [1m[34mSELECT COUNT(*) FROM `products` WHERE `products`.`supplier_id` = 1[0m
+D, [2022-03-23T13:46:13.353812 #17832] DEBUG -- :   [1m[36mProduct Load (1.1ms)[0m  [1m[34mSELECT `products`.* FROM `products` WHERE `products`.`supplier_id` = 1[0m
+D, [2022-03-23T13:46:13.422065 #17832] DEBUG -- :   [1m[36mCategory Load (1.0ms)[0m  [1m[34mSELECT DISTINCT `categories`.* FROM `categories` INNER JOIN `products` ON `categories`.`id` = `products`.`category_id` WHERE `products`.`supplier_id` = 1[0m
