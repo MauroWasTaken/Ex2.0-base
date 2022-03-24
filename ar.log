@@ -1763,3 +1763,67 @@ D, [2022-03-24T08:46:34.051924 #17460] DEBUG -- :   [1m[36mOrderItem Create (0
 D, [2022-03-24T08:46:34.052377 #17460] DEBUG -- :   [1m[36mOrderItem Create (0.1ms)[0m  [1m[32mINSERT INTO `order_items` (`order_id`, `item_id`, `quantity`, `item_price`) VALUES (2, 3, 3, 25.95)[0m
 D, [2022-03-24T08:46:34.053072 #17460] DEBUG -- :   [1m[36mOrderItem Create (0.2ms)[0m  [1m[32mINSERT INTO `order_items` (`order_id`, `item_id`, `quantity`, `item_price`) VALUES (2, 4, 200, 200.0)[0m
 D, [2022-03-24T08:46:34.055945 #17460] DEBUG -- :   [1m[36mTRANSACTION (2.5ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-24T09:02:50.779254 #20036] DEBUG -- :   [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-24T09:02:50.780187 #20036] DEBUG -- :   [1m[36mCategory Create (0.3ms)[0m  [1m[32mINSERT INTO `categories` (`name`) VALUES ('PCR')[0m
+D, [2022-03-24T09:02:50.803783 #20036] DEBUG -- :   [1m[36mTRANSACTION (20.9ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-24T09:02:50.804842 #20036] DEBUG -- :   [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-24T09:02:50.805639 #20036] DEBUG -- :   [1m[36mCategory Create (0.3ms)[0m  [1m[32mINSERT INTO `categories` (`name`) VALUES ('SUP')[0m
+D, [2022-03-24T09:02:50.808763 #20036] DEBUG -- :   [1m[36mTRANSACTION (2.5ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-24T09:02:50.815229 #20036] DEBUG -- :   [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-24T09:02:50.815896 #20036] DEBUG -- :   [1m[36mSupplier Create (0.2ms)[0m  [1m[32mINSERT INTO `suppliers` (`name`) VALUES ('Mauro inc')[0m
+D, [2022-03-24T09:02:50.818862 #20036] DEBUG -- :   [1m[36mTRANSACTION (2.5ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-24T09:02:50.819799 #20036] DEBUG -- :   [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-24T09:02:50.820318 #20036] DEBUG -- :   [1m[36mSupplier Create (0.2ms)[0m  [1m[32mINSERT INTO `suppliers` (`name`) VALUES ('Santos©')[0m
+D, [2022-03-24T09:02:50.823287 #20036] DEBUG -- :   [1m[36mTRANSACTION (2.2ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-24T09:03:07.769739 #20340] DEBUG -- :   [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-24T09:03:07.770424 #20340] DEBUG -- :   [1m[36mCategory Create (0.2ms)[0m  [1m[32mINSERT INTO `categories` (`name`) VALUES ('PCR')[0m
+D, [2022-03-24T09:03:07.777111 #20340] DEBUG -- :   [1m[36mTRANSACTION (3.5ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-24T09:03:07.778102 #20340] DEBUG -- :   [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-24T09:03:07.778790 #20340] DEBUG -- :   [1m[36mCategory Create (0.3ms)[0m  [1m[32mINSERT INTO `categories` (`name`) VALUES ('SUP')[0m
+D, [2022-03-24T09:03:07.781832 #20340] DEBUG -- :   [1m[36mTRANSACTION (2.6ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-24T09:03:07.788760 #20340] DEBUG -- :   [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-24T09:03:07.789432 #20340] DEBUG -- :   [1m[36mSupplier Create (0.2ms)[0m  [1m[32mINSERT INTO `suppliers` (`name`) VALUES ('Mauro inc')[0m
+D, [2022-03-24T09:03:07.792397 #20340] DEBUG -- :   [1m[36mTRANSACTION (2.5ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-24T09:03:07.793199 #20340] DEBUG -- :   [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-24T09:03:07.793915 #20340] DEBUG -- :   [1m[36mSupplier Create (0.3ms)[0m  [1m[32mINSERT INTO `suppliers` (`name`) VALUES ('Santos©')[0m
+D, [2022-03-24T09:03:07.796791 #20340] DEBUG -- :   [1m[36mTRANSACTION (2.4ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-24T09:03:07.826949 #20340] DEBUG -- :   [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-24T09:03:07.827965 #20340] DEBUG -- :   [1m[36mProduct Create (0.3ms)[0m  [1m[32mINSERT INTO `products` (`name`, `price`, `description`, `category_id`) VALUES ('apple', 0.05, 'Little apple', 3)[0m
+D, [2022-03-24T09:03:07.831103 #20340] DEBUG -- :   [1m[36mTRANSACTION (2.5ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-24T09:03:07.832143 #20340] DEBUG -- :   [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-24T09:03:07.832706 #20340] DEBUG -- :   [1m[36mProduct Create (0.2ms)[0m  [1m[32mINSERT INTO `products` (`name`, `price`, `description`, `category_id`) VALUES ('lemon', 6.15, 'Big lemon', 3)[0m
+D, [2022-03-24T09:03:07.835049 #20340] DEBUG -- :   [1m[36mTRANSACTION (2.0ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-24T09:03:07.835922 #20340] DEBUG -- :   [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-24T09:03:07.836427 #20340] DEBUG -- :   [1m[36mProduct Create (0.2ms)[0m  [1m[32mINSERT INTO `products` (`name`, `price`, `description`, `category_id`) VALUES ('limousine', 25.95, 'A limousine', 4)[0m
+D, [2022-03-24T09:03:07.838970 #20340] DEBUG -- :   [1m[36mTRANSACTION (2.2ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-24T09:03:07.839954 #20340] DEBUG -- :   [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-24T09:03:07.840385 #20340] DEBUG -- :   [1m[36mProduct Create (0.2ms)[0m  [1m[32mINSERT INTO `products` (`name`, `price`, `description`, `category_id`) VALUES ('truck', 200.0, 'A truck', 4)[0m
+D, [2022-03-24T09:03:07.843059 #20340] DEBUG -- :   [1m[36mTRANSACTION (2.4ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-24T09:03:07.881809 #20340] DEBUG -- :   [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-24T09:03:07.882350 #20340] DEBUG -- :   [1m[36mProduct Update (0.3ms)[0m  [1m[33mUPDATE `products` SET `products`.`supplier_id` = 3 WHERE `products`.`id` = 1[0m
+D, [2022-03-24T09:03:07.884911 #20340] DEBUG -- :   [1m[36mTRANSACTION (2.3ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-24T09:03:07.885609 #20340] DEBUG -- :   [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-24T09:03:07.885963 #20340] DEBUG -- :   [1m[36mProduct Update (0.2ms)[0m  [1m[33mUPDATE `products` SET `products`.`supplier_id` = 3 WHERE `products`.`id` = 2[0m
+D, [2022-03-24T09:03:07.888341 #20340] DEBUG -- :   [1m[36mTRANSACTION (2.1ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-24T09:03:07.889326 #20340] DEBUG -- :   [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-24T09:03:07.889869 #20340] DEBUG -- :   [1m[36mProduct Update (0.3ms)[0m  [1m[33mUPDATE `products` SET `products`.`supplier_id` = 4 WHERE `products`.`id` = 4[0m
+D, [2022-03-24T09:03:07.892277 #20340] DEBUG -- :   [1m[36mTRANSACTION (2.2ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-24T09:03:07.899647 #20340] DEBUG -- :   [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-24T09:03:07.900195 #20340] DEBUG -- :   [1m[36mClient Create (0.3ms)[0m  [1m[32mINSERT INTO `clients` (`firstname`, `lastname`) VALUES ('yannick', 'baudraz')[0m
+D, [2022-03-24T09:03:07.903097 #20340] DEBUG -- :   [1m[36mTRANSACTION (2.5ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-24T09:03:07.903824 #20340] DEBUG -- :   [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-24T09:03:07.904420 #20340] DEBUG -- :   [1m[36mClient Create (0.3ms)[0m  [1m[32mINSERT INTO `clients` (`firstname`, `lastname`) VALUES ('john', 'doedoe')[0m
+D, [2022-03-24T09:03:07.906974 #20340] DEBUG -- :   [1m[36mTRANSACTION (2.2ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-24T09:03:07.923322 #20340] DEBUG -- :   [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-24T09:03:07.923781 #20340] DEBUG -- :   [1m[36mOrder Create (0.2ms)[0m  [1m[32mINSERT INTO `orders` (`status`, `created_at`, `updated_at`, `client_id`) VALUES ('PROGRESS', '2022-03-24 08:03:07.922645', '2022-03-24 08:03:07.922645', 1)[0m
+D, [2022-03-24T09:03:07.924567 #20340] DEBUG -- :   [1m[36mOrderItem Create (0.2ms)[0m  [1m[32mINSERT INTO `order_items` (`order_id`, `item_id`, `quantity`, `item_price`) VALUES (1, 1, 2, 0.05)[0m
+D, [2022-03-24T09:03:07.925215 #20340] DEBUG -- :   [1m[36mOrderItem Create (0.2ms)[0m  [1m[32mINSERT INTO `order_items` (`order_id`, `item_id`, `quantity`, `item_price`) VALUES (1, 3, 125, 25.95)[0m
+D, [2022-03-24T09:03:07.925793 #20340] DEBUG -- :   [1m[36mOrderItem Create (0.1ms)[0m  [1m[32mINSERT INTO `order_items` (`order_id`, `item_id`, `quantity`, `item_price`) VALUES (1, 4, 3, 200.0)[0m
+D, [2022-03-24T09:03:07.928737 #20340] DEBUG -- :   [1m[36mTRANSACTION (2.6ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-24T09:03:07.934111 #20340] DEBUG -- :   [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-24T09:03:07.934599 #20340] DEBUG -- :   [1m[36mOrder Create (0.2ms)[0m  [1m[32mINSERT INTO `orders` (`status`, `created_at`, `updated_at`, `client_id`) VALUES ('PROGRESS', '2022-03-24 08:03:07.933473', '2022-03-24 08:03:07.933473', 1)[0m
+D, [2022-03-24T09:03:07.935342 #20340] DEBUG -- :   [1m[36mOrderItem Create (0.2ms)[0m  [1m[32mINSERT INTO `order_items` (`order_id`, `item_id`, `quantity`, `item_price`) VALUES (2, 1, 1, 0.05)[0m
+D, [2022-03-24T09:03:07.936022 #20340] DEBUG -- :   [1m[36mOrderItem Create (0.2ms)[0m  [1m[32mINSERT INTO `order_items` (`order_id`, `item_id`, `quantity`, `item_price`) VALUES (2, 2, 75, 6.15)[0m
+D, [2022-03-24T09:03:07.936663 #20340] DEBUG -- :   [1m[36mOrderItem Create (0.2ms)[0m  [1m[32mINSERT INTO `order_items` (`order_id`, `item_id`, `quantity`, `item_price`) VALUES (2, 3, 3, 25.95)[0m
+D, [2022-03-24T09:03:07.937396 #20340] DEBUG -- :   [1m[36mOrderItem Create (0.1ms)[0m  [1m[32mINSERT INTO `order_items` (`order_id`, `item_id`, `quantity`, `item_price`) VALUES (2, 4, 200, 200.0)[0m
+D, [2022-03-24T09:03:07.940330 #20340] DEBUG -- :   [1m[36mTRANSACTION (2.6ms)[0m  [1m[35mCOMMIT[0m
