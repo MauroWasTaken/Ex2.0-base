@@ -123,10 +123,3 @@ def ex8
     puts "#{product1.name}'s comments"
     product1.comments.each{ |c| puts c.content }
 end
-def ex9
-    puts "--EXIGENCY N°9--"
-    puts
-    ActiveRecord::Base.observers << :product_observer
-    ActiveRecord::Base.instantiate_observers
-    
-end
