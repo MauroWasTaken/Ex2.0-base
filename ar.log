@@ -1149,3 +1149,617 @@ D, [2022-03-23T13:46:13.251470 #17832] DEBUG -- :   [1m[36mSupplier Load (29.5
 D, [2022-03-23T13:46:13.350681 #17832] DEBUG -- :   [1m[35m (1.3ms)[0m  [1m[34mSELECT COUNT(*) FROM `products` WHERE `products`.`supplier_id` = 1[0m
 D, [2022-03-23T13:46:13.353812 #17832] DEBUG -- :   [1m[36mProduct Load (1.1ms)[0m  [1m[34mSELECT `products`.* FROM `products` WHERE `products`.`supplier_id` = 1[0m
 D, [2022-03-23T13:46:13.422065 #17832] DEBUG -- :   [1m[36mCategory Load (1.0ms)[0m  [1m[34mSELECT DISTINCT `categories`.* FROM `categories` INNER JOIN `products` ON `categories`.`id` = `products`.`category_id` WHERE `products`.`supplier_id` = 1[0m
+D, [2022-03-23T14:33:48.570558 #8520] DEBUG -- :   [1m[36mClient Load (0.3ms)[0m  [1m[34mSELECT `clients`.* FROM `clients` ORDER BY `clients`.`id` ASC LIMIT 1[0m
+D, [2022-03-23T14:33:48.574190 #8520] DEBUG -- :   [1m[36mSupplier Load (0.2ms)[0m  [1m[34mSELECT `suppliers`.* FROM `suppliers` ORDER BY `suppliers`.`id` ASC LIMIT 1[0m
+D, [2022-03-23T14:33:48.575544 #8520] DEBUG -- :   [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT `products`.* FROM `products` ORDER BY `products`.`id` ASC LIMIT 1[0m
+D, [2022-03-23T14:34:38.002239 #15436] DEBUG -- :   [1m[36mClient Load (0.3ms)[0m  [1m[34mSELECT `clients`.* FROM `clients` ORDER BY `clients`.`id` ASC LIMIT 1[0m
+D, [2022-03-23T14:34:38.006469 #15436] DEBUG -- :   [1m[36mSupplier Load (0.2ms)[0m  [1m[34mSELECT `suppliers`.* FROM `suppliers` ORDER BY `suppliers`.`id` ASC LIMIT 1[0m
+D, [2022-03-23T14:34:38.007711 #15436] DEBUG -- :   [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT `products`.* FROM `products` ORDER BY `products`.`id` ASC LIMIT 1[0m
+D, [2022-03-23T14:35:11.081676 #3736] DEBUG -- :   [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-23T14:35:11.082646 #3736] DEBUG -- :   [1m[36mCategory Create (0.4ms)[0m  [1m[32mINSERT INTO `categories` (`name`) VALUES ('PCR')[0m
+D, [2022-03-23T14:35:11.105933 #3736] DEBUG -- :   [1m[36mTRANSACTION (20.3ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-23T14:35:11.106807 #3736] DEBUG -- :   [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-23T14:35:11.107309 #3736] DEBUG -- :   [1m[36mCategory Create (0.2ms)[0m  [1m[32mINSERT INTO `categories` (`name`) VALUES ('SUP')[0m
+D, [2022-03-23T14:35:11.110215 #3736] DEBUG -- :   [1m[36mTRANSACTION (2.6ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-23T14:35:11.115981 #3736] DEBUG -- :   [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-23T14:35:11.117064 #3736] DEBUG -- :   [1m[36mSupplier Create (0.7ms)[0m  [1m[32mINSERT INTO `suppliers` (`name`) VALUES ('Mauro inc')[0m
+D, [2022-03-23T14:35:11.120380 #3736] DEBUG -- :   [1m[36mTRANSACTION (2.7ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-23T14:35:11.121305 #3736] DEBUG -- :   [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-23T14:35:11.121950 #3736] DEBUG -- :   [1m[36mSupplier Create (0.2ms)[0m  [1m[32mINSERT INTO `suppliers` (`name`) VALUES ('Santos©')[0m
+D, [2022-03-23T14:35:11.125101 #3736] DEBUG -- :   [1m[36mTRANSACTION (2.6ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-23T14:35:11.140330 #3736] DEBUG -- :   [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-23T14:35:11.140891 #3736] DEBUG -- :   [1m[36mProduct Create (0.2ms)[0m  [1m[32mINSERT INTO `products` (`name`, `price`, `description`, `category_id`) VALUES ('apple', 0.05, 'Little apple', 1)[0m
+D, [2022-03-23T14:35:11.143832 #3736] DEBUG -- :   [1m[36mTRANSACTION (2.6ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-23T14:35:11.144589 #3736] DEBUG -- :   [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-23T14:35:11.145095 #3736] DEBUG -- :   [1m[36mProduct Create (0.2ms)[0m  [1m[32mINSERT INTO `products` (`name`, `price`, `description`, `category_id`) VALUES ('lemon', 6.15, 'Big lemon', 1)[0m
+D, [2022-03-23T14:35:11.148191 #3736] DEBUG -- :   [1m[36mTRANSACTION (2.7ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-23T14:35:11.149514 #3736] DEBUG -- :   [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-23T14:35:11.150337 #3736] DEBUG -- :   [1m[36mProduct Create (0.3ms)[0m  [1m[32mINSERT INTO `products` (`name`, `price`, `description`, `category_id`) VALUES ('limousine', 25.95, 'A limousine', 2)[0m
+D, [2022-03-23T14:35:11.153650 #3736] DEBUG -- :   [1m[36mTRANSACTION (2.7ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-23T14:35:11.154767 #3736] DEBUG -- :   [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-23T14:35:11.155275 #3736] DEBUG -- :   [1m[36mProduct Create (0.2ms)[0m  [1m[32mINSERT INTO `products` (`name`, `price`, `description`, `category_id`) VALUES ('truck', 200.0, 'A truck', 2)[0m
+D, [2022-03-23T14:35:11.157709 #3736] DEBUG -- :   [1m[36mTRANSACTION (2.1ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-23T14:35:11.172711 #3736] DEBUG -- :   [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-23T14:35:11.173326 #3736] DEBUG -- :   [1m[36mProduct Update (0.3ms)[0m  [1m[33mUPDATE `products` SET `products`.`supplier_id` = 1 WHERE `products`.`id` = 1[0m
+D, [2022-03-23T14:35:11.176392 #3736] DEBUG -- :   [1m[36mTRANSACTION (2.6ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-23T14:35:11.177271 #3736] DEBUG -- :   [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-23T14:35:11.178059 #3736] DEBUG -- :   [1m[36mProduct Update (0.3ms)[0m  [1m[33mUPDATE `products` SET `products`.`supplier_id` = 1 WHERE `products`.`id` = 2[0m
+D, [2022-03-23T14:35:11.181010 #3736] DEBUG -- :   [1m[36mTRANSACTION (2.6ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-23T14:35:11.182409 #3736] DEBUG -- :   [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-23T14:35:11.183065 #3736] DEBUG -- :   [1m[36mProduct Update (0.3ms)[0m  [1m[33mUPDATE `products` SET `products`.`supplier_id` = 2 WHERE `products`.`id` = 4[0m
+D, [2022-03-23T14:35:11.186148 #3736] DEBUG -- :   [1m[36mTRANSACTION (2.6ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-23T14:35:11.193337 #3736] DEBUG -- :   [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-23T14:35:11.193846 #3736] DEBUG -- :   [1m[36mClient Create (0.2ms)[0m  [1m[32mINSERT INTO `clients` (`firstname`, `lastname`) VALUES ('yannick', 'baudraz')[0m
+D, [2022-03-23T14:35:11.197439 #3736] DEBUG -- :   [1m[36mTRANSACTION (3.2ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-23T14:35:11.198216 #3736] DEBUG -- :   [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-23T14:35:11.198626 #3736] DEBUG -- :   [1m[36mClient Create (0.2ms)[0m  [1m[32mINSERT INTO `clients` (`firstname`, `lastname`) VALUES ('john', 'doedoe')[0m
+D, [2022-03-23T14:35:11.201306 #3736] DEBUG -- :   [1m[36mTRANSACTION (2.3ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-23T14:35:11.216691 #3736] DEBUG -- :   [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-23T14:35:11.217235 #3736] DEBUG -- :   [1m[36mOrder Create (0.2ms)[0m  [1m[32mINSERT INTO `orders` (`status`, `created_at`, `updated_at`, `client_id`) VALUES ('PROGRESS', '2022-03-23 13:35:11.215630', '2022-03-23 13:35:11.215630', 1)[0m
+D, [2022-03-23T14:35:11.218354 #3736] DEBUG -- :   [1m[36mOrderItem Create (0.2ms)[0m  [1m[32mINSERT INTO `order_items` (`order_id`, `item_id`, `quantity`, `item_price`) VALUES (1, 1, 2, 0.05)[0m
+D, [2022-03-23T14:35:11.219159 #3736] DEBUG -- :   [1m[36mOrderItem Create (0.2ms)[0m  [1m[32mINSERT INTO `order_items` (`order_id`, `item_id`, `quantity`, `item_price`) VALUES (1, 3, 125, 25.95)[0m
+D, [2022-03-23T14:35:11.220022 #3736] DEBUG -- :   [1m[36mOrderItem Create (0.2ms)[0m  [1m[32mINSERT INTO `order_items` (`order_id`, `item_id`, `quantity`, `item_price`) VALUES (1, 4, 3, 200.0)[0m
+D, [2022-03-23T14:35:11.223308 #3736] DEBUG -- :   [1m[36mTRANSACTION (2.8ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-23T14:35:11.228690 #3736] DEBUG -- :   [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-23T14:35:11.229183 #3736] DEBUG -- :   [1m[36mOrder Create (0.2ms)[0m  [1m[32mINSERT INTO `orders` (`status`, `created_at`, `updated_at`, `client_id`) VALUES ('PROGRESS', '2022-03-23 13:35:11.228102', '2022-03-23 13:35:11.228102', 1)[0m
+D, [2022-03-23T14:35:11.229893 #3736] DEBUG -- :   [1m[36mOrderItem Create (0.2ms)[0m  [1m[32mINSERT INTO `order_items` (`order_id`, `item_id`, `quantity`, `item_price`) VALUES (2, 1, 1, 0.05)[0m
+D, [2022-03-23T14:35:11.230414 #3736] DEBUG -- :   [1m[36mOrderItem Create (0.2ms)[0m  [1m[32mINSERT INTO `order_items` (`order_id`, `item_id`, `quantity`, `item_price`) VALUES (2, 2, 75, 6.15)[0m
+D, [2022-03-23T14:35:11.231041 #3736] DEBUG -- :   [1m[36mOrderItem Create (0.2ms)[0m  [1m[32mINSERT INTO `order_items` (`order_id`, `item_id`, `quantity`, `item_price`) VALUES (2, 3, 3, 25.95)[0m
+D, [2022-03-23T14:35:11.231775 #3736] DEBUG -- :   [1m[36mOrderItem Create (0.1ms)[0m  [1m[32mINSERT INTO `order_items` (`order_id`, `item_id`, `quantity`, `item_price`) VALUES (2, 4, 200, 200.0)[0m
+D, [2022-03-23T14:35:11.234262 #3736] DEBUG -- :   [1m[36mTRANSACTION (2.2ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-23T14:35:15.902860 #5540] DEBUG -- :   [1m[36mClient Load (0.2ms)[0m  [1m[34mSELECT `clients`.* FROM `clients` ORDER BY `clients`.`id` ASC LIMIT 1[0m
+D, [2022-03-23T14:35:15.915338 #5540] DEBUG -- :   [1m[36mSupplier Load (0.2ms)[0m  [1m[34mSELECT `suppliers`.* FROM `suppliers` ORDER BY `suppliers`.`id` ASC LIMIT 1[0m
+D, [2022-03-23T14:35:15.921783 #5540] DEBUG -- :   [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT `products`.* FROM `products` ORDER BY `products`.`id` ASC LIMIT 1[0m
+D, [2022-03-23T14:37:22.026496 #6344] DEBUG -- :   [1m[36mClient Load (0.3ms)[0m  [1m[34mSELECT `clients`.* FROM `clients` ORDER BY `clients`.`id` ASC LIMIT 1[0m
+D, [2022-03-23T14:37:22.040330 #6344] DEBUG -- :   [1m[36mSupplier Load (0.3ms)[0m  [1m[34mSELECT `suppliers`.* FROM `suppliers` ORDER BY `suppliers`.`id` ASC LIMIT 1[0m
+D, [2022-03-23T14:37:22.046262 #6344] DEBUG -- :   [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT `products`.* FROM `products` ORDER BY `products`.`id` ASC LIMIT 1[0m
+D, [2022-03-23T14:50:58.972638 #11860] DEBUG -- :   [1m[36mClient Load (0.2ms)[0m  [1m[34mSELECT `clients`.* FROM `clients` ORDER BY `clients`.`id` ASC LIMIT 1[0m
+D, [2022-03-23T14:50:58.976988 #11860] DEBUG -- :   [1m[36mSupplier Load (0.2ms)[0m  [1m[34mSELECT `suppliers`.* FROM `suppliers` ORDER BY `suppliers`.`id` ASC LIMIT 1[0m
+D, [2022-03-23T14:50:58.979009 #11860] DEBUG -- :   [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT `products`.* FROM `products` ORDER BY `products`.`id` ASC LIMIT 1[0m
+D, [2022-03-23T14:54:17.201932 #6764] DEBUG -- :   [1m[36mClient Load (0.3ms)[0m  [1m[34mSELECT `clients`.* FROM `clients` ORDER BY `clients`.`id` ASC LIMIT 1[0m
+D, [2022-03-23T14:54:17.205872 #6764] DEBUG -- :   [1m[36mSupplier Load (0.2ms)[0m  [1m[34mSELECT `suppliers`.* FROM `suppliers` ORDER BY `suppliers`.`id` ASC LIMIT 1[0m
+D, [2022-03-23T14:54:17.207261 #6764] DEBUG -- :   [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT `products`.* FROM `products` ORDER BY `products`.`id` ASC LIMIT 1[0m
+D, [2022-03-23T14:54:36.803218 #6728] DEBUG -- :   [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-23T14:54:36.803953 #6728] DEBUG -- :   [1m[36mCategory Create (0.3ms)[0m  [1m[32mINSERT INTO `categories` (`name`) VALUES ('PCR')[0m
+D, [2022-03-23T14:54:36.809147 #6728] DEBUG -- :   [1m[36mTRANSACTION (2.7ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-23T14:54:36.810769 #6728] DEBUG -- :   [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-23T14:54:36.811488 #6728] DEBUG -- :   [1m[36mCategory Create (0.2ms)[0m  [1m[32mINSERT INTO `categories` (`name`) VALUES ('SUP')[0m
+D, [2022-03-23T14:54:36.814452 #6728] DEBUG -- :   [1m[36mTRANSACTION (2.4ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-23T14:54:36.821865 #6728] DEBUG -- :   [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-23T14:54:36.822480 #6728] DEBUG -- :   [1m[36mSupplier Create (0.2ms)[0m  [1m[32mINSERT INTO `suppliers` (`name`) VALUES ('Mauro inc')[0m
+D, [2022-03-23T14:54:36.825991 #6728] DEBUG -- :   [1m[36mTRANSACTION (3.0ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-23T14:54:36.827214 #6728] DEBUG -- :   [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-23T14:54:36.828070 #6728] DEBUG -- :   [1m[36mSupplier Create (0.2ms)[0m  [1m[32mINSERT INTO `suppliers` (`name`) VALUES ('Santos©')[0m
+D, [2022-03-23T14:54:36.830788 #6728] DEBUG -- :   [1m[36mTRANSACTION (2.2ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-23T14:54:36.846999 #6728] DEBUG -- :   [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-23T14:54:36.847770 #6728] DEBUG -- :   [1m[36mProduct Create (0.3ms)[0m  [1m[32mINSERT INTO `products` (`name`, `price`, `description`, `category_id`) VALUES ('apple', 0.05, 'Little apple', 1)[0m
+D, [2022-03-23T14:54:36.851582 #6728] DEBUG -- :   [1m[36mTRANSACTION (3.3ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-23T14:54:36.852882 #6728] DEBUG -- :   [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-23T14:54:36.853638 #6728] DEBUG -- :   [1m[36mProduct Create (0.3ms)[0m  [1m[32mINSERT INTO `products` (`name`, `price`, `description`, `category_id`) VALUES ('lemon', 6.15, 'Big lemon', 1)[0m
+D, [2022-03-23T14:54:36.856959 #6728] DEBUG -- :   [1m[36mTRANSACTION (2.8ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-23T14:54:36.858392 #6728] DEBUG -- :   [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-23T14:54:36.858976 #6728] DEBUG -- :   [1m[36mProduct Create (0.3ms)[0m  [1m[32mINSERT INTO `products` (`name`, `price`, `description`, `category_id`) VALUES ('limousine', 25.95, 'A limousine', 2)[0m
+D, [2022-03-23T14:54:36.861797 #6728] DEBUG -- :   [1m[36mTRANSACTION (2.4ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-23T14:54:36.862784 #6728] DEBUG -- :   [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-23T14:54:36.863279 #6728] DEBUG -- :   [1m[36mProduct Create (0.2ms)[0m  [1m[32mINSERT INTO `products` (`name`, `price`, `description`, `category_id`) VALUES ('truck', 200.0, 'A truck', 2)[0m
+D, [2022-03-23T14:54:36.865975 #6728] DEBUG -- :   [1m[36mTRANSACTION (2.3ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-23T14:54:36.880288 #6728] DEBUG -- :   [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-23T14:54:36.880949 #6728] DEBUG -- :   [1m[36mProduct Update (0.3ms)[0m  [1m[33mUPDATE `products` SET `products`.`supplier_id` = 1 WHERE `products`.`id` = 1[0m
+D, [2022-03-23T14:54:36.884429 #6728] DEBUG -- :   [1m[36mTRANSACTION (3.0ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-23T14:54:36.885479 #6728] DEBUG -- :   [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-23T14:54:36.886113 #6728] DEBUG -- :   [1m[36mProduct Update (0.3ms)[0m  [1m[33mUPDATE `products` SET `products`.`supplier_id` = 1 WHERE `products`.`id` = 2[0m
+D, [2022-03-23T14:54:36.889522 #6728] DEBUG -- :   [1m[36mTRANSACTION (3.0ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-23T14:54:36.890900 #6728] DEBUG -- :   [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-23T14:54:36.891539 #6728] DEBUG -- :   [1m[36mProduct Update (0.3ms)[0m  [1m[33mUPDATE `products` SET `products`.`supplier_id` = 2 WHERE `products`.`id` = 4[0m
+D, [2022-03-23T14:54:36.894190 #6728] DEBUG -- :   [1m[36mTRANSACTION (2.1ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-23T14:54:36.901658 #6728] DEBUG -- :   [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-23T14:54:36.902192 #6728] DEBUG -- :   [1m[36mClient Create (0.3ms)[0m  [1m[32mINSERT INTO `clients` (`firstname`, `lastname`) VALUES ('yannick', 'baudraz')[0m
+D, [2022-03-23T14:54:36.905507 #6728] DEBUG -- :   [1m[36mTRANSACTION (2.9ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-23T14:54:36.906517 #6728] DEBUG -- :   [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-23T14:54:36.907087 #6728] DEBUG -- :   [1m[36mClient Create (0.2ms)[0m  [1m[32mINSERT INTO `clients` (`firstname`, `lastname`) VALUES ('john', 'doedoe')[0m
+D, [2022-03-23T14:54:36.909727 #6728] DEBUG -- :   [1m[36mTRANSACTION (2.2ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-23T14:54:36.924902 #6728] DEBUG -- :   [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-23T14:54:36.925508 #6728] DEBUG -- :   [1m[36mOrder Create (0.3ms)[0m  [1m[32mINSERT INTO `orders` (`status`, `created_at`, `updated_at`, `client_id`) VALUES ('PROGRESS', '2022-03-23 13:54:36.924065', '2022-03-23 13:54:36.924065', 1)[0m
+D, [2022-03-23T14:54:36.926532 #6728] DEBUG -- :   [1m[36mOrderItem Create (0.2ms)[0m  [1m[32mINSERT INTO `order_items` (`order_id`, `item_id`, `quantity`, `item_price`) VALUES (1, 1, 2, 0.05)[0m
+D, [2022-03-23T14:54:36.927275 #6728] DEBUG -- :   [1m[36mOrderItem Create (0.2ms)[0m  [1m[32mINSERT INTO `order_items` (`order_id`, `item_id`, `quantity`, `item_price`) VALUES (1, 3, 125, 25.95)[0m
+D, [2022-03-23T14:54:36.928024 #6728] DEBUG -- :   [1m[36mOrderItem Create (0.2ms)[0m  [1m[32mINSERT INTO `order_items` (`order_id`, `item_id`, `quantity`, `item_price`) VALUES (1, 4, 3, 200.0)[0m
+D, [2022-03-23T14:54:36.931802 #6728] DEBUG -- :   [1m[36mTRANSACTION (3.3ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-23T14:54:36.937111 #6728] DEBUG -- :   [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-23T14:54:36.937724 #6728] DEBUG -- :   [1m[36mOrder Create (0.3ms)[0m  [1m[32mINSERT INTO `orders` (`status`, `created_at`, `updated_at`, `client_id`) VALUES ('PROGRESS', '2022-03-23 13:54:36.936360', '2022-03-23 13:54:36.936360', 1)[0m
+D, [2022-03-23T14:54:36.938553 #6728] DEBUG -- :   [1m[36mOrderItem Create (0.2ms)[0m  [1m[32mINSERT INTO `order_items` (`order_id`, `item_id`, `quantity`, `item_price`) VALUES (2, 1, 1, 0.05)[0m
+D, [2022-03-23T14:54:36.939304 #6728] DEBUG -- :   [1m[36mOrderItem Create (0.2ms)[0m  [1m[32mINSERT INTO `order_items` (`order_id`, `item_id`, `quantity`, `item_price`) VALUES (2, 2, 75, 6.15)[0m
+D, [2022-03-23T14:54:36.939943 #6728] DEBUG -- :   [1m[36mOrderItem Create (0.2ms)[0m  [1m[32mINSERT INTO `order_items` (`order_id`, `item_id`, `quantity`, `item_price`) VALUES (2, 3, 3, 25.95)[0m
+D, [2022-03-23T14:54:36.940695 #6728] DEBUG -- :   [1m[36mOrderItem Create (0.2ms)[0m  [1m[32mINSERT INTO `order_items` (`order_id`, `item_id`, `quantity`, `item_price`) VALUES (2, 4, 200, 200.0)[0m
+D, [2022-03-23T14:54:36.943610 #6728] DEBUG -- :   [1m[36mTRANSACTION (2.5ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-23T14:54:45.860210 #11684] DEBUG -- :   [1m[36mClient Load (0.5ms)[0m  [1m[34mSELECT `clients`.* FROM `clients` ORDER BY `clients`.`id` ASC LIMIT 1[0m
+D, [2022-03-23T14:54:45.879087 #11684] DEBUG -- :   [1m[36mSupplier Load (0.1ms)[0m  [1m[34mSELECT `suppliers`.* FROM `suppliers` ORDER BY `suppliers`.`id` ASC LIMIT 1[0m
+D, [2022-03-23T14:54:45.884938 #11684] DEBUG -- :   [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT `products`.* FROM `products` ORDER BY `products`.`id` ASC LIMIT 1[0m
+D, [2022-03-23T14:55:57.935597 #7196] DEBUG -- :   [1m[36mClient Load (0.3ms)[0m  [1m[34mSELECT `clients`.* FROM `clients` ORDER BY `clients`.`id` ASC LIMIT 1[0m
+D, [2022-03-23T14:55:57.950964 #7196] DEBUG -- :   [1m[36mSupplier Load (0.1ms)[0m  [1m[34mSELECT `suppliers`.* FROM `suppliers` ORDER BY `suppliers`.`id` ASC LIMIT 1[0m
+D, [2022-03-23T14:55:57.956837 #7196] DEBUG -- :   [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT `products`.* FROM `products` ORDER BY `products`.`id` ASC LIMIT 1[0m
+D, [2022-03-23T14:58:26.056019 #11200] DEBUG -- :   [1m[36mClient Load (0.2ms)[0m  [1m[34mSELECT `clients`.* FROM `clients` ORDER BY `clients`.`id` ASC LIMIT 1[0m
+D, [2022-03-23T14:58:26.072151 #11200] DEBUG -- :   [1m[36mSupplier Load (0.2ms)[0m  [1m[34mSELECT `suppliers`.* FROM `suppliers` ORDER BY `suppliers`.`id` ASC LIMIT 1[0m
+D, [2022-03-23T14:58:26.078559 #11200] DEBUG -- :   [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT `products`.* FROM `products` ORDER BY `products`.`id` ASC LIMIT 1[0m
+D, [2022-03-23T14:58:26.109088 #11200] DEBUG -- :   [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-23T14:58:26.109979 #11200] DEBUG -- :   [1m[36mComment Create (0.3ms)[0m  [1m[32mINSERT INTO `comments` (`content`, `author_id`, `target_type`, `target_id`) VALUES ('veri coll', 1, 'Supplier', 1)[0m
+D, [2022-03-23T14:58:26.113844 #11200] DEBUG -- :   [1m[36mTRANSACTION (2.9ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-23T14:58:39.580738 #7044] DEBUG -- :   [1m[36mClient Load (0.6ms)[0m  [1m[34mSELECT `clients`.* FROM `clients` ORDER BY `clients`.`id` ASC LIMIT 1[0m
+D, [2022-03-23T14:58:39.598152 #7044] DEBUG -- :   [1m[36mSupplier Load (1.0ms)[0m  [1m[34mSELECT `suppliers`.* FROM `suppliers` ORDER BY `suppliers`.`id` ASC LIMIT 1[0m
+D, [2022-03-23T14:58:39.605720 #7044] DEBUG -- :   [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT `products`.* FROM `products` ORDER BY `products`.`id` ASC LIMIT 1[0m
+D, [2022-03-23T14:58:39.632305 #7044] DEBUG -- :   [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-23T14:58:39.633184 #7044] DEBUG -- :   [1m[36mComment Create (0.3ms)[0m  [1m[32mINSERT INTO `comments` (`content`, `author_id`, `target_type`, `target_id`) VALUES ('veri coll', 1, 'Supplier', 1)[0m
+D, [2022-03-23T14:58:39.636908 #7044] DEBUG -- :   [1m[36mTRANSACTION (3.1ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-23T15:02:44.576343 #2780] DEBUG -- :   [1m[36mClient Load (0.2ms)[0m  [1m[34mSELECT `clients`.* FROM `clients` ORDER BY `clients`.`id` ASC LIMIT 1[0m
+D, [2022-03-23T15:02:44.591270 #2780] DEBUG -- :   [1m[36mClient Load (0.9ms)[0m  [1m[34mSELECT `clients`.* FROM `clients` ORDER BY `clients`.`id` ASC LIMIT 1 OFFSET 1[0m
+D, [2022-03-23T15:02:44.592889 #2780] DEBUG -- :   [1m[36mSupplier Load (0.2ms)[0m  [1m[34mSELECT `suppliers`.* FROM `suppliers` ORDER BY `suppliers`.`id` ASC LIMIT 1[0m
+D, [2022-03-23T15:02:44.601350 #2780] DEBUG -- :   [1m[36mProduct Load (0.4ms)[0m  [1m[34mSELECT `products`.* FROM `products` ORDER BY `products`.`id` ASC LIMIT 1[0m
+D, [2022-03-23T15:02:44.636097 #2780] DEBUG -- :   [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-23T15:02:44.637235 #2780] DEBUG -- :   [1m[36mComment Create (0.5ms)[0m  [1m[32mINSERT INTO `comments` (`content`, `author_id`) VALUES ('veri coll', 1)[0m
+D, [2022-03-23T15:02:44.657224 #2780] DEBUG -- :   [1m[36mTRANSACTION (19.3ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-23T15:02:44.658385 #2780] DEBUG -- :   [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-23T15:02:44.659079 #2780] DEBUG -- :   [1m[36mComment Create (0.3ms)[0m  [1m[32mINSERT INTO `comments` (`content`, `author_id`) VALUES ('pogchamp', 2)[0m
+D, [2022-03-23T15:02:44.662138 #2780] DEBUG -- :   [1m[36mTRANSACTION (2.6ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-23T15:02:44.680293 #2780] DEBUG -- :   [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-23T15:02:44.681534 #2780] DEBUG -- :   [1m[36mComment Update (0.4ms)[0m  [1m[33mUPDATE `comments` SET `comments`.`target_type` = 'Supplier', `comments`.`target_id` = 1 WHERE `comments`.`id` = 3[0m
+D, [2022-03-23T15:02:44.683580 #2780] DEBUG -- :   [1m[36mComment Update (0.4ms)[0m  [1m[33mUPDATE `comments` SET `comments`.`target_type` = 'Supplier', `comments`.`target_id` = 1 WHERE `comments`.`id` = 4[0m
+D, [2022-03-23T15:02:44.687466 #2780] DEBUG -- :   [1m[36mTRANSACTION (3.0ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-23T15:23:15.018035 #18976] DEBUG -- :   [1m[36mClient Load (0.2ms)[0m  [1m[34mSELECT `clients`.* FROM `clients` ORDER BY `clients`.`id` ASC LIMIT 1[0m
+D, [2022-03-23T15:23:15.033864 #18976] DEBUG -- :   [1m[36mClient Load (0.2ms)[0m  [1m[34mSELECT `clients`.* FROM `clients` ORDER BY `clients`.`id` ASC LIMIT 1 OFFSET 1[0m
+D, [2022-03-23T15:23:15.035091 #18976] DEBUG -- :   [1m[36mSupplier Load (0.1ms)[0m  [1m[34mSELECT `suppliers`.* FROM `suppliers` ORDER BY `suppliers`.`id` ASC LIMIT 1[0m
+D, [2022-03-23T15:23:15.041380 #18976] DEBUG -- :   [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT `products`.* FROM `products` ORDER BY `products`.`id` ASC LIMIT 1[0m
+D, [2022-03-23T15:23:15.075946 #18976] DEBUG -- :   [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-23T15:23:15.076709 #18976] DEBUG -- :   [1m[36mComment Create (0.3ms)[0m  [1m[32mINSERT INTO `comments` (`content`, `author_id`) VALUES ('veri coll', 1)[0m
+D, [2022-03-23T15:23:15.098725 #18976] DEBUG -- :   [1m[36mTRANSACTION (21.5ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-23T15:23:15.099593 #18976] DEBUG -- :   [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-23T15:23:15.100104 #18976] DEBUG -- :   [1m[36mComment Create (0.2ms)[0m  [1m[32mINSERT INTO `comments` (`content`, `author_id`) VALUES ('pogchamp', 2)[0m
+D, [2022-03-23T15:23:15.102419 #18976] DEBUG -- :   [1m[36mTRANSACTION (2.0ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-23T15:23:15.117038 #18976] DEBUG -- :   [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-23T15:23:15.117572 #18976] DEBUG -- :   [1m[36mComment Update (0.3ms)[0m  [1m[33mUPDATE `comments` SET `comments`.`target_type` = 'Supplier', `comments`.`target_id` = 1 WHERE `comments`.`id` = 5[0m
+D, [2022-03-23T15:23:15.118428 #18976] DEBUG -- :   [1m[36mComment Update (0.2ms)[0m  [1m[33mUPDATE `comments` SET `comments`.`target_type` = 'Supplier', `comments`.`target_id` = 1 WHERE `comments`.`id` = 6[0m
+D, [2022-03-23T15:23:15.121330 #18976] DEBUG -- :   [1m[36mTRANSACTION (2.4ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-23T15:23:15.122555 #18976] DEBUG -- :   [1m[36mComment Load (0.3ms)[0m  [1m[34mSELECT `comments`.* FROM `comments` WHERE `comments`.`target_id` = 1 AND `comments`.`target_type` = 'Supplier' /* loading for inspect */ LIMIT 11[0m
+D, [2022-03-23T15:23:44.252650 #11296] DEBUG -- :   [1m[36mClient Load (0.2ms)[0m  [1m[34mSELECT `clients`.* FROM `clients` ORDER BY `clients`.`id` ASC LIMIT 1[0m
+D, [2022-03-23T15:23:44.267874 #11296] DEBUG -- :   [1m[36mClient Load (0.4ms)[0m  [1m[34mSELECT `clients`.* FROM `clients` ORDER BY `clients`.`id` ASC LIMIT 1 OFFSET 1[0m
+D, [2022-03-23T15:23:44.269322 #11296] DEBUG -- :   [1m[36mSupplier Load (0.2ms)[0m  [1m[34mSELECT `suppliers`.* FROM `suppliers` ORDER BY `suppliers`.`id` ASC LIMIT 1[0m
+D, [2022-03-23T15:23:44.277967 #11296] DEBUG -- :   [1m[36mProduct Load (0.8ms)[0m  [1m[34mSELECT `products`.* FROM `products` ORDER BY `products`.`id` ASC LIMIT 1[0m
+D, [2022-03-23T15:23:44.313138 #11296] DEBUG -- :   [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-23T15:23:44.313603 #11296] DEBUG -- :   [1m[36mComment Create (0.2ms)[0m  [1m[32mINSERT INTO `comments` (`content`, `author_id`) VALUES ('veri coll', 1)[0m
+D, [2022-03-23T15:23:44.316650 #11296] DEBUG -- :   [1m[36mTRANSACTION (2.7ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-23T15:23:44.317478 #11296] DEBUG -- :   [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-23T15:23:44.317863 #11296] DEBUG -- :   [1m[36mComment Create (0.2ms)[0m  [1m[32mINSERT INTO `comments` (`content`, `author_id`) VALUES ('pogchamp', 2)[0m
+D, [2022-03-23T15:23:44.320793 #11296] DEBUG -- :   [1m[36mTRANSACTION (2.6ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-23T15:23:44.333739 #11296] DEBUG -- :   [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-23T15:23:44.334188 #11296] DEBUG -- :   [1m[36mComment Update (0.3ms)[0m  [1m[33mUPDATE `comments` SET `comments`.`target_type` = 'Supplier', `comments`.`target_id` = 1 WHERE `comments`.`id` = 7[0m
+D, [2022-03-23T15:23:44.335090 #11296] DEBUG -- :   [1m[36mComment Update (0.2ms)[0m  [1m[33mUPDATE `comments` SET `comments`.`target_type` = 'Supplier', `comments`.`target_id` = 1 WHERE `comments`.`id` = 8[0m
+D, [2022-03-23T15:23:44.337851 #11296] DEBUG -- :   [1m[36mTRANSACTION (2.5ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-23T15:23:44.339191 #11296] DEBUG -- :   [1m[36mComment Load (0.3ms)[0m  [1m[34mSELECT `comments`.* FROM `comments` WHERE `comments`.`target_id` = 1 AND `comments`.`target_type` = 'Supplier' /* loading for inspect */ LIMIT 11[0m
+D, [2022-03-23T15:23:55.197583 #18984] DEBUG -- :   [1m[36mClient Load (0.3ms)[0m  [1m[34mSELECT `clients`.* FROM `clients` ORDER BY `clients`.`id` ASC LIMIT 1[0m
+D, [2022-03-23T15:23:55.213745 #18984] DEBUG -- :   [1m[36mClient Load (0.3ms)[0m  [1m[34mSELECT `clients`.* FROM `clients` ORDER BY `clients`.`id` ASC LIMIT 1 OFFSET 1[0m
+D, [2022-03-23T15:23:55.215518 #18984] DEBUG -- :   [1m[36mSupplier Load (0.2ms)[0m  [1m[34mSELECT `suppliers`.* FROM `suppliers` ORDER BY `suppliers`.`id` ASC LIMIT 1[0m
+D, [2022-03-23T15:23:55.221774 #18984] DEBUG -- :   [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT `products`.* FROM `products` ORDER BY `products`.`id` ASC LIMIT 1[0m
+D, [2022-03-23T15:23:55.256892 #18984] DEBUG -- :   [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-23T15:23:55.257921 #18984] DEBUG -- :   [1m[36mComment Create (0.5ms)[0m  [1m[32mINSERT INTO `comments` (`content`, `author_id`) VALUES ('veri coll', 1)[0m
+D, [2022-03-23T15:23:55.261654 #18984] DEBUG -- :   [1m[36mTRANSACTION (3.0ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-23T15:23:55.262809 #18984] DEBUG -- :   [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-23T15:23:55.263524 #18984] DEBUG -- :   [1m[36mComment Create (0.3ms)[0m  [1m[32mINSERT INTO `comments` (`content`, `author_id`) VALUES ('pogchamp', 2)[0m
+D, [2022-03-23T15:23:55.266585 #18984] DEBUG -- :   [1m[36mTRANSACTION (2.4ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-23T15:23:55.283195 #18984] DEBUG -- :   [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-23T15:23:55.288639 #18984] DEBUG -- :   [1m[36mComment Update (0.3ms)[0m  [1m[33mUPDATE `comments` SET `comments`.`target_type` = 'Supplier', `comments`.`target_id` = 1 WHERE `comments`.`id` = 9[0m
+D, [2022-03-23T15:23:55.289776 #18984] DEBUG -- :   [1m[36mComment Update (0.3ms)[0m  [1m[33mUPDATE `comments` SET `comments`.`target_type` = 'Supplier', `comments`.`target_id` = 1 WHERE `comments`.`id` = 10[0m
+D, [2022-03-23T15:23:55.292528 #18984] DEBUG -- :   [1m[36mTRANSACTION (2.2ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-23T15:23:55.294119 #18984] DEBUG -- :   [1m[36mComment Load (0.3ms)[0m  [1m[34mSELECT `comments`.* FROM `comments` WHERE `comments`.`target_id` = 1 AND `comments`.`target_type` = 'Supplier'[0m
+D, [2022-03-23T15:24:24.954557 #18444] DEBUG -- :   [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-23T15:24:24.955265 #18444] DEBUG -- :   [1m[36mCategory Create (0.2ms)[0m  [1m[32mINSERT INTO `categories` (`name`) VALUES ('PCR')[0m
+D, [2022-03-23T15:24:24.960387 #18444] DEBUG -- :   [1m[36mTRANSACTION (2.6ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-23T15:24:24.961115 #18444] DEBUG -- :   [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-23T15:24:24.961561 #18444] DEBUG -- :   [1m[36mCategory Create (0.2ms)[0m  [1m[32mINSERT INTO `categories` (`name`) VALUES ('SUP')[0m
+D, [2022-03-23T15:24:24.964215 #18444] DEBUG -- :   [1m[36mTRANSACTION (2.4ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-23T15:24:24.970059 #18444] DEBUG -- :   [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-23T15:24:24.971302 #18444] DEBUG -- :   [1m[36mSupplier Create (0.8ms)[0m  [1m[32mINSERT INTO `suppliers` (`name`) VALUES ('Mauro inc')[0m
+D, [2022-03-23T15:24:24.974392 #18444] DEBUG -- :   [1m[36mTRANSACTION (2.5ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-23T15:24:24.975334 #18444] DEBUG -- :   [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-23T15:24:24.976060 #18444] DEBUG -- :   [1m[36mSupplier Create (0.2ms)[0m  [1m[32mINSERT INTO `suppliers` (`name`) VALUES ('Santos©')[0m
+D, [2022-03-23T15:24:24.979097 #18444] DEBUG -- :   [1m[36mTRANSACTION (2.6ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-23T15:24:24.993944 #18444] DEBUG -- :   [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-23T15:24:24.994546 #18444] DEBUG -- :   [1m[36mProduct Create (0.2ms)[0m  [1m[32mINSERT INTO `products` (`name`, `price`, `description`, `category_id`) VALUES ('apple', 0.05, 'Little apple', 1)[0m
+D, [2022-03-23T15:24:24.997294 #18444] DEBUG -- :   [1m[36mTRANSACTION (2.4ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-23T15:24:24.998986 #18444] DEBUG -- :   [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-23T15:24:24.999764 #18444] DEBUG -- :   [1m[36mProduct Create (0.3ms)[0m  [1m[32mINSERT INTO `products` (`name`, `price`, `description`, `category_id`) VALUES ('lemon', 6.15, 'Big lemon', 1)[0m
+D, [2022-03-23T15:24:25.003045 #18444] DEBUG -- :   [1m[36mTRANSACTION (2.6ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-23T15:24:25.004176 #18444] DEBUG -- :   [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-23T15:24:25.004812 #18444] DEBUG -- :   [1m[36mProduct Create (0.2ms)[0m  [1m[32mINSERT INTO `products` (`name`, `price`, `description`, `category_id`) VALUES ('limousine', 25.95, 'A limousine', 2)[0m
+D, [2022-03-23T15:24:25.007625 #18444] DEBUG -- :   [1m[36mTRANSACTION (2.3ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-23T15:24:25.008708 #18444] DEBUG -- :   [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-23T15:24:25.009417 #18444] DEBUG -- :   [1m[36mProduct Create (0.3ms)[0m  [1m[32mINSERT INTO `products` (`name`, `price`, `description`, `category_id`) VALUES ('truck', 200.0, 'A truck', 2)[0m
+D, [2022-03-23T15:24:25.012699 #18444] DEBUG -- :   [1m[36mTRANSACTION (2.7ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-23T15:24:25.033430 #18444] DEBUG -- :   [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-23T15:24:25.034143 #18444] DEBUG -- :   [1m[36mProduct Update (0.3ms)[0m  [1m[33mUPDATE `products` SET `products`.`supplier_id` = 1 WHERE `products`.`id` = 1[0m
+D, [2022-03-23T15:24:25.037477 #18444] DEBUG -- :   [1m[36mTRANSACTION (2.8ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-23T15:24:25.038637 #18444] DEBUG -- :   [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-23T15:24:25.039271 #18444] DEBUG -- :   [1m[36mProduct Update (0.3ms)[0m  [1m[33mUPDATE `products` SET `products`.`supplier_id` = 1 WHERE `products`.`id` = 2[0m
+D, [2022-03-23T15:24:25.042663 #18444] DEBUG -- :   [1m[36mTRANSACTION (2.9ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-23T15:24:25.043865 #18444] DEBUG -- :   [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-23T15:24:25.044452 #18444] DEBUG -- :   [1m[36mProduct Update (0.3ms)[0m  [1m[33mUPDATE `products` SET `products`.`supplier_id` = 2 WHERE `products`.`id` = 4[0m
+D, [2022-03-23T15:24:25.047350 #18444] DEBUG -- :   [1m[36mTRANSACTION (2.4ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-23T15:24:25.057328 #18444] DEBUG -- :   [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-23T15:24:25.057838 #18444] DEBUG -- :   [1m[36mClient Create (0.2ms)[0m  [1m[32mINSERT INTO `clients` (`firstname`, `lastname`) VALUES ('yannick', 'baudraz')[0m
+D, [2022-03-23T15:24:25.061511 #18444] DEBUG -- :   [1m[36mTRANSACTION (3.2ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-23T15:24:25.062618 #18444] DEBUG -- :   [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-23T15:24:25.063228 #18444] DEBUG -- :   [1m[36mClient Create (0.3ms)[0m  [1m[32mINSERT INTO `clients` (`firstname`, `lastname`) VALUES ('john', 'doedoe')[0m
+D, [2022-03-23T15:24:25.066416 #18444] DEBUG -- :   [1m[36mTRANSACTION (2.8ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-23T15:24:25.085259 #18444] DEBUG -- :   [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-23T15:24:25.085918 #18444] DEBUG -- :   [1m[36mOrder Create (0.3ms)[0m  [1m[32mINSERT INTO `orders` (`status`, `created_at`, `updated_at`, `client_id`) VALUES ('PROGRESS', '2022-03-23 14:24:25.084424', '2022-03-23 14:24:25.084424', 1)[0m
+D, [2022-03-23T15:24:25.086798 #18444] DEBUG -- :   [1m[36mOrderItem Create (0.2ms)[0m  [1m[32mINSERT INTO `order_items` (`order_id`, `item_id`, `quantity`, `item_price`) VALUES (1, 1, 2, 0.05)[0m
+D, [2022-03-23T15:24:25.087564 #18444] DEBUG -- :   [1m[36mOrderItem Create (0.2ms)[0m  [1m[32mINSERT INTO `order_items` (`order_id`, `item_id`, `quantity`, `item_price`) VALUES (1, 3, 125, 25.95)[0m
+D, [2022-03-23T15:24:25.088311 #18444] DEBUG -- :   [1m[36mOrderItem Create (0.2ms)[0m  [1m[32mINSERT INTO `order_items` (`order_id`, `item_id`, `quantity`, `item_price`) VALUES (1, 4, 3, 200.0)[0m
+D, [2022-03-23T15:24:25.091816 #18444] DEBUG -- :   [1m[36mTRANSACTION (3.1ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-23T15:24:25.094726 #18444] DEBUG -- :   [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-23T15:24:25.095338 #18444] DEBUG -- :   [1m[36mOrder Create (0.3ms)[0m  [1m[32mINSERT INTO `orders` (`status`, `created_at`, `updated_at`, `client_id`) VALUES ('PROGRESS', '2022-03-23 14:24:25.094013', '2022-03-23 14:24:25.094013', 1)[0m
+D, [2022-03-23T15:24:25.096139 #18444] DEBUG -- :   [1m[36mOrderItem Create (0.2ms)[0m  [1m[32mINSERT INTO `order_items` (`order_id`, `item_id`, `quantity`, `item_price`) VALUES (2, 1, 1, 0.05)[0m
+D, [2022-03-23T15:24:25.096894 #18444] DEBUG -- :   [1m[36mOrderItem Create (0.2ms)[0m  [1m[32mINSERT INTO `order_items` (`order_id`, `item_id`, `quantity`, `item_price`) VALUES (2, 2, 75, 6.15)[0m
+D, [2022-03-23T15:24:25.097642 #18444] DEBUG -- :   [1m[36mOrderItem Create (0.2ms)[0m  [1m[32mINSERT INTO `order_items` (`order_id`, `item_id`, `quantity`, `item_price`) VALUES (2, 3, 3, 25.95)[0m
+D, [2022-03-23T15:24:25.098423 #18444] DEBUG -- :   [1m[36mOrderItem Create (0.2ms)[0m  [1m[32mINSERT INTO `order_items` (`order_id`, `item_id`, `quantity`, `item_price`) VALUES (2, 4, 200, 200.0)[0m
+D, [2022-03-23T15:24:25.101198 #18444] DEBUG -- :   [1m[36mTRANSACTION (2.4ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-24T08:10:38.149572 #5328] DEBUG -- :   [1m[36mClient Load (0.5ms)[0m  [1m[34mSELECT `clients`.* FROM `clients` ORDER BY `clients`.`id` ASC LIMIT 1[0m
+D, [2022-03-24T08:10:38.163637 #5328] DEBUG -- :   [1m[36mClient Load (0.3ms)[0m  [1m[34mSELECT `clients`.* FROM `clients` ORDER BY `clients`.`id` ASC LIMIT 1 OFFSET 1[0m
+D, [2022-03-24T08:10:38.165152 #5328] DEBUG -- :   [1m[36mSupplier Load (0.2ms)[0m  [1m[34mSELECT `suppliers`.* FROM `suppliers` ORDER BY `suppliers`.`id` ASC LIMIT 1[0m
+D, [2022-03-24T08:10:38.171288 #5328] DEBUG -- :   [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT `products`.* FROM `products` ORDER BY `products`.`id` ASC LIMIT 1[0m
+D, [2022-03-24T08:10:38.207481 #5328] DEBUG -- :   [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-24T08:10:38.208557 #5328] DEBUG -- :   [1m[36mComment Create (0.6ms)[0m  [1m[32mINSERT INTO `comments` (`content`, `author_id`) VALUES ('veri coll', 1)[0m
+D, [2022-03-24T08:10:38.212734 #5328] DEBUG -- :   [1m[36mTRANSACTION (3.5ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-24T08:10:38.213715 #5328] DEBUG -- :   [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-24T08:10:38.214299 #5328] DEBUG -- :   [1m[36mComment Create (0.2ms)[0m  [1m[32mINSERT INTO `comments` (`content`, `author_id`) VALUES ('pogchamp', 2)[0m
+D, [2022-03-24T08:10:38.217445 #5328] DEBUG -- :   [1m[36mTRANSACTION (2.6ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-24T08:10:38.229911 #5328] DEBUG -- :   [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-24T08:10:38.230435 #5328] DEBUG -- :   [1m[36mComment Update (0.2ms)[0m  [1m[33mUPDATE `comments` SET `comments`.`target_type` = 'Supplier', `comments`.`target_id` = 1 WHERE `comments`.`id` = 1[0m
+D, [2022-03-24T08:10:38.231338 #5328] DEBUG -- :   [1m[36mComment Update (0.2ms)[0m  [1m[33mUPDATE `comments` SET `comments`.`target_type` = 'Supplier', `comments`.`target_id` = 1 WHERE `comments`.`id` = 2[0m
+D, [2022-03-24T08:10:38.234220 #5328] DEBUG -- :   [1m[36mTRANSACTION (2.5ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-24T08:10:38.235785 #5328] DEBUG -- :   [1m[36mComment Load (0.3ms)[0m  [1m[34mSELECT `comments`.* FROM `comments` WHERE `comments`.`target_id` = 1 AND `comments`.`target_type` = 'Supplier'[0m
+D, [2022-03-24T08:10:38.237890 #5328] DEBUG -- :   [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-24T08:10:38.238387 #5328] DEBUG -- :   [1m[36mComment Create (0.2ms)[0m  [1m[32mINSERT INTO `comments` (`content`, `author_id`) VALUES ('poopo quality', 1)[0m
+D, [2022-03-24T08:10:38.241207 #5328] DEBUG -- :   [1m[36mTRANSACTION (2.5ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-24T08:10:38.242014 #5328] DEBUG -- :   [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-24T08:10:38.242427 #5328] DEBUG -- :   [1m[36mComment Create (0.2ms)[0m  [1m[32mINSERT INTO `comments` (`content`, `author_id`) VALUES ('not poggers', 2)[0m
+D, [2022-03-24T08:10:38.245041 #5328] DEBUG -- :   [1m[36mTRANSACTION (2.3ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-24T08:10:38.246228 #5328] DEBUG -- :   [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-24T08:10:38.246785 #5328] DEBUG -- :   [1m[36mComment Update (0.3ms)[0m  [1m[33mUPDATE `comments` SET `comments`.`target_type` = 'Product', `comments`.`target_id` = 1 WHERE `comments`.`id` = 3[0m
+D, [2022-03-24T08:10:38.247819 #5328] DEBUG -- :   [1m[36mComment Update (0.3ms)[0m  [1m[33mUPDATE `comments` SET `comments`.`target_type` = 'Product', `comments`.`target_id` = 1 WHERE `comments`.`id` = 4[0m
+D, [2022-03-24T08:10:38.253182 #5328] DEBUG -- :   [1m[36mTRANSACTION (4.6ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-24T08:10:38.255365 #5328] DEBUG -- :   [1m[36mComment Load (0.6ms)[0m  [1m[34mSELECT `comments`.* FROM `comments` WHERE `comments`.`target_id` = 1 AND `comments`.`target_type` = 'Product'[0m
+D, [2022-03-24T08:11:33.479968 #3472] DEBUG -- :   [1m[36mClient Load (0.2ms)[0m  [1m[34mSELECT `clients`.* FROM `clients` ORDER BY `clients`.`id` ASC LIMIT 1[0m
+D, [2022-03-24T08:11:33.496139 #3472] DEBUG -- :   [1m[36mClient Load (0.4ms)[0m  [1m[34mSELECT `clients`.* FROM `clients` ORDER BY `clients`.`id` ASC LIMIT 1 OFFSET 1[0m
+D, [2022-03-24T08:11:33.498444 #3472] DEBUG -- :   [1m[36mSupplier Load (0.4ms)[0m  [1m[34mSELECT `suppliers`.* FROM `suppliers` ORDER BY `suppliers`.`id` ASC LIMIT 1[0m
+D, [2022-03-24T08:11:33.505400 #3472] DEBUG -- :   [1m[36mProduct Load (0.4ms)[0m  [1m[34mSELECT `products`.* FROM `products` ORDER BY `products`.`id` ASC LIMIT 1[0m
+D, [2022-03-24T08:11:33.541910 #3472] DEBUG -- :   [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-24T08:11:33.542471 #3472] DEBUG -- :   [1m[36mComment Create (0.2ms)[0m  [1m[32mINSERT INTO `comments` (`content`, `author_id`) VALUES ('veri coll', 1)[0m
+D, [2022-03-24T08:11:33.546024 #3472] DEBUG -- :   [1m[36mTRANSACTION (2.9ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-24T08:11:33.547086 #3472] DEBUG -- :   [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-24T08:11:33.547721 #3472] DEBUG -- :   [1m[36mComment Create (0.2ms)[0m  [1m[32mINSERT INTO `comments` (`content`, `author_id`) VALUES ('pogchamp', 2)[0m
+D, [2022-03-24T08:11:33.550680 #3472] DEBUG -- :   [1m[36mTRANSACTION (2.3ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-24T08:11:33.563606 #3472] DEBUG -- :   [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-24T08:11:33.564273 #3472] DEBUG -- :   [1m[36mComment Update (0.2ms)[0m  [1m[33mUPDATE `comments` SET `comments`.`target_type` = 'Supplier', `comments`.`target_id` = 1 WHERE `comments`.`id` = 5[0m
+D, [2022-03-24T08:11:33.565883 #3472] DEBUG -- :   [1m[36mComment Update (0.4ms)[0m  [1m[33mUPDATE `comments` SET `comments`.`target_type` = 'Supplier', `comments`.`target_id` = 1 WHERE `comments`.`id` = 6[0m
+D, [2022-03-24T08:11:33.569464 #3472] DEBUG -- :   [1m[36mTRANSACTION (3.0ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-24T08:11:33.573036 #3472] DEBUG -- :   [1m[36mComment Load (0.4ms)[0m  [1m[34mSELECT `comments`.* FROM `comments` WHERE `comments`.`target_id` = 1 AND `comments`.`target_type` = 'Supplier'[0m
+D, [2022-03-24T08:11:33.576130 #3472] DEBUG -- :   [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-24T08:11:33.576803 #3472] DEBUG -- :   [1m[36mComment Create (0.2ms)[0m  [1m[32mINSERT INTO `comments` (`content`, `author_id`) VALUES ('poopo quality', 1)[0m
+D, [2022-03-24T08:11:33.579424 #3472] DEBUG -- :   [1m[36mTRANSACTION (2.3ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-24T08:11:33.580402 #3472] DEBUG -- :   [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-24T08:11:33.581033 #3472] DEBUG -- :   [1m[36mComment Create (0.2ms)[0m  [1m[32mINSERT INTO `comments` (`content`, `author_id`) VALUES ('not poggers', 2)[0m
+D, [2022-03-24T08:11:33.584359 #3472] DEBUG -- :   [1m[36mTRANSACTION (2.8ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-24T08:11:33.586295 #3472] DEBUG -- :   [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-24T08:11:33.587082 #3472] DEBUG -- :   [1m[36mComment Update (0.3ms)[0m  [1m[33mUPDATE `comments` SET `comments`.`target_type` = 'Product', `comments`.`target_id` = 1 WHERE `comments`.`id` = 7[0m
+D, [2022-03-24T08:11:33.588735 #3472] DEBUG -- :   [1m[36mComment Update (0.4ms)[0m  [1m[33mUPDATE `comments` SET `comments`.`target_type` = 'Product', `comments`.`target_id` = 1 WHERE `comments`.`id` = 8[0m
+D, [2022-03-24T08:11:33.591846 #3472] DEBUG -- :   [1m[36mTRANSACTION (2.5ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-24T08:11:33.594096 #3472] DEBUG -- :   [1m[36mComment Load (0.4ms)[0m  [1m[34mSELECT `comments`.* FROM `comments` WHERE `comments`.`target_id` = 1 AND `comments`.`target_type` = 'Product'[0m
+D, [2022-03-24T08:11:52.806757 #8816] DEBUG -- :   [1m[36mClient Load (0.2ms)[0m  [1m[34mSELECT `clients`.* FROM `clients` ORDER BY `clients`.`id` ASC LIMIT 1[0m
+D, [2022-03-24T08:11:52.822496 #8816] DEBUG -- :   [1m[36mClient Load (0.6ms)[0m  [1m[34mSELECT `clients`.* FROM `clients` ORDER BY `clients`.`id` ASC LIMIT 1 OFFSET 1[0m
+D, [2022-03-24T08:11:52.825256 #8816] DEBUG -- :   [1m[36mSupplier Load (0.2ms)[0m  [1m[34mSELECT `suppliers`.* FROM `suppliers` ORDER BY `suppliers`.`id` ASC LIMIT 1[0m
+D, [2022-03-24T08:11:52.831381 #8816] DEBUG -- :   [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT `products`.* FROM `products` ORDER BY `products`.`id` ASC LIMIT 1[0m
+D, [2022-03-24T08:11:52.855104 #8816] DEBUG -- :   [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-24T08:11:52.855714 #8816] DEBUG -- :   [1m[36mComment Create (0.2ms)[0m  [1m[32mINSERT INTO `comments` (`content`, `author_id`) VALUES ('veri coll', 1)[0m
+D, [2022-03-24T08:11:52.859969 #8816] DEBUG -- :   [1m[36mTRANSACTION (3.7ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-24T08:11:52.861532 #8816] DEBUG -- :   [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-24T08:11:52.862103 #8816] DEBUG -- :   [1m[36mComment Create (0.2ms)[0m  [1m[32mINSERT INTO `comments` (`content`, `author_id`) VALUES ('pogchamp', 2)[0m
+D, [2022-03-24T08:11:52.865072 #8816] DEBUG -- :   [1m[36mTRANSACTION (2.6ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-24T08:11:52.884938 #8816] DEBUG -- :   [1m[36mComment Load (0.6ms)[0m  [1m[34mSELECT `comments`.* FROM `comments` WHERE `comments`.`target_id` = 1 AND `comments`.`target_type` = 'Supplier'[0m
+D, [2022-03-24T08:11:52.890101 #8816] DEBUG -- :   [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-24T08:11:52.892073 #8816] DEBUG -- :   [1m[36mComment Update All (1.5ms)[0m  [1m[33mUPDATE `comments` SET `comments`.`target_id` = NULL, `comments`.`target_type` = NULL WHERE `comments`.`target_id` = 1 AND `comments`.`target_type` = 'Supplier' AND `comments`.`id` IN (1, 2, 5, 6)[0m
+D, [2022-03-24T08:11:52.893217 #8816] DEBUG -- :   [1m[36mComment Update (0.2ms)[0m  [1m[33mUPDATE `comments` SET `comments`.`target_type` = 'Supplier', `comments`.`target_id` = 1 WHERE `comments`.`id` = 9[0m
+D, [2022-03-24T08:11:52.893965 #8816] DEBUG -- :   [1m[36mComment Update (0.2ms)[0m  [1m[33mUPDATE `comments` SET `comments`.`target_type` = 'Supplier', `comments`.`target_id` = 1 WHERE `comments`.`id` = 10[0m
+D, [2022-03-24T08:11:52.896903 #8816] DEBUG -- :   [1m[36mTRANSACTION (2.6ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-24T08:11:52.899189 #8816] DEBUG -- :   [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-24T08:11:52.899963 #8816] DEBUG -- :   [1m[36mComment Create (0.3ms)[0m  [1m[32mINSERT INTO `comments` (`content`, `author_id`) VALUES ('poopo quality', 1)[0m
+D, [2022-03-24T08:11:52.903100 #8816] DEBUG -- :   [1m[36mTRANSACTION (2.6ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-24T08:11:52.904180 #8816] DEBUG -- :   [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-24T08:11:52.904831 #8816] DEBUG -- :   [1m[36mComment Create (0.2ms)[0m  [1m[32mINSERT INTO `comments` (`content`, `author_id`) VALUES ('not poggers', 2)[0m
+D, [2022-03-24T08:11:52.907756 #8816] DEBUG -- :   [1m[36mTRANSACTION (2.5ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-24T08:11:52.909682 #8816] DEBUG -- :   [1m[36mComment Load (0.4ms)[0m  [1m[34mSELECT `comments`.* FROM `comments` WHERE `comments`.`target_id` = 1 AND `comments`.`target_type` = 'Product'[0m
+D, [2022-03-24T08:11:52.911158 #8816] DEBUG -- :   [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-24T08:11:52.911833 #8816] DEBUG -- :   [1m[36mComment Update All (0.3ms)[0m  [1m[33mUPDATE `comments` SET `comments`.`target_id` = NULL, `comments`.`target_type` = NULL WHERE `comments`.`target_id` = 1 AND `comments`.`target_type` = 'Product' AND `comments`.`id` IN (3, 4, 7, 8)[0m
+D, [2022-03-24T08:11:52.912742 #8816] DEBUG -- :   [1m[36mComment Update (0.2ms)[0m  [1m[33mUPDATE `comments` SET `comments`.`target_type` = 'Product', `comments`.`target_id` = 1 WHERE `comments`.`id` = 11[0m
+D, [2022-03-24T08:11:52.913490 #8816] DEBUG -- :   [1m[36mComment Update (0.1ms)[0m  [1m[33mUPDATE `comments` SET `comments`.`target_type` = 'Product', `comments`.`target_id` = 1 WHERE `comments`.`id` = 12[0m
+D, [2022-03-24T08:11:52.916278 #8816] DEBUG -- :   [1m[36mTRANSACTION (2.5ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-24T08:12:27.157980 #5124] DEBUG -- :   [1m[36mClient Load (0.3ms)[0m  [1m[34mSELECT `clients`.* FROM `clients` ORDER BY `clients`.`id` ASC LIMIT 1[0m
+D, [2022-03-24T08:12:27.173328 #5124] DEBUG -- :   [1m[36mClient Load (0.3ms)[0m  [1m[34mSELECT `clients`.* FROM `clients` ORDER BY `clients`.`id` ASC LIMIT 1 OFFSET 1[0m
+D, [2022-03-24T08:12:27.174703 #5124] DEBUG -- :   [1m[36mSupplier Load (0.2ms)[0m  [1m[34mSELECT `suppliers`.* FROM `suppliers` ORDER BY `suppliers`.`id` ASC LIMIT 1[0m
+D, [2022-03-24T08:12:27.180191 #5124] DEBUG -- :   [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT `products`.* FROM `products` ORDER BY `products`.`id` ASC LIMIT 1[0m
+D, [2022-03-24T08:12:27.205008 #5124] DEBUG -- :   [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-24T08:12:27.205720 #5124] DEBUG -- :   [1m[36mComment Create (0.3ms)[0m  [1m[32mINSERT INTO `comments` (`content`, `author_id`) VALUES ('veri coll', 1)[0m
+D, [2022-03-24T08:12:27.226837 #5124] DEBUG -- :   [1m[36mTRANSACTION (20.6ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-24T08:12:27.227701 #5124] DEBUG -- :   [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-24T08:12:27.228179 #5124] DEBUG -- :   [1m[36mComment Create (0.2ms)[0m  [1m[32mINSERT INTO `comments` (`content`, `author_id`) VALUES ('pogchamp', 2)[0m
+D, [2022-03-24T08:12:27.230696 #5124] DEBUG -- :   [1m[36mTRANSACTION (2.3ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-24T08:12:27.246517 #5124] DEBUG -- :   [1m[36mComment Load (0.3ms)[0m  [1m[34mSELECT `comments`.* FROM `comments` WHERE `comments`.`target_id` = 1 AND `comments`.`target_type` = 'Supplier'[0m
+D, [2022-03-24T08:12:27.251131 #5124] DEBUG -- :   [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-24T08:12:27.252149 #5124] DEBUG -- :   [1m[36mComment Update All (0.5ms)[0m  [1m[33mUPDATE `comments` SET `comments`.`target_id` = NULL, `comments`.`target_type` = NULL WHERE `comments`.`target_id` = 1 AND `comments`.`target_type` = 'Supplier' AND `comments`.`id` IN (9, 10)[0m
+D, [2022-03-24T08:12:27.254161 #5124] DEBUG -- :   [1m[36mComment Update (0.5ms)[0m  [1m[33mUPDATE `comments` SET `comments`.`target_type` = 'Supplier', `comments`.`target_id` = 1 WHERE `comments`.`id` = 13[0m
+D, [2022-03-24T08:12:27.256628 #5124] DEBUG -- :   [1m[36mComment Update (0.4ms)[0m  [1m[33mUPDATE `comments` SET `comments`.`target_type` = 'Supplier', `comments`.`target_id` = 1 WHERE `comments`.`id` = 14[0m
+D, [2022-03-24T08:12:27.261149 #5124] DEBUG -- :   [1m[36mTRANSACTION (3.9ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-24T08:12:27.262821 #5124] DEBUG -- :   [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-24T08:12:27.263909 #5124] DEBUG -- :   [1m[36mComment Create (0.7ms)[0m  [1m[32mINSERT INTO `comments` (`content`, `author_id`) VALUES ('got sick after😢', 1)[0m
+D, [2022-03-24T08:12:27.264503 #5124] DEBUG -- :   [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mROLLBACK[0m
+D, [2022-03-24T08:12:44.329250 #10916] DEBUG -- :   [1m[36mClient Load (0.2ms)[0m  [1m[34mSELECT `clients`.* FROM `clients` ORDER BY `clients`.`id` ASC LIMIT 1[0m
+D, [2022-03-24T08:12:44.343765 #10916] DEBUG -- :   [1m[36mClient Load (0.3ms)[0m  [1m[34mSELECT `clients`.* FROM `clients` ORDER BY `clients`.`id` ASC LIMIT 1 OFFSET 1[0m
+D, [2022-03-24T08:12:44.345383 #10916] DEBUG -- :   [1m[36mSupplier Load (0.2ms)[0m  [1m[34mSELECT `suppliers`.* FROM `suppliers` ORDER BY `suppliers`.`id` ASC LIMIT 1[0m
+D, [2022-03-24T08:12:44.353410 #10916] DEBUG -- :   [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT `products`.* FROM `products` ORDER BY `products`.`id` ASC LIMIT 1[0m
+D, [2022-03-24T08:12:44.378282 #10916] DEBUG -- :   [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-24T08:12:44.378716 #10916] DEBUG -- :   [1m[36mComment Create (0.2ms)[0m  [1m[32mINSERT INTO `comments` (`content`, `author_id`) VALUES ('veri coll', 1)[0m
+D, [2022-03-24T08:12:44.381700 #10916] DEBUG -- :   [1m[36mTRANSACTION (2.6ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-24T08:12:44.383095 #10916] DEBUG -- :   [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-24T08:12:44.383757 #10916] DEBUG -- :   [1m[36mComment Create (0.3ms)[0m  [1m[32mINSERT INTO `comments` (`content`, `author_id`) VALUES ('pogchamp', 2)[0m
+D, [2022-03-24T08:12:44.386722 #10916] DEBUG -- :   [1m[36mTRANSACTION (2.6ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-24T08:12:44.411716 #10916] DEBUG -- :   [1m[36mComment Load (0.4ms)[0m  [1m[34mSELECT `comments`.* FROM `comments` WHERE `comments`.`target_id` = 1 AND `comments`.`target_type` = 'Supplier'[0m
+D, [2022-03-24T08:12:44.416105 #10916] DEBUG -- :   [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-24T08:12:44.416809 #10916] DEBUG -- :   [1m[36mComment Update All (0.4ms)[0m  [1m[33mUPDATE `comments` SET `comments`.`target_id` = NULL, `comments`.`target_type` = NULL WHERE `comments`.`target_id` = 1 AND `comments`.`target_type` = 'Supplier' AND `comments`.`id` IN (13, 14)[0m
+D, [2022-03-24T08:12:44.418509 #10916] DEBUG -- :   [1m[36mComment Update (0.4ms)[0m  [1m[33mUPDATE `comments` SET `comments`.`target_type` = 'Supplier', `comments`.`target_id` = 1 WHERE `comments`.`id` = 15[0m
+D, [2022-03-24T08:12:44.419960 #10916] DEBUG -- :   [1m[36mComment Update (0.4ms)[0m  [1m[33mUPDATE `comments` SET `comments`.`target_type` = 'Supplier', `comments`.`target_id` = 1 WHERE `comments`.`id` = 16[0m
+D, [2022-03-24T08:12:44.423380 #10916] DEBUG -- :   [1m[36mTRANSACTION (2.9ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-24T08:12:44.425731 #10916] DEBUG -- :   [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-24T08:12:44.426095 #10916] DEBUG -- :   [1m[36mComment Create (0.2ms)[0m  [1m[32mINSERT INTO `comments` (`content`, `author_id`) VALUES ('got sick after :(', 1)[0m
+D, [2022-03-24T08:12:44.428643 #10916] DEBUG -- :   [1m[36mTRANSACTION (2.3ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-24T08:12:44.429299 #10916] DEBUG -- :   [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-24T08:12:44.429594 #10916] DEBUG -- :   [1m[36mComment Create (0.2ms)[0m  [1m[32mINSERT INTO `comments` (`content`, `author_id`) VALUES ('not poggers', 2)[0m
+D, [2022-03-24T08:12:44.432284 #10916] DEBUG -- :   [1m[36mTRANSACTION (2.5ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-24T08:12:44.434135 #10916] DEBUG -- :   [1m[36mComment Load (0.4ms)[0m  [1m[34mSELECT `comments`.* FROM `comments` WHERE `comments`.`target_id` = 1 AND `comments`.`target_type` = 'Product'[0m
+D, [2022-03-24T08:12:44.435047 #10916] DEBUG -- :   [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-24T08:12:44.435461 #10916] DEBUG -- :   [1m[36mComment Update All (0.3ms)[0m  [1m[33mUPDATE `comments` SET `comments`.`target_id` = NULL, `comments`.`target_type` = NULL WHERE `comments`.`target_id` = 1 AND `comments`.`target_type` = 'Product' AND `comments`.`id` IN (11, 12)[0m
+D, [2022-03-24T08:12:44.436721 #10916] DEBUG -- :   [1m[36mComment Update (0.4ms)[0m  [1m[33mUPDATE `comments` SET `comments`.`target_type` = 'Product', `comments`.`target_id` = 1 WHERE `comments`.`id` = 17[0m
+D, [2022-03-24T08:12:44.438033 #10916] DEBUG -- :   [1m[36mComment Update (0.4ms)[0m  [1m[33mUPDATE `comments` SET `comments`.`target_type` = 'Product', `comments`.`target_id` = 1 WHERE `comments`.`id` = 18[0m
+D, [2022-03-24T08:12:44.441137 #10916] DEBUG -- :   [1m[36mTRANSACTION (2.8ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-24T08:13:09.681058 #7956] DEBUG -- :   [1m[36mClient Load (0.2ms)[0m  [1m[34mSELECT `clients`.* FROM `clients` ORDER BY `clients`.`id` ASC LIMIT 1[0m
+D, [2022-03-24T08:13:09.697201 #7956] DEBUG -- :   [1m[36mClient Load (0.3ms)[0m  [1m[34mSELECT `clients`.* FROM `clients` ORDER BY `clients`.`id` ASC LIMIT 1 OFFSET 1[0m
+D, [2022-03-24T08:13:09.699006 #7956] DEBUG -- :   [1m[36mSupplier Load (0.2ms)[0m  [1m[34mSELECT `suppliers`.* FROM `suppliers` ORDER BY `suppliers`.`id` ASC LIMIT 1[0m
+D, [2022-03-24T08:13:09.705635 #7956] DEBUG -- :   [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT `products`.* FROM `products` ORDER BY `products`.`id` ASC LIMIT 1[0m
+D, [2022-03-24T08:13:09.728640 #7956] DEBUG -- :   [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-24T08:13:09.729167 #7956] DEBUG -- :   [1m[36mComment Create (0.2ms)[0m  [1m[32mINSERT INTO `comments` (`content`, `author_id`) VALUES ('veri coll', 1)[0m
+D, [2022-03-24T08:13:09.732629 #7956] DEBUG -- :   [1m[36mTRANSACTION (3.1ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-24T08:13:09.733381 #7956] DEBUG -- :   [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-24T08:13:09.733799 #7956] DEBUG -- :   [1m[36mComment Create (0.2ms)[0m  [1m[32mINSERT INTO `comments` (`content`, `author_id`) VALUES ('pogchamp', 2)[0m
+D, [2022-03-24T08:13:09.736479 #7956] DEBUG -- :   [1m[36mTRANSACTION (2.3ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-24T08:13:09.757602 #7956] DEBUG -- :   [1m[36mComment Load (0.4ms)[0m  [1m[34mSELECT `comments`.* FROM `comments` WHERE `comments`.`target_id` = 1 AND `comments`.`target_type` = 'Supplier'[0m
+D, [2022-03-24T08:13:09.762143 #7956] DEBUG -- :   [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-24T08:13:09.763002 #7956] DEBUG -- :   [1m[36mComment Update All (0.4ms)[0m  [1m[33mUPDATE `comments` SET `comments`.`target_id` = NULL, `comments`.`target_type` = NULL WHERE `comments`.`target_id` = 1 AND `comments`.`target_type` = 'Supplier' AND `comments`.`id` IN (15, 16)[0m
+D, [2022-03-24T08:13:09.764486 #7956] DEBUG -- :   [1m[36mComment Update (0.3ms)[0m  [1m[33mUPDATE `comments` SET `comments`.`target_type` = 'Supplier', `comments`.`target_id` = 1 WHERE `comments`.`id` = 19[0m
+D, [2022-03-24T08:13:09.765746 #7956] DEBUG -- :   [1m[36mComment Update (0.3ms)[0m  [1m[33mUPDATE `comments` SET `comments`.`target_type` = 'Supplier', `comments`.`target_id` = 1 WHERE `comments`.`id` = 20[0m
+D, [2022-03-24T08:13:09.768550 #7956] DEBUG -- :   [1m[36mTRANSACTION (2.4ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-24T08:13:09.771514 #7956] DEBUG -- :   [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-24T08:13:09.772119 #7956] DEBUG -- :   [1m[36mComment Create (0.4ms)[0m  [1m[32mINSERT INTO `comments` (`content`, `author_id`) VALUES ('got sick after :(', 1)[0m
+D, [2022-03-24T08:13:09.774636 #7956] DEBUG -- :   [1m[36mTRANSACTION (2.1ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-24T08:13:09.775454 #7956] DEBUG -- :   [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-24T08:13:09.775907 #7956] DEBUG -- :   [1m[36mComment Create (0.2ms)[0m  [1m[32mINSERT INTO `comments` (`content`, `author_id`) VALUES ('not poggers', 2)[0m
+D, [2022-03-24T08:13:09.778481 #7956] DEBUG -- :   [1m[36mTRANSACTION (2.3ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-24T08:13:09.779807 #7956] DEBUG -- :   [1m[36mComment Load (0.3ms)[0m  [1m[34mSELECT `comments`.* FROM `comments` WHERE `comments`.`target_id` = 1 AND `comments`.`target_type` = 'Product'[0m
+D, [2022-03-24T08:13:09.780579 #7956] DEBUG -- :   [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-24T08:13:09.780996 #7956] DEBUG -- :   [1m[36mComment Update All (0.3ms)[0m  [1m[33mUPDATE `comments` SET `comments`.`target_id` = NULL, `comments`.`target_type` = NULL WHERE `comments`.`target_id` = 1 AND `comments`.`target_type` = 'Product' AND `comments`.`id` IN (17, 18)[0m
+D, [2022-03-24T08:13:09.782097 #7956] DEBUG -- :   [1m[36mComment Update (0.3ms)[0m  [1m[33mUPDATE `comments` SET `comments`.`target_type` = 'Product', `comments`.`target_id` = 1 WHERE `comments`.`id` = 21[0m
+D, [2022-03-24T08:13:09.783515 #7956] DEBUG -- :   [1m[36mComment Update (0.4ms)[0m  [1m[33mUPDATE `comments` SET `comments`.`target_type` = 'Product', `comments`.`target_id` = 1 WHERE `comments`.`id` = 22[0m
+D, [2022-03-24T08:13:09.786494 #7956] DEBUG -- :   [1m[36mTRANSACTION (2.6ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-24T08:13:21.234009 #9860] DEBUG -- :   [1m[36mClient Load (0.2ms)[0m  [1m[34mSELECT `clients`.* FROM `clients` ORDER BY `clients`.`id` ASC LIMIT 1[0m
+D, [2022-03-24T08:13:21.249877 #9860] DEBUG -- :   [1m[36mClient Load (0.3ms)[0m  [1m[34mSELECT `clients`.* FROM `clients` ORDER BY `clients`.`id` ASC LIMIT 1 OFFSET 1[0m
+D, [2022-03-24T08:13:21.251450 #9860] DEBUG -- :   [1m[36mSupplier Load (0.2ms)[0m  [1m[34mSELECT `suppliers`.* FROM `suppliers` ORDER BY `suppliers`.`id` ASC LIMIT 1[0m
+D, [2022-03-24T08:13:21.258730 #9860] DEBUG -- :   [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT `products`.* FROM `products` ORDER BY `products`.`id` ASC LIMIT 1[0m
+D, [2022-03-24T08:13:21.280443 #9860] DEBUG -- :   [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-24T08:13:21.280908 #9860] DEBUG -- :   [1m[36mComment Create (0.2ms)[0m  [1m[32mINSERT INTO `comments` (`content`, `author_id`) VALUES ('veri coll', 1)[0m
+D, [2022-03-24T08:13:21.284400 #9860] DEBUG -- :   [1m[36mTRANSACTION (3.0ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-24T08:13:21.285447 #9860] DEBUG -- :   [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-24T08:13:21.285998 #9860] DEBUG -- :   [1m[36mComment Create (0.3ms)[0m  [1m[32mINSERT INTO `comments` (`content`, `author_id`) VALUES ('pogchamp', 2)[0m
+D, [2022-03-24T08:13:21.288798 #9860] DEBUG -- :   [1m[36mTRANSACTION (2.5ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-24T08:13:21.308813 #9860] DEBUG -- :   [1m[36mComment Load (0.4ms)[0m  [1m[34mSELECT `comments`.* FROM `comments` WHERE `comments`.`target_id` = 1 AND `comments`.`target_type` = 'Supplier'[0m
+D, [2022-03-24T08:13:21.312704 #9860] DEBUG -- :   [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-24T08:13:21.313239 #9860] DEBUG -- :   [1m[36mComment Update All (0.3ms)[0m  [1m[33mUPDATE `comments` SET `comments`.`target_id` = NULL, `comments`.`target_type` = NULL WHERE `comments`.`target_id` = 1 AND `comments`.`target_type` = 'Supplier' AND `comments`.`id` IN (19, 20)[0m
+D, [2022-03-24T08:13:21.314082 #9860] DEBUG -- :   [1m[36mComment Update (0.2ms)[0m  [1m[33mUPDATE `comments` SET `comments`.`target_type` = 'Supplier', `comments`.`target_id` = 1 WHERE `comments`.`id` = 23[0m
+D, [2022-03-24T08:13:21.315169 #9860] DEBUG -- :   [1m[36mComment Update (0.4ms)[0m  [1m[33mUPDATE `comments` SET `comments`.`target_type` = 'Supplier', `comments`.`target_id` = 1 WHERE `comments`.`id` = 24[0m
+D, [2022-03-24T08:13:21.318596 #9860] DEBUG -- :   [1m[36mTRANSACTION (2.8ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-24T08:13:21.320588 #9860] DEBUG -- :   [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-24T08:13:21.321765 #9860] DEBUG -- :   [1m[36mComment Create (0.6ms)[0m  [1m[32mINSERT INTO `comments` (`content`, `author_id`) VALUES ('got sick after :(', 1)[0m
+D, [2022-03-24T08:13:21.325566 #9860] DEBUG -- :   [1m[36mTRANSACTION (2.9ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-24T08:13:21.326592 #9860] DEBUG -- :   [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-24T08:13:21.327097 #9860] DEBUG -- :   [1m[36mComment Create (0.3ms)[0m  [1m[32mINSERT INTO `comments` (`content`, `author_id`) VALUES ('not poggers', 2)[0m
+D, [2022-03-24T08:13:21.329777 #9860] DEBUG -- :   [1m[36mTRANSACTION (2.4ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-24T08:13:21.331227 #9860] DEBUG -- :   [1m[36mComment Load (0.3ms)[0m  [1m[34mSELECT `comments`.* FROM `comments` WHERE `comments`.`target_id` = 1 AND `comments`.`target_type` = 'Product'[0m
+D, [2022-03-24T08:13:21.332472 #9860] DEBUG -- :   [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-24T08:13:21.332994 #9860] DEBUG -- :   [1m[36mComment Update All (0.4ms)[0m  [1m[33mUPDATE `comments` SET `comments`.`target_id` = NULL, `comments`.`target_type` = NULL WHERE `comments`.`target_id` = 1 AND `comments`.`target_type` = 'Product' AND `comments`.`id` IN (21, 22)[0m
+D, [2022-03-24T08:13:21.334466 #9860] DEBUG -- :   [1m[36mComment Update (0.3ms)[0m  [1m[33mUPDATE `comments` SET `comments`.`target_type` = 'Product', `comments`.`target_id` = 1 WHERE `comments`.`id` = 25[0m
+D, [2022-03-24T08:13:21.335494 #9860] DEBUG -- :   [1m[36mComment Update (0.3ms)[0m  [1m[33mUPDATE `comments` SET `comments`.`target_type` = 'Product', `comments`.`target_id` = 1 WHERE `comments`.`id` = 26[0m
+D, [2022-03-24T08:13:21.338272 #9860] DEBUG -- :   [1m[36mTRANSACTION (2.4ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-24T08:14:18.746258 #10964] DEBUG -- :   [1m[36mClient Load (0.3ms)[0m  [1m[34mSELECT `clients`.* FROM `clients` ORDER BY `clients`.`id` ASC LIMIT 1[0m
+D, [2022-03-24T08:14:18.763324 #10964] DEBUG -- :   [1m[36mClient Load (0.3ms)[0m  [1m[34mSELECT `clients`.* FROM `clients` ORDER BY `clients`.`id` ASC LIMIT 1 OFFSET 1[0m
+D, [2022-03-24T08:14:18.765175 #10964] DEBUG -- :   [1m[36mSupplier Load (0.2ms)[0m  [1m[34mSELECT `suppliers`.* FROM `suppliers` ORDER BY `suppliers`.`id` ASC LIMIT 1[0m
+D, [2022-03-24T08:14:18.771777 #10964] DEBUG -- :   [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT `products`.* FROM `products` ORDER BY `products`.`id` ASC LIMIT 1[0m
+D, [2022-03-24T08:14:18.797995 #10964] DEBUG -- :   [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-24T08:14:18.798724 #10964] DEBUG -- :   [1m[36mComment Create (0.3ms)[0m  [1m[32mINSERT INTO `comments` (`content`, `author_id`) VALUES ('veri coll', 1)[0m
+D, [2022-03-24T08:14:18.802292 #10964] DEBUG -- :   [1m[36mTRANSACTION (3.0ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-24T08:14:18.803488 #10964] DEBUG -- :   [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-24T08:14:18.804123 #10964] DEBUG -- :   [1m[36mComment Create (0.2ms)[0m  [1m[32mINSERT INTO `comments` (`content`, `author_id`) VALUES ('pogchamp', 2)[0m
+D, [2022-03-24T08:14:18.807402 #10964] DEBUG -- :   [1m[36mTRANSACTION (2.8ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-24T08:14:18.827824 #10964] DEBUG -- :   [1m[36mComment Load (0.4ms)[0m  [1m[34mSELECT `comments`.* FROM `comments` WHERE `comments`.`target_id` = 1 AND `comments`.`target_type` = 'Supplier'[0m
+D, [2022-03-24T08:14:18.831209 #10964] DEBUG -- :   [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-24T08:14:18.831920 #10964] DEBUG -- :   [1m[36mComment Update All (0.3ms)[0m  [1m[33mUPDATE `comments` SET `comments`.`target_id` = NULL, `comments`.`target_type` = NULL WHERE `comments`.`target_id` = 1 AND `comments`.`target_type` = 'Supplier' AND `comments`.`id` IN (23, 24)[0m
+D, [2022-03-24T08:14:18.832919 #10964] DEBUG -- :   [1m[36mComment Update (0.2ms)[0m  [1m[33mUPDATE `comments` SET `comments`.`target_type` = 'Supplier', `comments`.`target_id` = 1 WHERE `comments`.`id` = 27[0m
+D, [2022-03-24T08:14:18.833802 #10964] DEBUG -- :   [1m[36mComment Update (0.3ms)[0m  [1m[33mUPDATE `comments` SET `comments`.`target_type` = 'Supplier', `comments`.`target_id` = 1 WHERE `comments`.`id` = 28[0m
+D, [2022-03-24T08:14:18.836761 #10964] DEBUG -- :   [1m[36mTRANSACTION (2.5ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-24T08:14:18.838752 #10964] DEBUG -- :   [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-24T08:14:18.839455 #10964] DEBUG -- :   [1m[36mComment Create (0.2ms)[0m  [1m[32mINSERT INTO `comments` (`content`, `author_id`) VALUES ('got sick after :(', 1)[0m
+D, [2022-03-24T08:14:18.844435 #10964] DEBUG -- :   [1m[36mTRANSACTION (4.5ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-24T08:14:18.845405 #10964] DEBUG -- :   [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-24T08:14:18.845983 #10964] DEBUG -- :   [1m[36mComment Create (0.2ms)[0m  [1m[32mINSERT INTO `comments` (`content`, `author_id`) VALUES ('not poggers', 2)[0m
+D, [2022-03-24T08:14:18.849187 #10964] DEBUG -- :   [1m[36mTRANSACTION (2.7ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-24T08:14:18.850669 #10964] DEBUG -- :   [1m[36mComment Load (0.3ms)[0m  [1m[34mSELECT `comments`.* FROM `comments` WHERE `comments`.`target_id` = 1 AND `comments`.`target_type` = 'Product'[0m
+D, [2022-03-24T08:14:18.851534 #10964] DEBUG -- :   [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-24T08:14:18.852013 #10964] DEBUG -- :   [1m[36mComment Update All (0.2ms)[0m  [1m[33mUPDATE `comments` SET `comments`.`target_id` = NULL, `comments`.`target_type` = NULL WHERE `comments`.`target_id` = 1 AND `comments`.`target_type` = 'Product' AND `comments`.`id` IN (25, 26)[0m
+D, [2022-03-24T08:14:18.853448 #10964] DEBUG -- :   [1m[36mComment Update (0.4ms)[0m  [1m[33mUPDATE `comments` SET `comments`.`target_type` = 'Product', `comments`.`target_id` = 1 WHERE `comments`.`id` = 29[0m
+D, [2022-03-24T08:14:18.855124 #10964] DEBUG -- :   [1m[36mComment Update (0.4ms)[0m  [1m[33mUPDATE `comments` SET `comments`.`target_type` = 'Product', `comments`.`target_id` = 1 WHERE `comments`.`id` = 30[0m
+D, [2022-03-24T08:14:18.859256 #10964] DEBUG -- :   [1m[36mTRANSACTION (3.8ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-24T08:17:10.368842 #9780] DEBUG -- :   [1m[36mClient Load (0.3ms)[0m  [1m[34mSELECT `clients`.* FROM `clients` ORDER BY `clients`.`id` ASC LIMIT 1[0m
+D, [2022-03-24T08:17:10.380801 #9780] DEBUG -- :   [1m[36mClient Load (0.3ms)[0m  [1m[34mSELECT `clients`.* FROM `clients` ORDER BY `clients`.`id` ASC LIMIT 1 OFFSET 1[0m
+D, [2022-03-24T08:17:10.382549 #9780] DEBUG -- :   [1m[36mSupplier Load (0.2ms)[0m  [1m[34mSELECT `suppliers`.* FROM `suppliers` ORDER BY `suppliers`.`id` ASC LIMIT 1[0m
+D, [2022-03-24T08:17:10.389387 #9780] DEBUG -- :   [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT `products`.* FROM `products` ORDER BY `products`.`id` ASC LIMIT 1[0m
+D, [2022-03-24T08:17:10.412435 #9780] DEBUG -- :   [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-24T08:17:10.413250 #9780] DEBUG -- :   [1m[36mComment Create (0.3ms)[0m  [1m[32mINSERT INTO `comments` (`content`, `author_id`) VALUES ('veri coll', 1)[0m
+D, [2022-03-24T08:17:10.416754 #9780] DEBUG -- :   [1m[36mTRANSACTION (3.0ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-24T08:17:10.418228 #9780] DEBUG -- :   [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-24T08:17:10.418938 #9780] DEBUG -- :   [1m[36mComment Create (0.2ms)[0m  [1m[32mINSERT INTO `comments` (`content`, `author_id`) VALUES ('pogchamp', 2)[0m
+D, [2022-03-24T08:17:10.422432 #9780] DEBUG -- :   [1m[36mTRANSACTION (2.9ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-24T08:17:10.439118 #9780] DEBUG -- :   [1m[36mComment Load (0.4ms)[0m  [1m[34mSELECT `comments`.* FROM `comments` WHERE `comments`.`target_id` = 1 AND `comments`.`target_type` = 'Supplier'[0m
+D, [2022-03-24T08:17:10.442420 #9780] DEBUG -- :   [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-24T08:17:10.443202 #9780] DEBUG -- :   [1m[36mComment Update All (0.3ms)[0m  [1m[33mUPDATE `comments` SET `comments`.`target_id` = NULL, `comments`.`target_type` = NULL WHERE `comments`.`target_id` = 1 AND `comments`.`target_type` = 'Supplier' AND `comments`.`id` IN (27, 28)[0m
+D, [2022-03-24T08:17:10.444251 #9780] DEBUG -- :   [1m[36mComment Update (0.3ms)[0m  [1m[33mUPDATE `comments` SET `comments`.`target_type` = 'Supplier', `comments`.`target_id` = 1 WHERE `comments`.`id` = 31[0m
+D, [2022-03-24T08:17:10.445109 #9780] DEBUG -- :   [1m[36mComment Update (0.2ms)[0m  [1m[33mUPDATE `comments` SET `comments`.`target_type` = 'Supplier', `comments`.`target_id` = 1 WHERE `comments`.`id` = 32[0m
+D, [2022-03-24T08:17:10.448614 #9780] DEBUG -- :   [1m[36mTRANSACTION (3.0ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-24T08:17:10.451298 #9780] DEBUG -- :   [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-24T08:17:10.452124 #9780] DEBUG -- :   [1m[36mComment Create (0.3ms)[0m  [1m[32mINSERT INTO `comments` (`content`, `author_id`) VALUES ('got sick after :(', 1)[0m
+D, [2022-03-24T08:17:10.455834 #9780] DEBUG -- :   [1m[36mTRANSACTION (2.9ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-24T08:17:10.456748 #9780] DEBUG -- :   [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-24T08:17:10.457323 #9780] DEBUG -- :   [1m[36mComment Create (0.3ms)[0m  [1m[32mINSERT INTO `comments` (`content`, `author_id`) VALUES ('not poggers', 2)[0m
+D, [2022-03-24T08:17:10.461024 #9780] DEBUG -- :   [1m[36mTRANSACTION (3.3ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-24T08:17:10.462731 #9780] DEBUG -- :   [1m[36mComment Load (0.4ms)[0m  [1m[34mSELECT `comments`.* FROM `comments` WHERE `comments`.`target_id` = 1 AND `comments`.`target_type` = 'Product'[0m
+D, [2022-03-24T08:17:10.463663 #9780] DEBUG -- :   [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-24T08:17:10.464293 #9780] DEBUG -- :   [1m[36mComment Update All (0.3ms)[0m  [1m[33mUPDATE `comments` SET `comments`.`target_id` = NULL, `comments`.`target_type` = NULL WHERE `comments`.`target_id` = 1 AND `comments`.`target_type` = 'Product' AND `comments`.`id` IN (29, 30)[0m
+D, [2022-03-24T08:17:10.465371 #9780] DEBUG -- :   [1m[36mComment Update (0.3ms)[0m  [1m[33mUPDATE `comments` SET `comments`.`target_type` = 'Product', `comments`.`target_id` = 1 WHERE `comments`.`id` = 33[0m
+D, [2022-03-24T08:17:10.466228 #9780] DEBUG -- :   [1m[36mComment Update (0.2ms)[0m  [1m[33mUPDATE `comments` SET `comments`.`target_type` = 'Product', `comments`.`target_id` = 1 WHERE `comments`.`id` = 34[0m
+D, [2022-03-24T08:17:10.468877 #9780] DEBUG -- :   [1m[36mTRANSACTION (2.3ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-24T08:17:58.524919 #15616] DEBUG -- :   [1m[36mClient Load (0.1ms)[0m  [1m[34mSELECT `clients`.* FROM `clients` ORDER BY `clients`.`id` ASC LIMIT 1[0m
+D, [2022-03-24T08:17:58.538507 #15616] DEBUG -- :   [1m[36mClient Load (0.3ms)[0m  [1m[34mSELECT `clients`.* FROM `clients` ORDER BY `clients`.`id` ASC LIMIT 1 OFFSET 1[0m
+D, [2022-03-24T08:17:58.539891 #15616] DEBUG -- :   [1m[36mSupplier Load (0.1ms)[0m  [1m[34mSELECT `suppliers`.* FROM `suppliers` ORDER BY `suppliers`.`id` ASC LIMIT 1[0m
+D, [2022-03-24T08:17:58.545261 #15616] DEBUG -- :   [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT `products`.* FROM `products` ORDER BY `products`.`id` ASC LIMIT 1[0m
+D, [2022-03-24T08:17:58.569019 #15616] DEBUG -- :   [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-24T08:17:58.569655 #15616] DEBUG -- :   [1m[36mComment Create (0.2ms)[0m  [1m[32mINSERT INTO `comments` (`content`, `author_id`) VALUES ('veri coll', 1)[0m
+D, [2022-03-24T08:17:58.572823 #15616] DEBUG -- :   [1m[36mTRANSACTION (2.8ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-24T08:17:58.574325 #15616] DEBUG -- :   [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-24T08:17:58.574859 #15616] DEBUG -- :   [1m[36mComment Create (0.2ms)[0m  [1m[32mINSERT INTO `comments` (`content`, `author_id`) VALUES ('pogchamp', 2)[0m
+D, [2022-03-24T08:17:58.577828 #15616] DEBUG -- :   [1m[36mTRANSACTION (2.6ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-24T08:17:58.595504 #15616] DEBUG -- :   [1m[36mComment Load (0.3ms)[0m  [1m[34mSELECT `comments`.* FROM `comments` WHERE `comments`.`target_id` = 1 AND `comments`.`target_type` = 'Supplier'[0m
+D, [2022-03-24T08:17:58.598448 #15616] DEBUG -- :   [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-24T08:17:58.599295 #15616] DEBUG -- :   [1m[36mComment Update All (0.5ms)[0m  [1m[33mUPDATE `comments` SET `comments`.`target_id` = NULL, `comments`.`target_type` = NULL WHERE `comments`.`target_id` = 1 AND `comments`.`target_type` = 'Supplier' AND `comments`.`id` IN (31, 32)[0m
+D, [2022-03-24T08:17:58.601032 #15616] DEBUG -- :   [1m[36mComment Update (0.3ms)[0m  [1m[33mUPDATE `comments` SET `comments`.`target_type` = 'Supplier', `comments`.`target_id` = 1 WHERE `comments`.`id` = 35[0m
+D, [2022-03-24T08:17:58.602838 #15616] DEBUG -- :   [1m[36mComment Update (0.4ms)[0m  [1m[33mUPDATE `comments` SET `comments`.`target_type` = 'Supplier', `comments`.`target_id` = 1 WHERE `comments`.`id` = 36[0m
+D, [2022-03-24T08:17:58.606450 #15616] DEBUG -- :   [1m[36mTRANSACTION (2.9ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-24T08:17:58.609611 #15616] DEBUG -- :   [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-24T08:17:58.610239 #15616] DEBUG -- :   [1m[36mComment Create (0.3ms)[0m  [1m[32mINSERT INTO `comments` (`content`, `author_id`) VALUES ('got sick after :(', 1)[0m
+D, [2022-03-24T08:17:58.613103 #15616] DEBUG -- :   [1m[36mTRANSACTION (2.5ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-24T08:17:58.614199 #15616] DEBUG -- :   [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-24T08:17:58.614686 #15616] DEBUG -- :   [1m[36mComment Create (0.2ms)[0m  [1m[32mINSERT INTO `comments` (`content`, `author_id`) VALUES ('not poggers', 2)[0m
+D, [2022-03-24T08:17:58.617571 #15616] DEBUG -- :   [1m[36mTRANSACTION (2.5ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-24T08:17:58.619724 #15616] DEBUG -- :   [1m[36mComment Load (0.4ms)[0m  [1m[34mSELECT `comments`.* FROM `comments` WHERE `comments`.`target_id` = 1 AND `comments`.`target_type` = 'Product'[0m
+D, [2022-03-24T08:17:58.620635 #15616] DEBUG -- :   [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-24T08:17:58.621069 #15616] DEBUG -- :   [1m[36mComment Update All (0.3ms)[0m  [1m[33mUPDATE `comments` SET `comments`.`target_id` = NULL, `comments`.`target_type` = NULL WHERE `comments`.`target_id` = 1 AND `comments`.`target_type` = 'Product' AND `comments`.`id` IN (33, 34)[0m
+D, [2022-03-24T08:17:58.621814 #15616] DEBUG -- :   [1m[36mComment Update (0.2ms)[0m  [1m[33mUPDATE `comments` SET `comments`.`target_type` = 'Product', `comments`.`target_id` = 1 WHERE `comments`.`id` = 37[0m
+D, [2022-03-24T08:17:58.622453 #15616] DEBUG -- :   [1m[36mComment Update (0.2ms)[0m  [1m[33mUPDATE `comments` SET `comments`.`target_type` = 'Product', `comments`.`target_id` = 1 WHERE `comments`.`id` = 38[0m
+D, [2022-03-24T08:17:58.625584 #15616] DEBUG -- :   [1m[36mTRANSACTION (2.7ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-24T08:18:09.792665 #17124] DEBUG -- :   [1m[36mClient Load (0.2ms)[0m  [1m[34mSELECT `clients`.* FROM `clients` ORDER BY `clients`.`id` ASC LIMIT 1[0m
+D, [2022-03-24T08:18:09.806030 #17124] DEBUG -- :   [1m[36mClient Load (0.3ms)[0m  [1m[34mSELECT `clients`.* FROM `clients` ORDER BY `clients`.`id` ASC LIMIT 1 OFFSET 1[0m
+D, [2022-03-24T08:18:09.807458 #17124] DEBUG -- :   [1m[36mSupplier Load (0.1ms)[0m  [1m[34mSELECT `suppliers`.* FROM `suppliers` ORDER BY `suppliers`.`id` ASC LIMIT 1[0m
+D, [2022-03-24T08:18:09.813618 #17124] DEBUG -- :   [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT `products`.* FROM `products` ORDER BY `products`.`id` ASC LIMIT 1[0m
+D, [2022-03-24T08:18:09.837759 #17124] DEBUG -- :   [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-24T08:18:09.838392 #17124] DEBUG -- :   [1m[36mComment Create (0.2ms)[0m  [1m[32mINSERT INTO `comments` (`content`, `author_id`) VALUES ('veri coll', 1)[0m
+D, [2022-03-24T08:18:09.841583 #17124] DEBUG -- :   [1m[36mTRANSACTION (2.7ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-24T08:18:09.842691 #17124] DEBUG -- :   [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-24T08:18:09.843450 #17124] DEBUG -- :   [1m[36mComment Create (0.3ms)[0m  [1m[32mINSERT INTO `comments` (`content`, `author_id`) VALUES ('pogchamp', 2)[0m
+D, [2022-03-24T08:18:09.846355 #17124] DEBUG -- :   [1m[36mTRANSACTION (2.5ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-24T08:18:09.863322 #17124] DEBUG -- :   [1m[36mComment Load (0.4ms)[0m  [1m[34mSELECT `comments`.* FROM `comments` WHERE `comments`.`target_id` = 1 AND `comments`.`target_type` = 'Supplier'[0m
+D, [2022-03-24T08:18:09.867425 #17124] DEBUG -- :   [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-24T08:18:09.868201 #17124] DEBUG -- :   [1m[36mComment Update All (0.4ms)[0m  [1m[33mUPDATE `comments` SET `comments`.`target_id` = NULL, `comments`.`target_type` = NULL WHERE `comments`.`target_id` = 1 AND `comments`.`target_type` = 'Supplier' AND `comments`.`id` IN (35, 36)[0m
+D, [2022-03-24T08:18:09.869677 #17124] DEBUG -- :   [1m[36mComment Update (0.3ms)[0m  [1m[33mUPDATE `comments` SET `comments`.`target_type` = 'Supplier', `comments`.`target_id` = 1 WHERE `comments`.`id` = 39[0m
+D, [2022-03-24T08:18:09.870877 #17124] DEBUG -- :   [1m[36mComment Update (0.4ms)[0m  [1m[33mUPDATE `comments` SET `comments`.`target_type` = 'Supplier', `comments`.`target_id` = 1 WHERE `comments`.`id` = 40[0m
+D, [2022-03-24T08:18:09.873976 #17124] DEBUG -- :   [1m[36mTRANSACTION (2.7ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-24T08:18:09.875782 #17124] DEBUG -- :   [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-24T08:18:09.876127 #17124] DEBUG -- :   [1m[36mComment Create (0.2ms)[0m  [1m[32mINSERT INTO `comments` (`content`, `author_id`) VALUES ('got sick after :(', 1)[0m
+D, [2022-03-24T08:18:09.878708 #17124] DEBUG -- :   [1m[36mTRANSACTION (2.4ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-24T08:18:09.879301 #17124] DEBUG -- :   [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-24T08:18:09.879579 #17124] DEBUG -- :   [1m[36mComment Create (0.2ms)[0m  [1m[32mINSERT INTO `comments` (`content`, `author_id`) VALUES ('not poggers', 2)[0m
+D, [2022-03-24T08:18:09.882119 #17124] DEBUG -- :   [1m[36mTRANSACTION (2.4ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-24T08:18:09.884631 #17124] DEBUG -- :   [1m[36mComment Load (0.6ms)[0m  [1m[34mSELECT `comments`.* FROM `comments` WHERE `comments`.`target_id` = 1 AND `comments`.`target_type` = 'Product'[0m
+D, [2022-03-24T08:18:09.886287 #17124] DEBUG -- :   [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-24T08:18:09.886801 #17124] DEBUG -- :   [1m[36mComment Update All (0.3ms)[0m  [1m[33mUPDATE `comments` SET `comments`.`target_id` = NULL, `comments`.`target_type` = NULL WHERE `comments`.`target_id` = 1 AND `comments`.`target_type` = 'Product' AND `comments`.`id` IN (37, 38)[0m
+D, [2022-03-24T08:18:09.887932 #17124] DEBUG -- :   [1m[36mComment Update (0.2ms)[0m  [1m[33mUPDATE `comments` SET `comments`.`target_type` = 'Product', `comments`.`target_id` = 1 WHERE `comments`.`id` = 41[0m
+D, [2022-03-24T08:18:09.889177 #17124] DEBUG -- :   [1m[36mComment Update (0.4ms)[0m  [1m[33mUPDATE `comments` SET `comments`.`target_type` = 'Product', `comments`.`target_id` = 1 WHERE `comments`.`id` = 42[0m
+D, [2022-03-24T08:18:09.891902 #17124] DEBUG -- :   [1m[36mTRANSACTION (2.4ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-24T08:19:29.030411 #10348] DEBUG -- :   [1m[36mClient Load (0.2ms)[0m  [1m[34mSELECT `clients`.* FROM `clients` ORDER BY `clients`.`id` ASC LIMIT 1[0m
+D, [2022-03-24T08:19:29.043753 #10348] DEBUG -- :   [1m[36mClient Load (0.3ms)[0m  [1m[34mSELECT `clients`.* FROM `clients` ORDER BY `clients`.`id` ASC LIMIT 1 OFFSET 1[0m
+D, [2022-03-24T08:19:29.045285 #10348] DEBUG -- :   [1m[36mSupplier Load (0.2ms)[0m  [1m[34mSELECT `suppliers`.* FROM `suppliers` ORDER BY `suppliers`.`id` ASC LIMIT 1[0m
+D, [2022-03-24T08:19:29.052287 #10348] DEBUG -- :   [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT `products`.* FROM `products` ORDER BY `products`.`id` ASC LIMIT 1[0m
+D, [2022-03-24T08:19:29.084747 #10348] DEBUG -- :   [1m[35m (0.7ms)[0m  [1m[34mSELECT COUNT(*) FROM `comments` WHERE `comments`.`target_id` = 1 AND `comments`.`target_type` = 'Supplier'[0m
+D, [2022-03-24T08:19:29.087600 #10348] DEBUG -- :   [1m[36mComment Load (0.4ms)[0m  [1m[34mSELECT `comments`.* FROM `comments` WHERE `comments`.`target_id` = 1 AND `comments`.`target_type` = 'Supplier'[0m
+D, [2022-03-24T08:19:29.099339 #10348] DEBUG -- :   [1m[35m (0.5ms)[0m  [1m[34mSELECT COUNT(*) FROM `comments` WHERE `comments`.`target_id` = 1 AND `comments`.`target_type` = 'Supplier'[0m
+D, [2022-03-24T08:19:29.102433 #10348] DEBUG -- :   [1m[36mComment Load (0.3ms)[0m  [1m[34mSELECT `comments`.* FROM `comments` WHERE `comments`.`target_id` = 1 AND `comments`.`target_type` = 'Product'[0m
+D, [2022-03-24T08:19:42.483767 #9700] DEBUG -- :   [1m[36mClient Load (0.5ms)[0m  [1m[34mSELECT `clients`.* FROM `clients` ORDER BY `clients`.`id` ASC LIMIT 1[0m
+D, [2022-03-24T08:19:42.500752 #9700] DEBUG -- :   [1m[36mClient Load (0.4ms)[0m  [1m[34mSELECT `clients`.* FROM `clients` ORDER BY `clients`.`id` ASC LIMIT 1 OFFSET 1[0m
+D, [2022-03-24T08:19:42.502383 #9700] DEBUG -- :   [1m[36mSupplier Load (0.1ms)[0m  [1m[34mSELECT `suppliers`.* FROM `suppliers` ORDER BY `suppliers`.`id` ASC LIMIT 1[0m
+D, [2022-03-24T08:19:42.508315 #9700] DEBUG -- :   [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT `products`.* FROM `products` ORDER BY `products`.`id` ASC LIMIT 1[0m
+D, [2022-03-24T08:19:42.543074 #9700] DEBUG -- :   [1m[35m (0.4ms)[0m  [1m[34mSELECT COUNT(*) FROM `comments` WHERE `comments`.`target_id` = 1 AND `comments`.`target_type` = 'Supplier'[0m
+D, [2022-03-24T08:19:42.545005 #9700] DEBUG -- :   [1m[36mComment Load (0.4ms)[0m  [1m[34mSELECT `comments`.* FROM `comments` WHERE `comments`.`target_id` = 1 AND `comments`.`target_type` = 'Supplier'[0m
+D, [2022-03-24T08:19:42.558889 #9700] DEBUG -- :   [1m[35m (0.4ms)[0m  [1m[34mSELECT COUNT(*) FROM `comments` WHERE `comments`.`target_id` = 1 AND `comments`.`target_type` = 'Product'[0m
+D, [2022-03-24T08:19:42.561307 #9700] DEBUG -- :   [1m[36mComment Load (0.3ms)[0m  [1m[34mSELECT `comments`.* FROM `comments` WHERE `comments`.`target_id` = 1 AND `comments`.`target_type` = 'Product'[0m
+D, [2022-03-24T08:46:33.928082 #17460] DEBUG -- :   [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-24T08:46:33.928749 #17460] DEBUG -- :   [1m[36mCategory Create (0.2ms)[0m  [1m[32mINSERT INTO `categories` (`name`) VALUES ('PCR')[0m
+D, [2022-03-24T08:46:33.934044 #17460] DEBUG -- :   [1m[36mTRANSACTION (2.8ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-24T08:46:33.934763 #17460] DEBUG -- :   [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-24T08:46:33.935253 #17460] DEBUG -- :   [1m[36mCategory Create (0.2ms)[0m  [1m[32mINSERT INTO `categories` (`name`) VALUES ('SUP')[0m
+D, [2022-03-24T08:46:33.937908 #17460] DEBUG -- :   [1m[36mTRANSACTION (2.4ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-24T08:46:33.943269 #17460] DEBUG -- :   [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-24T08:46:33.943900 #17460] DEBUG -- :   [1m[36mSupplier Create (0.2ms)[0m  [1m[32mINSERT INTO `suppliers` (`name`) VALUES ('Mauro inc')[0m
+D, [2022-03-24T08:46:33.946934 #17460] DEBUG -- :   [1m[36mTRANSACTION (2.6ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-24T08:46:33.947658 #17460] DEBUG -- :   [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-24T08:46:33.948304 #17460] DEBUG -- :   [1m[36mSupplier Create (0.2ms)[0m  [1m[32mINSERT INTO `suppliers` (`name`) VALUES ('Santos©')[0m
+D, [2022-03-24T08:46:33.950977 #17460] DEBUG -- :   [1m[36mTRANSACTION (2.4ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-24T08:46:33.969655 #17460] DEBUG -- :   [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-24T08:46:33.970305 #17460] DEBUG -- :   [1m[36mProduct Create (0.2ms)[0m  [1m[32mINSERT INTO `products` (`name`, `price`, `description`, `category_id`, `level_of_stock`) VALUES ('apple', 0.05, 'Little apple', 1, 20)[0m
+D, [2022-03-24T08:46:33.973330 #17460] DEBUG -- :   [1m[36mTRANSACTION (2.6ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-24T08:46:33.974495 #17460] DEBUG -- :   [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-24T08:46:33.975077 #17460] DEBUG -- :   [1m[36mProduct Create (0.2ms)[0m  [1m[32mINSERT INTO `products` (`name`, `price`, `description`, `category_id`, `level_of_stock`) VALUES ('lemon', 6.15, 'Big lemon', 1, 20)[0m
+D, [2022-03-24T08:46:33.977793 #17460] DEBUG -- :   [1m[36mTRANSACTION (2.3ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-24T08:46:33.978729 #17460] DEBUG -- :   [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-24T08:46:33.979439 #17460] DEBUG -- :   [1m[36mProduct Create (0.2ms)[0m  [1m[32mINSERT INTO `products` (`name`, `price`, `description`, `category_id`, `level_of_stock`) VALUES ('limousine', 25.95, 'A limousine', 2, 20)[0m
+D, [2022-03-24T08:46:33.981893 #17460] DEBUG -- :   [1m[36mTRANSACTION (2.2ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-24T08:46:33.982813 #17460] DEBUG -- :   [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-24T08:46:33.983257 #17460] DEBUG -- :   [1m[36mProduct Create (0.2ms)[0m  [1m[32mINSERT INTO `products` (`name`, `price`, `description`, `category_id`, `level_of_stock`) VALUES ('truck', 200.0, 'A truck', 2, 20)[0m
+D, [2022-03-24T08:46:33.985640 #17460] DEBUG -- :   [1m[36mTRANSACTION (2.1ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-24T08:46:34.001547 #17460] DEBUG -- :   [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-24T08:46:34.001917 #17460] DEBUG -- :   [1m[36mProduct Update (0.2ms)[0m  [1m[33mUPDATE `products` SET `products`.`supplier_id` = 1 WHERE `products`.`id` = 1[0m
+D, [2022-03-24T08:46:34.004270 #17460] DEBUG -- :   [1m[36mTRANSACTION (2.0ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-24T08:46:34.005203 #17460] DEBUG -- :   [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-24T08:46:34.005539 #17460] DEBUG -- :   [1m[36mProduct Update (0.2ms)[0m  [1m[33mUPDATE `products` SET `products`.`supplier_id` = 1 WHERE `products`.`id` = 2[0m
+D, [2022-03-24T08:46:34.007815 #17460] DEBUG -- :   [1m[36mTRANSACTION (2.1ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-24T08:46:34.008462 #17460] DEBUG -- :   [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-24T08:46:34.008765 #17460] DEBUG -- :   [1m[36mProduct Update (0.2ms)[0m  [1m[33mUPDATE `products` SET `products`.`supplier_id` = 2 WHERE `products`.`id` = 4[0m
+D, [2022-03-24T08:46:34.011120 #17460] DEBUG -- :   [1m[36mTRANSACTION (2.2ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-24T08:46:34.020117 #17460] DEBUG -- :   [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-24T08:46:34.020491 #17460] DEBUG -- :   [1m[36mClient Create (0.2ms)[0m  [1m[32mINSERT INTO `clients` (`firstname`, `lastname`) VALUES ('yannick', 'baudraz')[0m
+D, [2022-03-24T08:46:34.023442 #17460] DEBUG -- :   [1m[36mTRANSACTION (2.7ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-24T08:46:34.024321 #17460] DEBUG -- :   [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-24T08:46:34.024699 #17460] DEBUG -- :   [1m[36mClient Create (0.2ms)[0m  [1m[32mINSERT INTO `clients` (`firstname`, `lastname`) VALUES ('john', 'doedoe')[0m
+D, [2022-03-24T08:46:34.026984 #17460] DEBUG -- :   [1m[36mTRANSACTION (2.0ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-24T08:46:34.040881 #17460] DEBUG -- :   [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-24T08:46:34.041201 #17460] DEBUG -- :   [1m[36mOrder Create (0.2ms)[0m  [1m[32mINSERT INTO `orders` (`status`, `created_at`, `updated_at`, `client_id`) VALUES ('PROGRESS', '2022-03-24 07:46:34.040302', '2022-03-24 07:46:34.040302', 1)[0m
+D, [2022-03-24T08:46:34.041798 #17460] DEBUG -- :   [1m[36mOrderItem Create (0.1ms)[0m  [1m[32mINSERT INTO `order_items` (`order_id`, `item_id`, `quantity`, `item_price`) VALUES (1, 1, 2, 0.05)[0m
+D, [2022-03-24T08:46:34.042278 #17460] DEBUG -- :   [1m[36mOrderItem Create (0.1ms)[0m  [1m[32mINSERT INTO `order_items` (`order_id`, `item_id`, `quantity`, `item_price`) VALUES (1, 3, 125, 25.95)[0m
+D, [2022-03-24T08:46:34.042709 #17460] DEBUG -- :   [1m[36mOrderItem Create (0.1ms)[0m  [1m[32mINSERT INTO `order_items` (`order_id`, `item_id`, `quantity`, `item_price`) VALUES (1, 4, 3, 200.0)[0m
+D, [2022-03-24T08:46:34.048439 #17460] DEBUG -- :   [1m[36mTRANSACTION (2.7ms)[0m  [1m[35mCOMMIT[0m
+D, [2022-03-24T08:46:34.050387 #17460] DEBUG -- :   [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+D, [2022-03-24T08:46:34.050704 #17460] DEBUG -- :   [1m[36mOrder Create (0.2ms)[0m  [1m[32mINSERT INTO `orders` (`status`, `created_at`, `updated_at`, `client_id`) VALUES ('PROGRESS', '2022-03-24 07:46:34.049967', '2022-03-24 07:46:34.049967', 1)[0m
+D, [2022-03-24T08:46:34.051378 #17460] DEBUG -- :   [1m[36mOrderItem Create (0.1ms)[0m  [1m[32mINSERT INTO `order_items` (`order_id`, `item_id`, `quantity`, `item_price`) VALUES (2, 1, 1, 0.05)[0m
+D, [2022-03-24T08:46:34.051924 #17460] DEBUG -- :   [1m[36mOrderItem Create (0.1ms)[0m  [1m[32mINSERT INTO `order_items` (`order_id`, `item_id`, `quantity`, `item_price`) VALUES (2, 2, 75, 6.15)[0m
+D, [2022-03-24T08:46:34.052377 #17460] DEBUG -- :   [1m[36mOrderItem Create (0.1ms)[0m  [1m[32mINSERT INTO `order_items` (`order_id`, `item_id`, `quantity`, `item_price`) VALUES (2, 3, 3, 25.95)[0m
+D, [2022-03-24T08:46:34.053072 #17460] DEBUG -- :   [1m[36mOrderItem Create (0.2ms)[0m  [1m[32mINSERT INTO `order_items` (`order_id`, `item_id`, `quantity`, `item_price`) VALUES (2, 4, 200, 200.0)[0m
+D, [2022-03-24T08:46:34.055945 #17460] DEBUG -- :   [1m[36mTRANSACTION (2.5ms)[0m  [1m[35mCOMMIT[0m

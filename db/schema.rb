@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2022_03_17_084345) do
+ActiveRecord::Schema.define(version: 2022_03_24_084345) do
 
   create_table "categories", charset: "utf8mb4", force: :cascade do |t|
     t.string "name"
@@ -21,6 +21,15 @@ ActiveRecord::Schema.define(version: 2022_03_17_084345) do
     t.string "type"
     t.string "firstname"
     t.string "lastname"
+  end
+
+  create_table "comments", charset: "utf8mb4", force: :cascade do |t|
+    t.string "content"
+    t.bigint "author_id"
+    t.string "target_type"
+    t.bigint "target_id"
+    t.index ["author_id"], name: "index_comments_on_author_id"
+    t.index ["target_type", "target_id"], name: "index_comments_on_target"
   end
 
   create_table "order_items", id: false, charset: "utf8mb4", force: :cascade do |t|
@@ -45,6 +54,7 @@ ActiveRecord::Schema.define(version: 2022_03_17_084345) do
     t.text "description"
     t.bigint "category_id"
     t.bigint "supplier_id"
+    t.integer "level_of_stock"
     t.index ["category_id"], name: "index_products_on_category_id"
     t.index ["supplier_id"], name: "index_products_on_supplier_id"
   end
@@ -53,6 +63,7 @@ ActiveRecord::Schema.define(version: 2022_03_17_084345) do
     t.string "name"
   end
 
+  add_foreign_key "comments", "clients", column: "author_id"
   add_foreign_key "orders", "clients"
   add_foreign_key "products", "categories"
   add_foreign_key "products", "suppliers"

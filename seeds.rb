@@ -7,10 +7,10 @@ sup = Category.create!(name: 'SUP')
 supplier1 = Supplier.create!(name: 'Mauro inc')
 supplier2 = Supplier.create!(name: 'Santos©')
 
-product1 = Product.create!(name: 'apple', price: 0.05, description: 'Little apple', category: pcr)
-product2 = Product.create!(name: 'lemon', price: 6.15, description: 'Big lemon', category: pcr)
-product3 = Product.create!(name: 'limousine', price: 25.95, description: 'A limousine', category: sup)
-product4 = Product.create!(name: 'truck', price: 200, description: 'A truck', category: sup)
+product1 = Product.create!(name: 'apple', price: 0.05, level_of_stock: 20, description: 'Little apple', category: pcr)
+product2 = Product.create!(name: 'lemon', price: 6.15, level_of_stock: 20, description: 'Big lemon', category: pcr)
+product3 = Product.create!(name: 'limousine', price: 25.95, level_of_stock: 20, description: 'A limousine', category: sup)
+product4 = Product.create!(name: 'truck', price: 200, level_of_stock: 20, description: 'A truck', category: sup)
 
 supplier1.products << product1
 supplier1.products << product2

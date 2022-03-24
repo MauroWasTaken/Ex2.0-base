@@ -18,6 +18,7 @@ def ex3
     puts
     puts
 end
+
 def ex4
     puts "--EXIGENCY N°4--"
     puts
@@ -52,6 +53,7 @@ def ex4
     ##puts order.order_items.map {|oi| oi.errors.full_messages }
     puts
 end
+
 def ex5
     puts "--EXIGENCY N°5--"
     puts
@@ -66,6 +68,7 @@ def ex5
     puts "#{Order.first.order_items.first.price} .-"
     puts
 end
+
 def ex6
     puts "--EXIGENCY N°6--"
     puts
@@ -85,6 +88,7 @@ def ex6
     puts "#{Company.all.count}"
     puts
 end
+
 def ex7
     puts "--EXIGENCY N°7--"
     puts
@@ -96,4 +100,33 @@ def ex7
     puts "And #{supplier1.categories} categories"
     supplier1.categories.each { |c| puts "#{c.name}"}
 end
-ex7
+
+def ex8
+    puts "--EXIGENCY N°8--"
+    puts
+    user1 = Client.first
+    user2 = Client.second
+    supplier1 = Supplier.first
+    product1 = Product.first
+    puts "----"
+    supplier1.comments << [
+        Comment.create(content:"veri coll",author: user1),
+        Comment.create(content:"pogchamp",author: user2)
+    ]if supplier1.comments.count == 0
+    puts "#{supplier1.name}'s comments"
+    supplier1.comments.each{ |c| puts c.content }
+    product1.comments << [
+        Comment.create(content:"got sick after :(",author: user1),
+        Comment.create(content:"not poggers",author: user2)
+    ]if product1.comments.count == 0
+    puts
+    puts "#{product1.name}'s comments"
+    product1.comments.each{ |c| puts c.content }
+end
+def ex9
+    puts "--EXIGENCY N°9--"
+    puts
+    ActiveRecord::Base.observers << :product_observer
+    ActiveRecord::Base.instantiate_observers
+    
+end

@@ -54,6 +54,8 @@ GEM
       nokogiri (>= 1.6)
     rails-html-sanitizer (1.4.2)
       loofah (~> 2.3)
+    rails-observers (0.1.5)
+      activemodel (>= 4.0)
     railties (6.1.4.6)
       actionpack (= 6.1.4.6)
       activesupport (= 6.1.4.6)
@@ -74,6 +76,7 @@ DEPENDENCIES
   active_record_migrations (~> 6)
   activerecord (~> 6)
   mysql2
+  rails-observers (~> 0.1.5)
 
 BUNDLED WITH
    2.3.7
