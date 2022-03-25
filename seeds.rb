@@ -16,8 +16,8 @@ supplier1.products << product1
 supplier1.products << product2
 supplier2.products << product4
 
-client = Client.create!(firstname: 'yannick', lastname: 'baudraz')
-Client.create!(firstname: 'john', lastname: 'doedoe')
+client = Particular.create!(firstname: 'yannick', lastname: 'baudraz')
+Company.create!(firstname: 'john', lastname: 'doedoe')
 
 order1 = Order.new(status: 'PROGRESS')
 order1.order_items << [

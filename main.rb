@@ -97,7 +97,7 @@ def ex7
     puts
     puts "#{supplier1.name} has #{supplier1.products.count} products"
     supplier1.products.each { |p| puts "#{p.name}" }
-    puts "And #{supplier1.categories} categories"
+    puts "And #{supplier1.categories.count} categories"
     supplier1.categories.each { |c| puts "#{c.name}"}
 end
 
@@ -124,5 +124,36 @@ def ex8
     product1.comments.each{ |c| puts c.content }
 end
 def ex1Suite
-    
+    puts "--EXIGENCY N°1 SUITE--"
+    puts
+    puts Order.most_expensive.price
+    client = Client.first
+    order1 = Order.new(status: 'PROGRESS')
+    order1.order_items << [
+        OrderItem.new(quantity: 2330, product: Product.first),
+        OrderItem.new(quantity: 1250, product: Product.third),
+        OrderItem.new(quantity: 3000, product: Product.last)
+    ]
+    client.orders << order1
+    client.save!
+    puts Order.most_expensive.price
+    order1.delete
 end
+def ex2Suite
+    puts "--EXIGENCY N°2 SUITE--"
+    puts
+    puts Category.unused.each{ |c| puts c.name }
+    category1 = Category.create!(name: 'UnusedCategory')
+    Category.unused.each{ |c| puts c.name }
+    product=Product.create!(name: 'truck', price: 200, description: 'A truck', category: category1)
+    Category.unused.each{ |c| puts c.name }
+    product.destroy
+    category1.destroy
+end
+def ex3Suite
+    puts "--EXIGENCY N°3 SUITE--"
+    puts
+    client = Particular.create!(firstname: 'Mauro', lastname: 'Santos')
+    puts Client.
+end
+ex3Suite
