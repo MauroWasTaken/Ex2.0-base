@@ -142,18 +142,42 @@ end
 def ex2Suite
     puts "--EXIGENCY N°2 SUITE--"
     puts
-    puts Category.unused.each{ |c| puts c.name }
     category1 = Category.create!(name: 'UnusedCategory')
     Category.unused.each{ |c| puts c.name }
-    product=Product.create!(name: 'truck', price: 200, description: 'A truck', category: category1)
+    product=Product.first
+    product.category = category1
+    product.save
+    order1 = Order.new(status: 'PROGRESS')
+    order1.order_items <<  [OrderItem.new(quantity: 2330, product: product)]     
+    client=Client.first
+    client.orders << order1
+    client.save
     Category.unused.each{ |c| puts c.name }
-    product.destroy
-    category1.destroy
+    order1.destroy
+    product.category=Category.first
 end
 def ex3Suite
     puts "--EXIGENCY N°3 SUITE--"
     puts
     client = Particular.create!(firstname: 'Mauro', lastname: 'Santos')
-    puts Client.
+    order1 = Order.new(status: 'PROGRESS')
+    order1.order_items << [
+        OrderItem.new(quantity: 2330, product: Product.first),
+        OrderItem.new(quantity: 1250, product: Product.third),
+        OrderItem.new(quantity: 3000, product: Product.last)
+    ]
+    client.orders << order1
+    client.save!
+    client2 = Particular.create!(firstname: 'Yannick', lastname: 'Baudraz')
+    puts Client.count
+    Client.inactive.destroy_all
+    puts Client.count
+    client.orders.destroy_all
+    client.destroy
 end
-ex3Suite
+def ex4Suite
+    puts "--EXIGENCY N°4 SUITE--"
+    puts
+    
+end
+ex1Suite

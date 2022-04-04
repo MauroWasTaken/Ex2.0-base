@@ -3,14 +3,13 @@ class Client < ActiveRecord::Base
   has_many :products, through: :orders
   has_many :comments, foreign_key: :author_id
   validates :firstname, :lastname,  presence: true, length: { minimum: 2 }
-
   def to_s
     "#{firstname} #{lastname}"
   end
-  def self.inactive
-    return Client.includes(:orders).where( orders: {:client_id=>nil} )
+  def inactive
+    left_joins(:orders).where( orders: { :id nil } )
   end
-  def self.RemoveInactive
-    Client.inactive.each{ |c| c.destroy}   
+  def inactive
+    where.missing( :orders)
   end
 end

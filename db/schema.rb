@@ -32,12 +32,13 @@ ActiveRecord::Schema.define(version: 2022_03_23_084345) do
     t.index ["target_type", "target_id"], name: "index_comments_on_target"
   end
 
-  create_table "order_items", id: false, charset: "utf8mb4", force: :cascade do |t|
-    t.bigint "order_id", null: false
-    t.bigint "item_id", null: false
+  create_table "order_items", charset: "utf8mb4", force: :cascade do |t|
+    t.bigint "product_id"
+    t.bigint "order_id"
     t.integer "quantity"
     t.decimal "item_price", precision: 10, scale: 2
-    t.index ["order_id", "item_id"], name: "index_order_items_on_order_id_and_item_id"
+    t.index ["order_id"], name: "index_order_items_on_order_id"
+    t.index ["product_id"], name: "index_order_items_on_product_id"
   end
 
   create_table "orders", charset: "utf8mb4", force: :cascade do |t|
@@ -63,6 +64,8 @@ ActiveRecord::Schema.define(version: 2022_03_23_084345) do
   end
 
   add_foreign_key "comments", "clients", column: "author_id"
+  add_foreign_key "order_items", "orders", on_delete: :cascade
+  add_foreign_key "order_items", "products"
   add_foreign_key "orders", "clients"
   add_foreign_key "products", "categories"
   add_foreign_key "products", "suppliers"

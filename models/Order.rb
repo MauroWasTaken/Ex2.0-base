@@ -10,4 +10,10 @@ class Order < ActiveRecord::Base
     ##order_items,sum{|order_item| order_item.price}
     order_items.sum(&:price)
   end
+  def self.order_by_price
+    Order.all.order_by(&:price)
+  end
+  def self.most_expensive
+    order_by_price.last
+  end
 end
